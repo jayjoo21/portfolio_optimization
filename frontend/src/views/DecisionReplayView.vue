@@ -1,9 +1,10 @@
 <script setup lang="ts">
-import { computed, ref } from 'vue'
+import { computed, onBeforeUnmount, ref } from 'vue'
+
 import { RouterLink } from 'vue-router'
 
-import DecisionReplayChart from '@/components/DecisionReplayChart.vue'
-import AllocationTransitionChart from '@/components/AllocationTransitionChart.vue'
+import DecisionReplayChart from '../components/DecisionReplayChart.vue'
+import AllocationTransitionChart from '../components/AllocationTransitionChart.vue'
 
 const replayEvents = [
   {
@@ -138,11 +139,76 @@ const previousEvent = computed(() => {
 
   return replayEvents[selectedIndex.value - 1] ?? firstEvent
 })
+
+/* -------------------------
+   AUTO REPLAY
+------------------------- */
+
+const isPlaying = ref(false)
+
+const REPLAY_DELAY = 1400
+
+let replayTimer: ReturnType<typeof setInterval> | null = null
+
+const stopReplay = () => {
+  if (replayTimer) {
+    clearInterval(replayTimer)
+  }
+
+  replayTimer = null
+  isPlaying.value = false
+}
+
+const toggleReplay = () => {
+  /*
+    이미 실행 중이면 Pause
+  */
+  if (isPlaying.value) {
+    stopReplay()
+    return
+  }
+
+  /*
+    마지막 시점에서 다시 Play를 누르면
+    처음부터 시작
+  */
+  if (selectedIndex.value >= replayEvents.length - 1) {
+    selectedIndex.value = 0
+  }
+
+  isPlaying.value = true
+
+  replayTimer = setInterval(() => {
+    /*
+      마지막 이벤트까지 도착했다면 종료
+    */
+    if (selectedIndex.value >= replayEvents.length - 1) {
+      stopReplay()
+      return
+    }
+
+    selectedIndex.value += 1
+  }, REPLAY_DELAY)
+}
+
+const selectEvent = (index: number) => {
+  /*
+    사용자가 직접 클릭하면
+    자동 재생 중지
+  */
+  stopReplay()
+
+  selectedIndex.value = index
+}
+
+onBeforeUnmount(() => {
+  stopReplay()
+})
 </script>
 
 <template>
   <main class="replay-page">
-    <!-- PAGE HEADER -->
+    <!-- HEADER -->
     <header class="page-header">
       <div>
         <p class="eyebrow">PORTFOLIO OPTIMIZATION</p>
@@ -157,7 +223,7 @@ const previousEvent = computed(() => {
       <div class="header-status">Historical Replay</div>
     </header>
 
-    <!-- 1. MARKET TIMELINE -->
+    <!-- MARKET TIMELINE -->
     <section class="panel market-panel">
       <div class="panel-header">
         <div>
@@ -166,30 +232,55 @@ const previousEvent = computed(() => {
           <h2>Intraday Decision Timeline</h2>
         </div>
 
-        <div class="current-time">
-          {{ currentEvent.time }}
+        <div class="timeline-controls">
+          <div class="time-status">
+            <span> DECISION TIME </span>
+
+            <strong>
+              {{ currentEvent.time }}
+            </strong>
+          </div>
+
+          <button
+            class="replay-control"
+            :class="{
+              playing: isPlaying,
+            }"
+            @click="toggleReplay"
+          >
+            {{ isPlaying ? 'Pause' : 'Play replay' }}
+          </button>
         </div>
       </div>
 
       <div class="chart-wrap">
-        <DecisionReplayChart :selected-index="selectedIndex" @select="selectedIndex = $event" />
+        <DecisionReplayChart :selected-index="selectedIndex" @select="selectEvent" />
       </div>
 
-      <div class="time-tabs">
-        <button
-          v-for="(event, index) in replayEvents"
-          :key="event.time"
-          :class="{ active: selectedIndex === index }"
-          @click="selectedIndex = index"
-        >
-          {{ event.time }}
-        </button>
+      <div class="timeline-footer">
+        <div class="time-tabs">
+          <button
+            v-for="(event, index) in replayEvents"
+            :key="event.time"
+            :class="{
+              active: selectedIndex === index,
+            }"
+            @click="selectEvent(index)"
+          >
+            {{ event.time }}
+          </button>
+        </div>
+
+        <div class="replay-counter">
+          {{ selectedIndex + 1 }}
+          /
+          {{ replayEvents.length }}
+        </div>
       </div>
     </section>
 
-    <!-- 2. TRACE + CONTEXT -->
+    <!-- TRACE + CONTEXT -->
     <section class="two-column">
-      <!-- Decision Trace -->
       <div class="panel">
         <div class="panel-header">
           <div>
@@ -204,8 +295,10 @@ const previousEvent = computed(() => {
             v-for="(event, index) in replayEvents"
             :key="event.time"
             class="trace-item"
-            :class="{ selected: selectedIndex === index }"
-            @click="selectedIndex = index"
+            :class="{
+              selected: selectedIndex === index,
+            }"
+            @click="selectEvent(index)"
           >
             <span class="trace-time">
               {{ event.time }}
@@ -228,7 +321,7 @@ const previousEvent = computed(() => {
         </div>
       </div>
 
-      <!-- Decision Context -->
+      <!-- CONTEXT -->
       <div class="panel">
         <div class="panel-header">
           <div>
@@ -239,12 +332,15 @@ const previousEvent = computed(() => {
             </h2>
           </div>
 
-          <span class="regime-badge"> Risk-Off Signal {{ currentEvent.riskOff }}% </span>
+          <span class="regime-badge">
+            Risk-Off Signal
+            {{ currentEvent.riskOff }}%
+          </span>
         </div>
 
         <div class="context-row">
           <div class="context-label">
-            <span>Risk-Off Signal</span>
+            <span> Risk-Off Signal </span>
 
             <strong> {{ currentEvent.riskOff }}% </strong>
           </div>
@@ -260,7 +356,7 @@ const previousEvent = computed(() => {
 
         <div class="context-row">
           <div class="context-label">
-            <span>Volatility</span>
+            <span> Volatility </span>
 
             <strong>
               {{ currentEvent.volatility }}
@@ -278,7 +374,7 @@ const previousEvent = computed(() => {
 
         <div class="context-row">
           <div class="context-label">
-            <span>Correlation</span>
+            <span> Correlation </span>
 
             <strong>
               {{ currentEvent.correlation }}
@@ -296,7 +392,7 @@ const previousEvent = computed(() => {
 
         <div class="context-row">
           <div class="context-label">
-            <span>Momentum</span>
+            <span> Momentum </span>
 
             <strong>
               {{ currentEvent.momentum }}
@@ -312,13 +408,15 @@ const previousEvent = computed(() => {
           </div>
         </div>
 
-        <div class="decision-note">
-          {{ currentEvent.note }}
-        </div>
+        <Transition name="context" mode="out-in">
+          <div :key="currentEvent.time" class="decision-note">
+            {{ currentEvent.note }}
+          </div>
+        </Transition>
       </div>
     </section>
 
-    <!-- 3. MODEL OUTPUT + REBALANCING -->
+    <!-- MODEL OUTPUT -->
     <section class="model-output-grid">
       <div class="panel model-output">
         <p class="panel-label">MODEL OUTPUT</p>
@@ -331,13 +429,13 @@ const previousEvent = computed(() => {
 
         <div class="model-meta">
           <div>
-            <span>Model</span>
+            <span> Model </span>
 
             <strong> Deep RL · EIIE </strong>
           </div>
 
           <div>
-            <span>Decision Time</span>
+            <span> Decision Time </span>
 
             <strong>
               {{ currentEvent.time }}
@@ -345,7 +443,7 @@ const previousEvent = computed(() => {
           </div>
 
           <div>
-            <span>Market Regime</span>
+            <span> Market Regime </span>
 
             <strong>
               {{ currentEvent.regime }}
@@ -354,13 +452,14 @@ const previousEvent = computed(() => {
         </div>
       </div>
 
+      <!-- REBALANCING -->
       <div class="panel rebalance-output">
         <p class="panel-label">REBALANCING</p>
 
         <h2>Portfolio Adjustment</h2>
 
         <div class="adjustment">
-          <span>Samsung</span>
+          <span> Samsung </span>
 
           <strong>
             {{ previousEvent.allocation.samsung }}% → {{ currentEvent.allocation.samsung }}%
@@ -368,7 +467,7 @@ const previousEvent = computed(() => {
         </div>
 
         <div class="adjustment">
-          <span>SK hynix</span>
+          <span> SK hynix </span>
 
           <strong>
             {{ previousEvent.allocation.hynix }}% → {{ currentEvent.allocation.hynix }}%
@@ -376,7 +475,7 @@ const previousEvent = computed(() => {
         </div>
 
         <div class="adjustment">
-          <span>NAVER</span>
+          <span> NAVER </span>
 
           <strong>
             {{ previousEvent.allocation.naver }}% → {{ currentEvent.allocation.naver }}%
@@ -384,7 +483,7 @@ const previousEvent = computed(() => {
         </div>
 
         <div class="adjustment">
-          <span>Defensive</span>
+          <span> Defensive </span>
 
           <strong>
             {{ previousEvent.allocation.defensive }}% → {{ currentEvent.allocation.defensive }}%
@@ -392,7 +491,7 @@ const previousEvent = computed(() => {
         </div>
 
         <div class="adjustment">
-          <span>Cash</span>
+          <span> Cash </span>
 
           <strong>
             {{ previousEvent.allocation.cash }}% → {{ currentEvent.allocation.cash }}%
@@ -401,7 +500,7 @@ const previousEvent = computed(() => {
       </div>
     </section>
 
-    <!-- 4. CURRENT DECISION -->
+    <!-- CURRENT DECISION -->
     <Transition name="decision" mode="out-in">
       <section :key="currentEvent.time" class="decision-panel">
         <div>
@@ -418,13 +517,13 @@ const previousEvent = computed(() => {
 
         <div class="decision-metrics">
           <div>
-            <span>Expected Risk</span>
+            <span> Expected Risk </span>
 
             <strong> {{ currentEvent.expectedRisk }}% </strong>
           </div>
 
           <div>
-            <span>Expected Sharpe</span>
+            <span> Expected Sharpe </span>
 
             <strong>
               {{ currentEvent.expectedSharpe }}
@@ -432,7 +531,7 @@ const previousEvent = computed(() => {
           </div>
 
           <div>
-            <span>Transaction Cost</span>
+            <span> Transaction Cost </span>
 
             <strong> {{ currentEvent.transactionCost }}% </strong>
           </div>
@@ -440,8 +539,8 @@ const previousEvent = computed(() => {
       </section>
     </Transition>
 
-    <!-- 5. ALLOCATION BEFORE / AFTER -->
-    <section class="panel allocation-panel">
+    <!-- ALLOCATION -->
+    <section class="panel">
       <div class="panel-header">
         <div>
           <p class="panel-label">PORTFOLIO OUTPUT</p>
@@ -462,17 +561,16 @@ const previousEvent = computed(() => {
       />
     </section>
 
+    <!-- NEXT STEP -->
     <section class="next-step">
       <div>
         <p class="panel-label">NEXT STEP</p>
 
         <h2>How was this rebalance executed?</h2>
 
-        <p>
-          목표 비중이 실제 주문으로 변환되고, KRX와 NXT 중 어떤 시장에서 주문이 실행되는지
-          확인합니다.
-        </p>
+        <p>목표 비중이 실제 주문으로 변환되고 KRX와 NXT 중 어떤 시장에서 실행되는지 확인합니다.</p>
       </div>
+
       <RouterLink to="/execution" class="execution-link">
         View Execution
 
@@ -485,57 +583,86 @@ const previousEvent = computed(() => {
 <style scoped>
 .replay-page {
   max-width: 1400px;
+
   margin: 0 auto;
+
   padding: 48px 56px 80px;
 }
 
+/* -------------------------
+   HEADER
+------------------------- */
+
 .page-header {
   display: flex;
+
   justify-content: space-between;
+
   align-items: flex-start;
+
   margin-bottom: 28px;
 }
 
 .page-header h1 {
   margin: 4px 0 8px;
+
   font-size: 38px;
+
   letter-spacing: -0.04em;
 }
 
 .subtitle {
   max-width: 700px;
+
   margin: 0;
-  color: #71717a;
+
+  color: var(--text-secondary);
+
   font-size: 14px;
+
   line-height: 1.6;
 }
 
 .eyebrow,
 .panel-label {
   margin: 0;
-  color: #8b8b93;
-  font-size: 11px;
+
+  color: var(--text-muted);
+
+  font-size: 10px;
   font-weight: 700;
-  letter-spacing: 0.1em;
+
+  letter-spacing: 0.11em;
 }
 
 .header-status,
 .regime-badge {
-  padding: 8px 12px;
-  border: 1px solid #e4e4e7;
+  padding: 7px 11px;
+
+  border: 1px solid var(--border);
+
   border-radius: 999px;
-  background: #ffffff;
-  color: #52525b;
-  font-size: 12px;
+
+  background: var(--surface);
+
+  color: var(--text-secondary);
+
+  font-size: 11px;
   font-weight: 600;
 }
 
+/* -------------------------
+   PANEL
+------------------------- */
+
 .panel {
   margin-bottom: 18px;
+
   padding: 26px;
 
   border: 1px solid var(--border);
-  border-radius: 18px;
+
+  border-radius: 14px;
 
   background: var(--surface);
 
@@ -545,15 +672,16 @@ const previousEvent = computed(() => {
 }
 
 .panel:hover {
-  border-color: var(--primary-border);
-
-  box-shadow: var(--shadow-soft);
+  border-color: var(--border-strong);
 }
 
 .panel-header {
   display: flex;
+
   justify-content: space-between;
+
   align-items: flex-start;
+
   margin-bottom: 24px;
 }
 
@@ -561,39 +689,123 @@ const previousEvent = computed(() => {
 .model-output h2,
 .rebalance-output h2 {
   margin: 6px 0 0;
+
   font-size: 20px;
+
   letter-spacing: -0.025em;
 }
 
-.market-panel {
-  overflow: hidden;
+/* -------------------------
+   TIMELINE CONTROL
+------------------------- */
+
+.timeline-controls {
+  display: flex;
+
+  align-items: center;
+
+  gap: 14px;
 }
 
-.current-time {
-  font-size: 18px;
+.time-status {
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: flex-end;
+
+  gap: 2px;
+}
+
+.time-status span {
+  color: var(--text-muted);
+
+  font-size: 8px;
   font-weight: 700;
+
+  letter-spacing: 0.09em;
+}
+
+.time-status strong {
+  font-size: 16px;
+
+  letter-spacing: -0.02em;
+}
+
+.replay-control {
+  min-width: 88px;
+
+  padding: 9px 12px;
+
+  border: 1px solid var(--primary);
+
+  border-radius: 8px;
+
+  background: var(--primary);
+
+  color: #ffffff;
+
+  font-size: 11px;
+  font-weight: 650;
+
+  cursor: pointer;
+
+  transition:
+    background 150ms ease,
+    transform 150ms ease;
+}
+
+.replay-control:hover {
+  background: var(--primary-hover);
+
+  transform: translateY(-1px);
+}
+
+.replay-control.playing {
+  border-color: var(--primary-border);
+
+  background: var(--primary-soft);
+
+  color: var(--primary);
 }
 
 .chart-wrap {
   position: relative;
 }
 
+/* -------------------------
+   TIME TABS
+------------------------- */
+
+.timeline-footer {
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  margin-top: 18px;
+}
+
 .time-tabs {
   display: flex;
-  gap: 8px;
-  margin-top: 20px;
+
+  gap: 7px;
 }
 
 .time-tabs button {
-  padding: 8px 13px;
+  padding: 7px 11px;
 
-  border: 1px solid #e4e4e7;
-  border-radius: 8px;
+  border: 1px solid var(--border);
+
+  border-radius: 7px;
 
   background: #ffffff;
-  color: #71717a;
 
-  font: inherit;
+  color: var(--text-muted);
+
+  font-size: 11px;
+
   cursor: pointer;
 
   transition:
@@ -604,11 +816,9 @@ const previousEvent = computed(() => {
 }
 
 .time-tabs button:hover {
-  transform: translateY(-1px);
-}
+  border-color: var(--primary-border);
 
-.time-tabs button:active {
-  transform: translateY(0);
+  color: var(--primary);
 }
 
 .time-tabs button.active {
@@ -618,57 +828,74 @@ const previousEvent = computed(() => {
 
   color: #ffffff;
 
-  box-shadow: 0 5px 14px rgba(54, 84, 255, 0.2);
+  box-shadow: 0 4px 12px rgba(54, 84, 255, 0.16);
 }
+
+.replay-counter {
+  color: var(--text-muted);
+
+  font-size: 10px;
+  font-weight: 600;
+}
+
+/* -------------------------
+   TRACE + CONTEXT
+------------------------- */
 
 .two-column {
   display: grid;
-  grid-template-columns: 0.9fr 1.1fr;
+
+  grid-template-columns:
+    0.9fr
+    1.1fr;
+
   gap: 18px;
 }
 
 .trace-list {
   display: flex;
+
   flex-direction: column;
 }
 
 .trace-item {
   display: grid;
-  grid-template-columns: 54px 30px 1fr;
+
+  grid-template-columns:
+    54px
+    30px
+    1fr;
+
   align-items: stretch;
 
   min-height: 62px;
+
   padding: 0;
 
   border: 0;
 
   background: transparent;
+
   color: inherit;
 
   text-align: left;
+
   cursor: pointer;
-
-  transition:
-    background 160ms ease,
-    transform 160ms ease;
-}
-
-.trace-item:hover {
-  transform: translateX(3px);
 }
 
 .trace-time {
   padding-top: 6px;
 
-  color: #71717a;
+  color: var(--text-muted);
 
-  font-size: 12px;
+  font-size: 11px;
 }
 
 .trace-line {
   position: relative;
 
   display: flex;
+
   justify-content: center;
 }
 
@@ -680,7 +907,7 @@ const previousEvent = computed(() => {
 
   width: 1px;
 
-  background: #e4e4e7;
+  background: var(--border);
 
   content: '';
 }
@@ -697,7 +924,8 @@ const previousEvent = computed(() => {
 
   margin-top: 8px;
 
-  border: 2px solid #a1a1aa;
+  border: 2px solid #aab1bd;
+
   border-radius: 50%;
 
   background: #ffffff;
@@ -714,9 +942,13 @@ const previousEvent = computed(() => {
   background: var(--primary);
 
   transform: scale(1.18);
+
+  box-shadow: 0 0 0 4px rgba(54, 84, 255, 0.08);
 }
+
 .trace-content {
   display: flex;
+
   flex-direction: column;
 
   padding: 2px 0 20px;
@@ -729,16 +961,18 @@ const previousEvent = computed(() => {
 }
 
 .trace-content strong {
-  font-size: 14px;
+  font-size: 13px;
 }
 
 .trace-content small {
   margin-top: 4px;
 
-  color: #71717a;
+  color: var(--text-muted);
 
-  font-size: 12px;
+  font-size: 11px;
 }
+
+/* CONTEXT */
 
 .context-row {
   margin-bottom: 18px;
@@ -746,21 +980,22 @@ const previousEvent = computed(() => {
 
 .context-label {
   display: flex;
+
   justify-content: space-between;
 
   margin-bottom: 7px;
 
-  font-size: 13px;
+  font-size: 12px;
 }
 
 .progress {
-  height: 7px;
+  height: 6px;
 
   overflow: hidden;
 
   border-radius: 999px;
 
-  background: #f1f1f3;
+  background: #edf0f5;
 }
 
 .progress span {
@@ -770,27 +1005,59 @@ const previousEvent = computed(() => {
 
   border-radius: inherit;
 
-  background: #313138;
+  background: linear-gradient(90deg, #3654ff, #7285ff);
 
-  transition: width 350ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: width 500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .decision-note {
   margin-top: 24px;
-  padding: 16px;
 
-  border-radius: 12px;
+  padding: 15px;
 
-  background: #f7f7f8;
-  color: #52525b;
+  border-radius: 9px;
 
-  font-size: 13px;
+  background: var(--surface-soft);
+
+  color: var(--text-secondary);
+
+  font-size: 12px;
+
   line-height: 1.6;
 }
 
+/* CONTEXT TRANSITION */
+
+.context-enter-active,
+.context-leave-active {
+  transition:
+    opacity 180ms ease,
+    transform 180ms ease;
+}
+
+.context-enter-from {
+  opacity: 0;
+
+  transform: translateY(5px);
+}
+
+.context-leave-to {
+  opacity: 0;
+
+  transform: translateY(-3px);
+}
+
+/* -------------------------
+   MODEL OUTPUT
+------------------------- */
+
 .model-output-grid {
   display: grid;
-  grid-template-columns: 1.4fr 1fr;
+
+  grid-template-columns:
+    1.4fr
+    1fr;
+
   gap: 18px;
 }
 
@@ -799,52 +1066,58 @@ const previousEvent = computed(() => {
 
   margin-bottom: 0;
 
-  color: #71717a;
+  color: var(--text-secondary);
 
-  font-size: 13px;
+  font-size: 12px;
+
   line-height: 1.7;
 }
 
 .model-meta {
   display: grid;
+
   grid-template-columns: repeat(3, 1fr);
 
-  gap: 12px;
+  gap: 10px;
 
-  margin-top: 26px;
+  margin-top: 25px;
 }
 
 .model-meta div {
   display: flex;
+
   flex-direction: column;
+
   gap: 6px;
 
-  padding: 14px;
+  padding: 13px;
 
-  border-radius: 10px;
+  border-radius: 8px;
 
-  background: #f7f7f8;
+  background: var(--surface-soft);
 }
 
 .model-meta span,
 .adjustment span {
-  color: #71717a;
+  color: var(--text-muted);
 
-  font-size: 11px;
+  font-size: 10px;
 }
 
 .model-meta strong {
-  font-size: 13px;
+  font-size: 12px;
 }
 
 .adjustment {
   display: flex;
+
   justify-content: space-between;
+
   align-items: center;
 
-  padding: 16px 0;
+  padding: 15px 0;
 
-  border-bottom: 1px solid #eeeef0;
+  border-bottom: 1px solid var(--border);
 }
 
 .adjustment:last-child {
@@ -852,35 +1125,45 @@ const previousEvent = computed(() => {
 }
 
 .adjustment strong {
-  font-size: 13px;
+  font-size: 12px;
 }
+
+/* -------------------------
+   CURRENT DECISION
+------------------------- */
 
 .decision-panel {
   display: flex;
+
   justify-content: space-between;
+
   align-items: center;
 
   gap: 40px;
 
   margin-bottom: 18px;
+
   padding: 28px;
 
-  border-radius: 18px;
+  border: 1px solid var(--primary-border);
 
-  background: #18181b;
-  color: #ffffff;
+  border-radius: 14px;
 
-  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.08);
+  background: linear-gradient(135deg, #eef2ff 0%, #f8faff 100%);
+
+  color: var(--text);
+
+  box-shadow: 0 10px 28px rgba(54, 84, 255, 0.07);
 }
 
 .decision-label {
-  color: #a1a1aa;
+  color: var(--primary);
 }
 
 .decision-panel h2 {
   margin: 7px 0 9px;
 
-  font-size: 25px;
+  font-size: 24px;
 }
 
 .decision-panel p:not(.panel-label) {
@@ -888,83 +1171,102 @@ const previousEvent = computed(() => {
 
   margin: 0;
 
-  color: #c8c8ce;
+  color: var(--text-secondary);
 
-  font-size: 13px;
+  font-size: 12px;
+
   line-height: 1.6;
 }
 
 .decision-metrics {
   display: flex;
+
   gap: 28px;
+
   align-items: center;
 }
 
 .decision-metrics div {
   display: flex;
+
   min-width: 100px;
+
   flex-direction: column;
 
   gap: 5px;
 }
 
 .decision-metrics span {
-  color: #a1a1aa;
+  color: var(--text-muted);
 
-  font-size: 11px;
+  font-size: 10px;
 }
 
 .decision-metrics strong {
-  font-size: 17px;
+  font-size: 16px;
 }
+
+/* DECISION ANIMATION */
 
 .decision-enter-active,
 .decision-leave-active {
   transition:
-    opacity 180ms ease,
-    transform 180ms ease;
+    opacity 220ms ease,
+    transform 220ms ease;
 }
 
 .decision-enter-from {
   opacity: 0;
-  transform: translateY(8px);
+
+  transform: translateY(7px);
 }
 
 .decision-leave-to {
   opacity: 0;
-  transform: translateY(-5px);
+
+  transform: translateY(-4px);
 }
 
-.allocation-time {
-  color: #71717a;
+/* -------------------------
+   ALLOCATION
+------------------------- */
 
-  font-size: 12px;
+.allocation-time {
+  color: var(--text-muted);
+
+  font-size: 11px;
   font-weight: 600;
 }
 
+/* -------------------------
+   NEXT STEP
+------------------------- */
+
 .next-step {
   display: flex;
+
   justify-content: space-between;
+
   align-items: center;
 
   gap: 30px;
 
   margin-top: 18px;
-  padding: 28px;
 
-  border: 1px solid #e4e4e7;
-  border-radius: 18px;
+  padding: 26px;
 
-  background: #ffffff;
+  border: 1px solid var(--border);
 
-  flex-direction: column;
-  align-items: flex-start;
+  border-radius: 14px;
+
+  background: var(--surface);
 }
 
 .next-step h2 {
   margin: 6px 0 8px;
 
   font-size: 20px;
+
   letter-spacing: -0.025em;
 }
 
@@ -973,28 +1275,35 @@ const previousEvent = computed(() => {
 
   margin: 0;
 
-  color: #71717a;
+  color: var(--text-secondary);
 
   font-size: 12px;
+
   line-height: 1.6;
 }
 
 .execution-link {
   display: flex;
+
   align-items: center;
+
   gap: 28px;
 
   flex-shrink: 0;
 
-  padding: 13px 16px;
+  padding: 12px 15px;
 
-  border-radius: 10px;
+  border-radius: 8px;
 
-  background: #18181b;
+  background: var(--primary);
+
   color: #ffffff;
 
-  font-size: 12px;
+  font-size: 11px;
+
   font-weight: 650;
+
+  box-shadow: 0 6px 18px rgba(54, 84, 255, 0.17);
 
   transition:
     background 150ms ease,
@@ -1002,7 +1311,7 @@ const previousEvent = computed(() => {
 }
 
 .execution-link:hover {
-  background: #29292e;
+  background: var(--primary-hover);
 
   transform: translateY(-1px);
 }
@@ -1014,6 +1323,10 @@ const previousEvent = computed(() => {
 .execution-link:hover span {
   transform: translateX(3px);
 }
+
+/* -------------------------
+   RESPONSIVE
+------------------------- */
 
 @media (max-width: 1000px) {
   .replay-page {
@@ -1027,16 +1340,24 @@ const previousEvent = computed(() => {
 
   .decision-panel {
     flex-direction: column;
+
     align-items: flex-start;
   }
 
   .decision-metrics {
     width: 100%;
+
     justify-content: space-between;
   }
 
   .model-meta {
     grid-template-columns: 1fr;
+  }
+
+  .next-step {
+    flex-direction: column;
+
+    align-items: flex-start;
   }
 }
 </style>

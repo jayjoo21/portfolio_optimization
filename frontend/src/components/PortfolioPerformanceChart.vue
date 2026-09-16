@@ -85,21 +85,44 @@ const renderChart = () => {
         name: 'Portfolio',
         type: 'line',
         data: portfolio,
+
         smooth: true,
         symbol: 'none',
+
         lineStyle: {
           width: 3,
+          color: '#3654ff',
+        },
+
+        itemStyle: {
+          color: '#3654ff',
+        },
+
+        emphasis: {
+          focus: 'series',
         },
       },
+
       {
         name: 'Benchmark',
         type: 'line',
         data: benchmark,
+
         smooth: true,
         symbol: 'none',
+
         lineStyle: {
           width: 2,
           type: 'dashed',
+          color: '#9acb32',
+        },
+
+        itemStyle: {
+          color: '#9acb32',
+        },
+
+        emphasis: {
+          focus: 'series',
         },
       },
     ],

@@ -291,9 +291,11 @@ const strategies = [
 
 .panel {
   padding: 26px;
-  border: 1px solid #e4e4e7;
+
+  border: 1px solid var(--border);
   border-radius: 18px;
-  background: #ffffff;
+
+  background: var(--surface);
 
   transition:
     border-color 180ms ease,
@@ -301,9 +303,9 @@ const strategies = [
 }
 
 .panel:hover {
-  border-color: #d4d4d8;
+  border-color: var(--primary-border);
 
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.035);
+  box-shadow: var(--shadow-soft);
 }
 
 .performance-panel,
@@ -363,7 +365,11 @@ const strategies = [
 }
 
 .strategy-card.selected {
-  border-color: #18181b;
+  border-color: var(--primary);
+
+  background: linear-gradient(180deg, #ffffff, #f8faff);
+
+  box-shadow: 0 8px 24px rgba(54, 84, 255, 0.08);
 }
 
 .strategy-heading {
@@ -394,11 +400,12 @@ const strategies = [
 
   border-radius: 999px;
 
-  background: #18181b;
-  color: #ffffff;
+  background: var(--primary-soft);
+
+  color: var(--primary);
 
   font-size: 9px;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .return-value {
@@ -530,7 +537,7 @@ const strategies = [
 
   border-radius: inherit;
 
-  background: #29292e;
+  background: linear-gradient(90deg, #697386, #9ba3b3);
 
   transform-origin: left;
 
@@ -558,16 +565,18 @@ const strategies = [
 .selected-panel {
   padding: 27px;
 
+  border: 1px solid var(--primary-border);
   border-radius: 18px;
 
-  background: #18181b;
-  color: #ffffff;
+  background: linear-gradient(135deg, #eef2ff, #f8faff);
 
-  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.08);
+  color: var(--text);
+
+  box-shadow: 0 12px 32px rgba(54, 84, 255, 0.08);
 }
 
 .dark-label {
-  color: #a1a1aa;
+  color: var(--primary);
 }
 
 .selected-panel h2 {
@@ -579,7 +588,7 @@ const strategies = [
 .selected-description {
   margin: 0;
 
-  color: #b8b8bf;
+  color: var(--text-secondary);
 
   font-size: 12px;
   line-height: 1.6;
@@ -596,17 +605,21 @@ const strategies = [
 
 .selected-stats div {
   display: flex;
+
   flex-direction: column;
+
   gap: 5px;
 
   padding: 13px;
 
-  border: 1px solid #333338;
+  border: 1px solid rgba(54, 84, 255, 0.11);
   border-radius: 10px;
+
+  background: rgba(255, 255, 255, 0.72);
 }
 
 .selected-stats span {
-  color: #92929a;
+  color: var(--text-muted);
 
   font-size: 10px;
 }

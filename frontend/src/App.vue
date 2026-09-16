@@ -5,56 +5,36 @@ import { RouterLink, RouterView } from 'vue-router'
 <template>
   <div class="app-shell">
     <aside class="sidebar">
-      <div>
+      <div class="sidebar-main">
         <!-- BRAND -->
-        <div class="brand">
-          <div class="brand-mark">P</div>
+        <RouterLink to="/" class="brand">
+          <strong> Portfolio </strong>
 
-          <div class="brand-text">
-            <strong> Portfolio </strong>
-
-            <span> Optimization </span>
-          </div>
-        </div>
+          <span> Optimization </span>
+        </RouterLink>
 
         <!-- NAVIGATION -->
         <nav class="navigation">
-          <p class="nav-section">ANALYSIS</p>
+          <p class="nav-section">WORKSPACE</p>
 
-          <RouterLink to="/">
-            <span class="nav-icon"> 01 </span>
+          <RouterLink to="/"> Overview </RouterLink>
 
-            <span> Overview </span>
-          </RouterLink>
+          <RouterLink to="/replay"> Decision Replay </RouterLink>
 
-          <RouterLink to="/replay">
-            <span class="nav-icon"> 02 </span>
+          <RouterLink to="/backtest"> Backtest </RouterLink>
 
-            <span> Decision Replay </span>
-          </RouterLink>
-
-          <RouterLink to="/backtest">
-            <span class="nav-icon"> 03 </span>
-
-            <span> Backtest </span>
-          </RouterLink>
-
-          <RouterLink to="/execution">
-            <span class="nav-icon"> 04 </span>
-
-            <span> Execution </span>
-          </RouterLink>
+          <RouterLink to="/execution"> Execution </RouterLink>
         </nav>
       </div>
 
-      <!-- SIDEBAR FOOTER -->
+      <!-- FOOTER -->
       <div class="sidebar-footer">
-        <div class="prototype-tag">PROTOTYPE · MOCK DATA</div>
+        <span class="prototype-tag"> PROTOTYPE · MOCK DATA </span>
 
         <div class="model-status">
           <span class="status-dot"></span>
 
-          <span> MODEL </span>
+          MODEL
         </div>
 
         <strong> Deep RL · EIIE </strong>
@@ -63,7 +43,6 @@ import { RouterLink, RouterView } from 'vue-router'
       </div>
     </aside>
 
-    <!-- PAGE -->
     <section class="content">
       <RouterView v-slot="{ Component }">
         <Transition name="page" mode="out-in">
@@ -77,9 +56,12 @@ import { RouterLink, RouterView } from 'vue-router'
 <style scoped>
 .app-shell {
   display: flex;
-
   min-height: 100vh;
 }
+
+/* -------------------------
+   SIDEBAR
+------------------------- */
 
 .sidebar {
   position: sticky;
@@ -87,92 +69,83 @@ import { RouterLink, RouterView } from 'vue-router'
 
   display: flex;
 
-  width: 238px;
+  width: 218px;
   height: 100vh;
 
   flex-shrink: 0;
   flex-direction: column;
   justify-content: space-between;
 
-  padding: 28px 18px 22px;
+  padding: 30px 20px 24px;
 
   border-right: 1px solid var(--border);
 
-  background: rgba(255, 255, 255, 0.9);
+  background: rgba(255, 255, 255, 0.94);
 
   backdrop-filter: blur(18px);
 }
 
-/* BRAND */
+.sidebar-main {
+  width: 100%;
+}
+
+/* -------------------------
+   BRAND
+------------------------- */
 
 .brand {
   display: flex;
 
-  gap: 11px;
-
-  align-items: center;
-
-  padding: 0 8px;
-}
-
-.brand-mark {
-  display: grid;
-
-  width: 36px;
-  height: 36px;
-
-  flex-shrink: 0;
-
-  place-items: center;
-
-  border-radius: 11px;
-
-  background: linear-gradient(135deg, #3654ff, #5870ff);
-
-  color: #ffffff;
-
-  font-size: 14px;
-  font-weight: 750;
-
-  box-shadow: 0 7px 18px rgba(54, 84, 255, 0.22);
-}
-
-.brand-text {
-  display: flex;
-
   flex-direction: column;
 
-  gap: 2px;
+  gap: 1px;
+
+  width: fit-content;
+
+  padding: 2px 8px;
+
+  transition: opacity 150ms ease;
 }
 
-.brand-text strong {
-  font-size: 14px;
-
-  letter-spacing: -0.02em;
+.brand:hover {
+  opacity: 0.7;
 }
 
-.brand-text span {
-  color: #929299;
+.brand strong {
+  color: var(--text);
+
+  font-size: 16px;
+  font-weight: 750;
+
+  letter-spacing: -0.035em;
+}
+
+.brand span {
+  color: var(--text-muted);
 
   font-size: 10px;
+
+  letter-spacing: 0.01em;
 }
 
-/* NAV */
+/* -------------------------
+   NAVIGATION
+------------------------- */
 
 .navigation {
   display: flex;
 
   flex-direction: column;
 
-  gap: 4px;
+  gap: 2px;
 
-  margin-top: 42px;
+  margin-top: 50px;
 }
 
 .nav-section {
-  margin: 0 0 9px 12px;
+  margin: 0 0 10px 9px;
 
-  color: #adadb4;
+  color: #adb3c0;
 
   font-size: 9px;
   font-weight: 700;
@@ -185,13 +158,13 @@ import { RouterLink, RouterView } from 'vue-router'
 
   display: flex;
 
-  gap: 11px;
-
   align-items: center;
 
-  padding: 11px 12px;
+  min-height: 39px;
 
-  border-radius: 10px;
+  padding: 0 10px;
+
+  border-radius: 7px;
 
   color: #697386;
 
@@ -199,23 +172,20 @@ import { RouterLink, RouterView } from 'vue-router'
   font-weight: 500;
 
   transition:
-    background 150ms ease,
     color 150ms ease,
-    transform 150ms ease;
+    background 150ms ease;
 }
 
 .navigation a:hover {
-  background: var(--primary-soft);
+  color: var(--text);
 
-  color: var(--primary);
-
-  transform: translateX(2px);
+  background: #f7f8fb;
 }
 
 .navigation a.router-link-active {
-  background: var(--primary-soft);
-
   color: var(--primary);
+
+  background: var(--primary-soft);
 
   font-weight: 650;
 }
@@ -223,35 +193,22 @@ import { RouterLink, RouterView } from 'vue-router'
 .navigation a.router-link-active::before {
   position: absolute;
 
-  top: 50%;
-  left: 3px;
+  top: 9px;
+  bottom: 9px;
+  left: 0;
 
-  width: 3px;
-  height: 17px;
+  width: 2px;
 
   border-radius: 999px;
 
   background: var(--primary);
 
   content: '';
-
-  transform: translateY(-50%);
 }
 
-.nav-icon {
-  width: 19px;
-
-  color: #aaaab1;
-
-  font-size: 9px;
-  font-weight: 700;
-}
-
-.navigation a.router-link-active .nav-icon {
-  color: var(--primary);
-}
-
-/* FOOTER */
+/* -------------------------
+   FOOTER
+------------------------- */
 
 .sidebar-footer {
   display: flex;
@@ -260,84 +217,9 @@ import { RouterLink, RouterView } from 'vue-router'
 
   gap: 4px;
 
-  padding: 16px 10px 4px;
+  padding: 18px 8px 4px;
 
-  border-top: 1px solid #eeeef0;
-}
-
-.model-status {
-  display: flex;
-
-  gap: 6px;
-
-  align-items: center;
-
-  margin-bottom: 3px;
-
-  color: #a1a1aa;
-
-  font-size: 9px;
-  font-weight: 700;
-
-  letter-spacing: 0.1em;
-}
-
-.status-dot {
-  width: 6px;
-  height: 6px;
-
-  border-radius: 50%;
-
-  background: var(--success);
-
-  box-shadow: 0 0 0 3px rgba(47, 158, 98, 0.12);
-}
-
-.sidebar-footer strong {
-  font-size: 12px;
-}
-
-.sidebar-footer small {
-  color: #8b8b93;
-
-  font-size: 10px;
-}
-
-.content {
-  min-width: 0;
-
-  flex: 1;
-}
-
-@media (max-width: 800px) {
-  .sidebar {
-    width: 76px;
-
-    padding: 25px 11px;
-  }
-
-  .brand-text,
-  .navigation a > span:last-child,
-  .nav-section,
-  .sidebar-footer {
-    display: none;
-  }
-
-  .brand {
-    justify-content: center;
-
-    padding: 0;
-  }
-
-  .navigation a {
-    justify-content: center;
-
-    padding: 12px 8px;
-  }
-
-  .nav-icon {
-    width: auto;
-  }
+  border-top: 1px solid var(--border);
 }
 
 .prototype-tag {
@@ -357,5 +239,65 @@ import { RouterLink, RouterView } from 'vue-router'
   font-weight: 750;
 
   letter-spacing: 0.08em;
+}
+
+.model-status {
+  display: flex;
+
+  align-items: center;
+
+  gap: 6px;
+
+  color: var(--text-muted);
+
+  font-size: 9px;
+  font-weight: 700;
+
+  letter-spacing: 0.1em;
+}
+
+.status-dot {
+  width: 6px;
+  height: 6px;
+
+  border-radius: 50%;
+
+  background: var(--success);
+
+  box-shadow: 0 0 0 3px rgba(47, 158, 98, 0.1);
+}
+
+.sidebar-footer strong {
+  margin-top: 3px;
+
+  font-size: 12px;
+}
+
+.sidebar-footer small {
+  color: var(--text-muted);
+
+  font-size: 10px;
+}
+
+/* -------------------------
+   CONTENT
+------------------------- */
+
+.content {
+  min-width: 0;
+
+  flex: 1;
+}
+
+/* -------------------------
+   RESPONSIVE
+------------------------- */
+
+@media (max-width: 800px) {
+  .sidebar {
+    width: 164px;
+
+    padding: 24px 14px;
+  }
 }
 </style>

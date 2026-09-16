@@ -390,10 +390,10 @@ const venues = [
   margin-bottom: 18px;
   padding: 26px;
 
-  border: 1px solid #e4e4e7;
+  border: 1px solid var(--border);
   border-radius: 18px;
 
-  background: #ffffff;
+  background: var(--surface);
 
   transition:
     border-color 180ms ease,
@@ -401,9 +401,9 @@ const venues = [
 }
 
 .panel:hover {
-  border-color: #d4d4d8;
+  border-color: var(--primary-border);
 
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.035);
+  box-shadow: var(--shadow-soft);
 }
 
 .panel-header {
@@ -478,7 +478,7 @@ const venues = [
 
   margin-top: 4px;
 
-  border: 2px solid #18181b;
+  border: 2px solid #9ba3b3;
   border-radius: 50%;
 
   background: #ffffff;
@@ -487,7 +487,11 @@ const venues = [
 }
 
 .flow-step:last-child .step-marker span {
-  background: #18181b;
+  border-color: var(--primary);
+
+  background: var(--primary);
+
+  box-shadow: 0 0 0 4px rgba(54, 84, 255, 0.1);
 }
 
 .step-body {
@@ -597,10 +601,11 @@ const venues = [
 .sell-badge {
   padding: 6px 9px;
 
-  border-radius: 7px;
+  border-radius: 999px;
 
-  background: #f4eded;
-  color: #8f3535;
+  background: var(--danger-soft);
+
+  color: var(--danger);
 
   font-size: 10px;
   font-weight: 700;
@@ -663,7 +668,11 @@ const venues = [
 }
 
 .venue-card.selected {
-  border-color: #18181b;
+  border-color: var(--primary);
+
+  background: linear-gradient(180deg, #ffffff, #f8faff);
+
+  box-shadow: 0 8px 24px rgba(54, 84, 255, 0.075);
 }
 
 .venue-heading {
@@ -692,10 +701,12 @@ const venues = [
 
   border-radius: 999px;
 
-  background: #18181b;
-  color: #ffffff;
+  background: var(--primary-soft);
+
+  color: var(--primary);
 
   font-size: 9px;
+  font-weight: 700;
 }
 
 .orderbook {
@@ -769,10 +780,13 @@ const venues = [
 
   border-radius: 50%;
 
-  background: #18181b;
+  background: var(--primary);
+
   color: #ffffff;
 
   font-size: 11px;
+
+  box-shadow: 0 5px 12px rgba(54, 84, 255, 0.18);
 }
 
 .venue-reason strong {
@@ -804,6 +818,7 @@ const venues = [
 
 .decision-card {
   display: flex;
+
   justify-content: space-between;
   align-items: center;
 
@@ -812,12 +827,14 @@ const venues = [
   margin-bottom: 18px;
   padding: 28px;
 
+  border: 1px solid var(--primary-border);
   border-radius: 18px;
 
-  background: #18181b;
-  color: #ffffff;
+  background: linear-gradient(135deg, #eef2ff 0%, #f8faff 100%);
 
-  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.08);
+  color: var(--text);
+
+  box-shadow: 0 12px 32px rgba(54, 84, 255, 0.08);
 }
 
 .decision-card h2 {
@@ -829,13 +846,13 @@ const venues = [
 .decision-card p:not(.decision-label) {
   margin: 0;
 
-  color: #b8b8bf;
+  color: var(--text-secondary);
 
   font-size: 12px;
 }
 
 .decision-label {
-  color: #a1a1aa;
+  color: var(--primary);
 }
 
 .order-details {
@@ -854,7 +871,7 @@ const venues = [
 }
 
 .order-details span {
-  color: #92929a;
+  color: var(--text-muted);
 
   font-size: 9px;
 }
@@ -870,8 +887,9 @@ const venues = [
 
   border-radius: 999px;
 
-  background: #edf5ef;
-  color: #28633a;
+  background: var(--success-soft);
+
+  color: var(--success);
 
   font-size: 9px;
   font-weight: 700;

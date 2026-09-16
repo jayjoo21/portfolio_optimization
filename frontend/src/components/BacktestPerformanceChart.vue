@@ -71,32 +71,66 @@ const renderChart = () => {
         name: 'EIIE',
         type: 'line',
         data: eiie,
+
         smooth: true,
         symbol: 'none',
 
         lineStyle: {
           width: 3,
+          color: '#3654ff',
+        },
+
+        itemStyle: {
+          color: '#3654ff',
+        },
+
+        emphasis: {
+          focus: 'series',
         },
       },
+
       {
         name: 'MVO',
         type: 'line',
         data: mvo,
+
         smooth: true,
         symbol: 'none',
+
         lineStyle: {
           width: 2,
+          color: '#9acb32',
+        },
+
+        itemStyle: {
+          color: '#9acb32',
+        },
+
+        emphasis: {
+          focus: 'series',
         },
       },
+
       {
         name: 'EW',
         type: 'line',
         data: ew,
+
         smooth: true,
         symbol: 'none',
+
         lineStyle: {
           width: 2,
           type: 'dashed',
+          color: '#626b89',
+        },
+
+        itemStyle: {
+          color: '#626b89',
+        },
+
+        emphasis: {
+          focus: 'series',
         },
       },
     ],

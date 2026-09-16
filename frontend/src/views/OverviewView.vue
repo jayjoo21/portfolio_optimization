@@ -750,6 +750,12 @@ const metrics = [
   background: #efbf32;
 }
 
+.positive {
+  color: var(--success);
+  font-size: 13px;
+  font-weight: 700;
+}
+
 @keyframes allocation-enter {
   from {
     transform: scaleX(0);
