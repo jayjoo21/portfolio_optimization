@@ -534,10 +534,10 @@ const previousEvent = computed(() => {
   margin-bottom: 18px;
   padding: 26px;
 
-  border: 1px solid #e4e4e7;
+  border: 1px solid var(--border);
   border-radius: 18px;
 
-  background: #ffffff;
+  background: var(--surface);
 
   transition:
     border-color 180ms ease,
@@ -545,9 +545,9 @@ const previousEvent = computed(() => {
 }
 
 .panel:hover {
-  border-color: #d4d4d8;
+  border-color: var(--primary-border);
 
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.035);
+  box-shadow: var(--shadow-soft);
 }
 
 .panel-header {
@@ -612,9 +612,13 @@ const previousEvent = computed(() => {
 }
 
 .time-tabs button.active {
-  border-color: #18181b;
-  background: #18181b;
+  border-color: var(--primary);
+
+  background: var(--primary);
+
   color: #ffffff;
+
+  box-shadow: 0 5px 14px rgba(54, 84, 255, 0.2);
 }
 
 .two-column {
@@ -705,12 +709,12 @@ const previousEvent = computed(() => {
 }
 
 .trace-item.selected .trace-dot {
-  border-color: #18181b;
-  background: #18181b;
+  border-color: var(--primary);
+
+  background: var(--primary);
 
   transform: scale(1.18);
 }
-
 .trace-content {
   display: flex;
   flex-direction: column;

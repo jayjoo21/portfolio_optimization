@@ -303,9 +303,9 @@ const metrics = [
 .state-card,
 .metric-card,
 .panel {
-  border: 1px solid #e4e4e7;
+  border: 1px solid var(--border);
 
-  background: #ffffff;
+  background: var(--surface);
 }
 
 .hero-card,
@@ -323,9 +323,9 @@ const metrics = [
 }
 
 .hero-card:hover {
-  border-color: #d4d4d8;
+  border-color: var(--primary-border);
 
-  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.035);
+  box-shadow: var(--shadow-soft);
 }
 
 .portfolio-heading {
@@ -344,12 +344,10 @@ const metrics = [
   letter-spacing: -0.04em;
 }
 
-.positive {
-  color: #15803d;
+.panel:hover {
+  border-color: var(--primary-border);
 
-  font-size: 13px;
-
-  font-weight: 700;
+  box-shadow: var(--shadow-soft);
 }
 
 .period {
@@ -389,9 +387,9 @@ const metrics = [
 }
 
 .state-card:hover {
-  border-color: #d4d4d8;
+  border-color: var(--primary-border);
 
-  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.035);
+  box-shadow: var(--shadow-soft);
 }
 
 .state-card h3 {
@@ -430,12 +428,11 @@ const metrics = [
   display: block;
 
   width: 71%;
-
   height: 100%;
 
   border-radius: inherit;
 
-  background: #29292e;
+  background: linear-gradient(90deg, #f0a24a, #dd6b45);
 
   animation: progress-enter 700ms cubic-bezier(0.4, 0, 0.2, 1) both;
 }
@@ -529,9 +526,9 @@ const metrics = [
 }
 
 .panel:hover {
-  border-color: #d4d4d8;
+  border-color: var(--primary-border);
 
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.035);
+  box-shadow: var(--shadow-soft);
 }
 
 .panel-header {
@@ -581,15 +578,18 @@ const metrics = [
 
   place-items: center;
 
-  border-radius: 10px;
+  border-radius: 11px;
 
-  background: #18181b;
+  background: var(--primary-soft);
 
-  color: #ffffff;
+  color: var(--primary);
 
   font-size: 17px;
+  font-weight: 700;
 
-  transition: transform 180ms ease;
+  transition:
+    transform 180ms ease,
+    background 180ms ease;
 }
 
 .decision-card:hover .rebalance-icon {
@@ -646,32 +646,35 @@ const metrics = [
   display: flex;
 
   justify-content: space-between;
-
   align-items: center;
 
   margin-top: 24px;
 
   padding: 13px 15px;
 
-  border-radius: 10px;
+  border-radius: 11px;
 
-  background: #18181b;
+  background: var(--primary);
 
   color: #ffffff;
 
   font-size: 12px;
+  font-weight: 650;
 
-  font-weight: 600;
+  box-shadow: var(--shadow-primary);
 
   transition:
     transform 150ms ease,
-    background 150ms ease;
+    background 150ms ease,
+    box-shadow 150ms ease;
 }
 
 .detail-link:hover {
+  background: var(--primary-hover);
+
   transform: translateY(-1px);
 
-  background: #29292e;
+  box-shadow: 0 10px 26px rgba(54, 84, 255, 0.23);
 }
 
 .detail-link .arrow {
@@ -718,11 +721,33 @@ const metrics = [
 
   border-radius: inherit;
 
-  background: #29292e;
-
   transform-origin: left;
 
   animation: allocation-enter 650ms cubic-bezier(0.4, 0, 0.2, 1) both;
+}
+
+.allocation-row:nth-child(1) .fill {
+  background: #4f6ff5;
+}
+
+.allocation-row:nth-child(2) .fill {
+  background: #9ecb3b;
+}
+
+.allocation-row:nth-child(3) .fill {
+  background: #626b89;
+}
+
+.allocation-row:nth-child(4) .fill {
+  background: #eb985b;
+}
+
+.allocation-row:nth-child(5) .fill {
+  background: #34a9c9;
+}
+
+.allocation-row:nth-child(6) .fill {
+  background: #efbf32;
 }
 
 @keyframes allocation-enter {

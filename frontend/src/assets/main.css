@@ -1,3 +1,36 @@
+:root {
+  --bg: #f6f8fc;
+
+  --surface: #ffffff;
+  --surface-soft: #f8faff;
+  --surface-accent: #eef2ff;
+
+  --text: #111827;
+  --text-secondary: #4b5563;
+  --text-muted: #8b93a1;
+
+  --border: #e5e9f0;
+  --border-strong: #d7ddea;
+
+  --primary: #3654ff;
+  --primary-hover: #2f49e6;
+  --primary-soft: #eef2ff;
+  --primary-border: #ccd5ff;
+
+  --success: #2f9e62;
+  --success-soft: #edf8f1;
+
+  --warning: #d88727;
+  --warning-soft: #fff6e8;
+
+  --danger: #c84d58;
+  --danger-soft: #fff0f1;
+
+  --shadow-soft: 0 8px 28px rgba(28, 39, 67, 0.055);
+
+  --shadow-primary: 0 8px 22px rgba(54, 84, 255, 0.18);
+}
+
 *,
 *::before,
 *::after {
@@ -6,8 +39,7 @@
 
 html {
   min-width: 320px;
-
-  background: #f7f7f8;
+  background: var(--bg);
 }
 
 html,
@@ -15,16 +47,15 @@ body,
 #app {
   width: 100%;
   min-height: 100%;
-
   margin: 0;
 }
 
 body {
   min-height: 100vh;
 
-  background: #f7f7f8;
+  background: linear-gradient(180deg, #fafbff 0, var(--bg) 420px);
 
-  color: #18181b;
+  color: var(--text);
 
   font-family:
     Inter,
@@ -37,11 +68,9 @@ body {
     sans-serif;
 
   font-size: 14px;
-
   line-height: 1.5;
 
   -webkit-font-smoothing: antialiased;
-
   text-rendering: optimizeLegibility;
 }
 
@@ -58,7 +87,6 @@ button {
 
 a {
   color: inherit;
-
   text-decoration: none;
 }
 
@@ -76,8 +104,10 @@ a {
 }
 
 ::selection {
-  background: rgba(24, 24, 27, 0.12);
+  background: rgba(54, 84, 255, 0.16);
 }
+
+/* SCROLLBAR */
 
 ::-webkit-scrollbar {
   width: 9px;
@@ -90,19 +120,18 @@ a {
 
 ::-webkit-scrollbar-thumb {
   border: 2px solid transparent;
-
   border-radius: 999px;
 
-  background: #d4d4d8;
-
+  background: #cfd5e1;
   background-clip: padding-box;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #b9b9c0;
-
+  background: #aeb7c8;
   background-clip: padding-box;
 }
+
+/* PAGE TRANSITION */
 
 .page-enter-active,
 .page-leave-active {
@@ -113,20 +142,19 @@ a {
 
 .page-enter-from {
   opacity: 0;
-
   transform: translateY(5px);
 }
 
 .page-leave-to {
   opacity: 0;
-
   transform: translateY(-3px);
 }
 
+/* ACCESSIBILITY */
+
 button:focus-visible,
 a:focus-visible {
-  outline: 2px solid #52525b;
-
+  outline: 2px solid var(--primary);
   outline-offset: 3px;
 }
 
@@ -135,11 +163,8 @@ a:focus-visible {
   *::before,
   *::after {
     scroll-behavior: auto !important;
-
     animation-duration: 0.01ms !important;
-
     animation-iteration-count: 1 !important;
-
     transition-duration: 0.01ms !important;
   }
 }

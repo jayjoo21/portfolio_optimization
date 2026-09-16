@@ -83,7 +83,6 @@ import { RouterLink, RouterView } from 'vue-router'
 
 .sidebar {
   position: sticky;
-
   top: 0;
 
   display: flex;
@@ -97,11 +96,11 @@ import { RouterLink, RouterView } from 'vue-router'
 
   padding: 28px 18px 22px;
 
-  border-right: 1px solid #e7e7e9;
+  border-right: 1px solid var(--border);
 
-  background: rgba(255, 255, 255, 0.92);
+  background: rgba(255, 255, 255, 0.9);
 
-  backdrop-filter: blur(16px);
+  backdrop-filter: blur(18px);
 }
 
 /* BRAND */
@@ -126,16 +125,16 @@ import { RouterLink, RouterView } from 'vue-router'
 
   place-items: center;
 
-  border-radius: 10px;
+  border-radius: 11px;
 
-  background: #18181b;
+  background: linear-gradient(135deg, #3654ff, #5870ff);
 
   color: #ffffff;
 
   font-size: 14px;
   font-weight: 750;
 
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 7px 18px rgba(54, 84, 255, 0.22);
 }
 
 .brand-text {
@@ -192,9 +191,9 @@ import { RouterLink, RouterView } from 'vue-router'
 
   padding: 11px 12px;
 
-  border-radius: 9px;
+  border-radius: 10px;
 
-  color: #73737b;
+  color: #697386;
 
   font-size: 12px;
   font-weight: 500;
@@ -206,17 +205,17 @@ import { RouterLink, RouterView } from 'vue-router'
 }
 
 .navigation a:hover {
-  background: #f6f6f7;
+  background: var(--primary-soft);
 
-  color: #18181b;
+  color: var(--primary);
 
   transform: translateX(2px);
 }
 
 .navigation a.router-link-active {
-  background: #f1f1f3;
+  background: var(--primary-soft);
 
-  color: #18181b;
+  color: var(--primary);
 
   font-weight: 650;
 }
@@ -232,7 +231,7 @@ import { RouterLink, RouterView } from 'vue-router'
 
   border-radius: 999px;
 
-  background: #18181b;
+  background: var(--primary);
 
   content: '';
 
@@ -249,7 +248,7 @@ import { RouterLink, RouterView } from 'vue-router'
 }
 
 .navigation a.router-link-active .nav-icon {
-  color: #18181b;
+  color: var(--primary);
 }
 
 /* FOOTER */
@@ -289,9 +288,9 @@ import { RouterLink, RouterView } from 'vue-router'
 
   border-radius: 50%;
 
-  background: #4b8a61;
+  background: var(--success);
 
-  box-shadow: 0 0 0 3px rgba(75, 138, 97, 0.1);
+  box-shadow: 0 0 0 3px rgba(47, 158, 98, 0.12);
 }
 
 .sidebar-footer strong {
@@ -345,17 +344,18 @@ import { RouterLink, RouterView } from 'vue-router'
   width: fit-content;
 
   margin-bottom: 12px;
-  padding: 5px 7px;
+  padding: 5px 8px;
 
-  border: 1px solid #e4e4e7;
-  border-radius: 6px;
+  border: 1px solid var(--primary-border);
+  border-radius: 999px;
 
-  background: #fafafa;
-  color: #929299;
+  background: var(--primary-soft);
+
+  color: var(--primary);
 
   font-size: 8px;
   font-weight: 750;
 
-  letter-spacing: 0.09em;
+  letter-spacing: 0.08em;
 }
 </style>
