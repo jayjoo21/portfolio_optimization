@@ -12,8 +12,7 @@
 - 파생 Feature
 - 사용 모델
 - 우선순위
-
-를 정의한다.
+  를 정의한다.
 
 모든 데이터는 가능한 한 Point-in-Time 기준으로 관리한다.
 
@@ -109,26 +108,26 @@ Status:
 
 # 3. Core Data Specification
 
-| Group | Raw Data | Source | Frequency | Availability | Derived Features | Used By | Priority |
-|---|---|---|---|---|---|---|---|
-| Universe | KRX300 constituents | pykrx / KRX | Event / Date | 해당 시점 구성종목 | membership flag | All | P1 |
-| Stock Price | OHLC | KRX Open API | Daily | 장 마감 후 | return, momentum, MA | ML / RL / MVO | P1 |
-| Stock Volume | Volume | KRX Open API | Daily | 장 마감 후 | volume change, liquidity | ML / RL | P1 |
-| Trading Value | 거래대금 | KRX Open API | Daily | 장 마감 후 | liquidity proxy | Universe / ML | P1 |
-| Stock Info | 종목기본정보 | KRX Open API | Daily / Reference | 조회 시점 | market / listing info | Universe | P1 |
-| KRX300 Index | Index OHLC | KRX Open API | Daily | 장 마감 후 | market return, momentum | Context / Regime | P1 |
-| Sector Index | KRX300 sector indices | KRX Open API | Daily | 장 마감 후 | sector leadership | Context / Regime | P1 |
-| Breadth | constituent returns | Derived | Daily | 장 마감 후 | advance ratio | Regime | P1 |
-| Dispersion | stock returns | Derived | Daily | 장 마감 후 | cross-sectional std | Regime | P1 |
-| Correlation | stock returns | Derived | Daily | rolling | avg correlation | Regime / Risk | P1 |
-| FX | USD/KRW | ECOS | Daily | publication 기준 | FX return / momentum | Context | P1 |
-| Rate | 기준금리 | ECOS | Event | 발표 시점 | policy rate level/change | Context | P2 |
-| Bond Yield | 국고채 금리 | ECOS | Daily | 해당 통계 공개 시점 | yield change | Context | P2 |
-| Futures | KOSPI200 futures | KRX | Daily | 장 마감 후 | basis / return | Regime | P2 |
-| Options | KOSPI200 options | KRX | Daily | 장 마감 후 | option activity / IV proxy | Regime | P2 |
-| Fundamentals | 재무제표 | OpenDART | Quarterly/Event | 공시일 이후 | growth, margin | Stock Selection | P3 |
-| Disclosure | 기업공시 | OpenDART | Event | 공시 시점 | event features | Event Model | P3 |
-| Order Book | Bid/Ask/Size | KIS | Real-time | Real-time | spread, imbalance | Execution | P4 |
+| Group         | Raw Data              | Source       | Frequency         | Availability        | Derived Features           | Used By          | Priority |
+| ------------- | --------------------- | ------------ | ----------------- | ------------------- | -------------------------- | ---------------- | -------- |
+| Universe      | KRX300 constituents   | pykrx / KRX  | Event / Date      | 해당 시점 구성종목  | membership flag            | All              | P1       |
+| Stock Price   | OHLC                  | KRX Open API | Daily             | 장 마감 후          | return, momentum, MA       | ML / RL / MVO    | P1       |
+| Stock Volume  | Volume                | KRX Open API | Daily             | 장 마감 후          | volume change, liquidity   | ML / RL          | P1       |
+| Trading Value | 거래대금              | KRX Open API | Daily             | 장 마감 후          | liquidity proxy            | Universe / ML    | P1       |
+| Stock Info    | 종목기본정보          | KRX Open API | Daily / Reference | 조회 시점           | market / listing info      | Universe         | P1       |
+| KRX300 Index  | Index OHLC            | KRX Open API | Daily             | 장 마감 후          | market return, momentum    | Context / Regime | P1       |
+| Sector Index  | KRX300 sector indices | KRX Open API | Daily             | 장 마감 후          | sector leadership          | Context / Regime | P1       |
+| Breadth       | constituent returns   | Derived      | Daily             | 장 마감 후          | advance ratio              | Regime           | P1       |
+| Dispersion    | stock returns         | Derived      | Daily             | 장 마감 후          | cross-sectional std        | Regime           | P1       |
+| Correlation   | stock returns         | Derived      | Daily             | rolling             | avg correlation            | Regime / Risk    | P1       |
+| FX            | USD/KRW               | ECOS         | Daily             | publication 기준    | FX return / momentum       | Context          | P1       |
+| Rate          | 기준금리              | ECOS         | Event             | 발표 시점           | policy rate level/change   | Context          | P2       |
+| Bond Yield    | 국고채 금리           | ECOS         | Daily             | 해당 통계 공개 시점 | yield change               | Context          | P2       |
+| Futures       | KOSPI200 futures      | KRX          | Daily             | 장 마감 후          | basis / return             | Regime           | P2       |
+| Options       | KOSPI200 options      | KRX          | Daily             | 장 마감 후          | option activity / IV proxy | Regime           | P2       |
+| Fundamentals  | 재무제표              | OpenDART     | Quarterly/Event   | 공시일 이후         | growth, margin             | Stock Selection  | P3       |
+| Disclosure    | 기업공시              | OpenDART     | Event             | 공시 시점           | event features             | Event Model      | P3       |
+| Order Book    | Bid/Ask/Size          | KIS          | Real-time         | Real-time           | spread, imbalance          | Execution        | P4       |
 
 ---
 
@@ -137,7 +136,6 @@ Status:
 ## Universe
 
 현재 시점의 KRX300 구성종목을 과거 전체 기간에 적용하지 않는다.
-
 각 날짜에서 당시 실제 KRX300 구성종목만 사용한다.
 
 ---
@@ -148,7 +146,6 @@ Status:
 t의 장 마감 이전 의사결정에 사용할 수 없다.
 
 예:
-
 t 종가를 이용해 계산한 Feature
 → earliest use = t 장 마감 이후 또는 t+1 거래
 
@@ -160,7 +157,6 @@ t 종가를 이용해 계산한 Feature
 실제 공시일을 Availability 기준으로 사용한다.
 
 예:
-
 2025-03-31 분기 데이터라도
 2025-05-15에 공시되었다면
 
@@ -172,17 +168,16 @@ t 종가를 이용해 계산한 Feature
 # 5. Storage Design
 
 초기 구조:
-
 data/
 ├─ raw/
-│  ├─ krx/
-│  │  ├─ universe/
-│  │  ├─ stocks/
-│  │  ├─ index/
-│  │  └─ derivatives/
-│  │
-│  ├─ ecos/
-│  └─ dart/
+│ ├─ krx/
+│ │ ├─ universe/
+│ │ ├─ stocks/
+│ │ ├─ index/
+│ │ └─ derivatives/
+│ │
+│ ├─ ecos/
+│ └─ dart/
 │
 ├─ clean/
 │
@@ -191,7 +186,6 @@ data/
 └─ features/
 
 Raw 데이터는 가능한 한 수정하지 않는다.
-
 정제 및 Feature 생성 결과는 별도 Layer에 저장한다.
 
 ---
@@ -270,7 +264,6 @@ Main inputs:
 - optional macro
 
 Target:
-
 TBD after Horizon decision.
 
 ---
@@ -288,7 +281,6 @@ Main information set:
 - Market Context
 
 각 모델 구조에 맞는 State 형태로 변환한다.
-
 동일한 Information Set 사용을 원칙으로 한다.
 
 ---
