@@ -1,0 +1,8 @@
+﻿series,category,pages,records,newest_date,oldest_date,target_start_date,reaches_2018,stop_reason
+investor_trading,stock,19,1836,2026-09-18,2019-04-01,2018-01-01,False,next_until_null
+program_trades,stock,19,1836,2026-09-18,2019-04-01,2018-01-01,False,next_until_null
+short_selling,stock,19,1836,2026-09-18,2019-04-01,2018-01-01,False,next_until_null
+credit_trades,stock,9,837,2026-09-17,2023-04-17,2018-01-01,False,next_until_null
+securities_lending,stock,14,1346,2026-09-18,2021-04-01,2018-01-01,False,next_until_null
+kospi_investor_trading,market,22,2200,2026-09-18,2017-09-26,2018-01-01,True,reached_project_start
+kosdaq_investor_trading,market,22,2200,2026-09-18,2017-09-26,2018-01-01,True,reached_project_start

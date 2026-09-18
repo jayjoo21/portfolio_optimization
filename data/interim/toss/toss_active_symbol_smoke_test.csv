@@ -1,0 +1,16 @@
+﻿ticker,endpoint,http_status,api_status,records_returned
+005930,investor_trading,200,supported,3
+005930,program_trades,200,supported,3
+005930,short_selling,200,supported,3
+005930,credit_trades,200,supported,3
+005930,securities_lending,200,supported,3
+000660,investor_trading,200,supported,3
+000660,program_trades,200,supported,3
+000660,short_selling,200,supported,3
+000660,credit_trades,200,supported,3
+000660,securities_lending,200,supported,3
+035420,investor_trading,200,supported,3
+035420,program_trades,200,supported,3
+035420,short_selling,200,supported,3
+035420,credit_trades,200,supported,3
+035420,securities_lending,200,supported,3

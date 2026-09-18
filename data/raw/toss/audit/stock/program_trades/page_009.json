@@ -1,0 +1,1307 @@
+{
+  "result": {
+    "nextUntil": "2023-01-10",
+    "records": [
+      {
+        "date": "2023-06-08",
+        "arbitrage": {
+          "buyVolume": "790592",
+          "sellVolume": "1017638",
+          "netBuyVolume": "-227046"
+        },
+        "nonArbitrage": {
+          "buyVolume": "6028117",
+          "sellVolume": "5787911",
+          "netBuyVolume": "240206"
+        }
+      },
+      {
+        "date": "2023-06-07",
+        "arbitrage": {
+          "buyVolume": "145704",
+          "sellVolume": "148982",
+          "netBuyVolume": "-3278"
+        },
+        "nonArbitrage": {
+          "buyVolume": "4788134",
+          "sellVolume": "4743523",
+          "netBuyVolume": "44611"
+        }
+      },
+      {
+        "date": "2023-06-05",
+        "arbitrage": {
+          "buyVolume": "211194",
+          "sellVolume": "211194",
+          "netBuyVolume": "0"
+        },
+        "nonArbitrage": {
+          "buyVolume": "1877722",
+          "sellVolume": "4063295",
+          "netBuyVolume": "-2185573"
+        }
+      },
+      {
+        "date": "2023-06-02",
+        "arbitrage": {
+          "buyVolume": "87728",
+          "sellVolume": "87480",
+          "netBuyVolume": "248"
+        },
+        "nonArbitrage": {
+          "buyVolume": "4661980",
+          "sellVolume": "2781595",
+          "netBuyVolume": "1880385"
+        }
+      },
+      {
+        "date": "2023-06-01",
+        "arbitrage": {
+          "buyVolume": "196662",
+          "sellVolume": "196662",
+          "netBuyVolume": "0"
+        },
+        "nonArbitrage": {
+          "buyVolume": "4352956",
+          "sellVolume": "2998835",
+          "netBuyVolume": "1354121"
+        }
+      },
+      {
+        "date": "2023-05-31",
+        "arbitrage": {
+          "buyVolume": "138774",
+          "sellVolume": "245663",
+          "netBuyVolume": "-106889"
+        },
+        "nonArbitrage": {
+          "buyVolume": "10227054",
+          "sellVolume": "10779224",
+          "netBuyVolume": "-552170"
+        }
+      },
+      {
+        "date": "2023-05-30",
+        "arbitrage": {
+          "buyVolume": "79926",
+          "sellVolume": "79926",
+          "netBuyVolume": "0"
+        },
+        "nonArbitrage": {
+          "buyVolume": "5831347",
+          "sellVolume": "4605962",
+          "netBuyVolume": "1225385"
+        }
+      },
+      {
+        "date": "2023-05-26",
+        "arbitrage": {
+          "buyVolume": "131172",
+          "sellVolume": "270369",
+          "netBuyVolume": "-139197"
+        },
+        "nonArbitrage": {
+          "buyVolume": "5821959",
+          "sellVolume": "2097654",
+          "netBuyVolume": "3724305"
+        }
+      },
+      {
+        "date": "2023-05-25",
+        "arbitrage": {
+          "buyVolume": "189636",
+          "sellVolume": "284719",
+          "netBuyVolume": "-95083"
+        },
+        "nonArbitrage": {
+          "buyVolume": "3858367",
+          "sellVolume": "3350877",
+          "netBuyVolume": "507490"
+        }
+      },
+      {
+        "date": "2023-05-24",
+        "arbitrage": {
+          "buyVolume": "174912",
+          "sellVolume": "182226",
+          "netBuyVolume": "-7314"
+        },
+        "nonArbitrage": {
+          "buyVolume": "2625382",
+          "sellVolume": "1259744",
+          "netBuyVolume": "1365638"
+        }
+      },
+      {
+        "date": "2023-05-23",
+        "arbitrage": {
+          "buyVolume": "160332",
+          "sellVolume": "160332",
+          "netBuyVolume": "0"
+        },
+        "nonArbitrage": {
+          "buyVolume": "1782221",
+          "sellVolume": "2664032",
+          "netBuyVolume": "-881811"
+        }
+      },
+      {
+        "date": "2023-05-22",
+        "arbitrage": {
+          "buyVolume": "167742",
+          "sellVolume": "167742",
+          "netBuyVolume": "0"
+        },
+        "nonArbitrage": {
+          "buyVolume": "2063925",
+          "sellVolume": "3216143",
+          "netBuyVolume": "-1152218"
+        }
+      },
+      {
+        "date": "2023-05-19",
+        "arbitrage": {
+          "buyVolume": "153066",
+          "sellVolume": "160387",
+          "netBuyVolume": "-7321"
+        },
+        "nonArbitrage": {
+          "buyVolume": "6532814",
+          "sellVolume": "1948681",
+          "netBuyVolume": "4584133"
+        }
+      },
+      {
+        "date": "2023-05-18",
+        "arbitrage": {
+          "buyVolume": "141936",
+          "sellVolume": "160607",
+          "netBuyVolume": "-18671"
+        },
+        "nonArbitrage": {
+          "buyVolume": "4020644",
+          "sellVolume": "1029269",
+          "netBuyVolume": "2991375"
+        }
+      },
+      {
+        "date": "2023-05-17",
+        "arbitrage": {
+          "buyVolume": "112037",
+          "sellVolume": "146075",
+          "netBuyVolume": "-34038"
+        },
+        "nonArbitrage": {
+          "buyVolume": "1966186",
+          "sellVolume": "2820283",
+          "netBuyVolume": "-854097"
+        }
+      },
+      {
+        "date": "2023-05-16",
+        "arbitrage": {
+          "buyVolume": "162048",
+          "sellVolume": "182570",
+          "netBuyVolume": "-20522"
+        },
+        "nonArbitrage": {
+          "buyVolume": "4174846",
+          "sellVolume": "1314064",
+          "netBuyVolume": "2860782"
+        }
+      },
+      {
+        "date": "2023-05-15",
+        "arbitrage": {
+          "buyVolume": "147189",
+          "sellVolume": "168107",
+          "netBuyVolume": "-20918"
+        },
+        "nonArbitrage": {
+          "buyVolume": "1902688",
+          "sellVolume": "1906877",
+          "netBuyVolume": "-4189"
+        }
+      },
+      {
+        "date": "2023-05-12",
+        "arbitrage": {
+          "buyVolume": "97143",
+          "sellVolume": "153157",
+          "netBuyVolume": "-56014"
+        },
+        "nonArbitrage": {
+          "buyVolume": "2282033",
+          "sellVolume": "1547632",
+          "netBuyVolume": "734401"
+        }
+      },
+      {
+        "date": "2023-05-11",
+        "arbitrage": {
+          "buyVolume": "338405",
+          "sellVolume": "328405",
+          "netBuyVolume": "10000"
+        },
+        "nonArbitrage": {
+          "buyVolume": "3095492",
+          "sellVolume": "4914776",
+          "netBuyVolume": "-1819284"
+        }
+      },
+      {
+        "date": "2023-05-10",
+        "arbitrage": {
+          "buyVolume": "138829",
+          "sellVolume": "153471",
+          "netBuyVolume": "-14642"
+        },
+        "nonArbitrage": {
+          "buyVolume": "1914663",
+          "sellVolume": "4446009",
+          "netBuyVolume": "-2531346"
+        }
+      },
+      {
+        "date": "2023-05-09",
+        "arbitrage": {
+          "buyVolume": "102252",
+          "sellVolume": "109566",
+          "netBuyVolume": "-7314"
+        },
+        "nonArbitrage": {
+          "buyVolume": "1515033",
+          "sellVolume": "2175039",
+          "netBuyVolume": "-660006"
+        }
+      },
+      {
+        "date": "2023-05-08",
+        "arbitrage": {
+          "buyVolume": "72900",
+          "sellVolume": "168080",
+          "netBuyVolume": "-95180"
+        },
+        "nonArbitrage": {
+          "buyVolume": "2312791",
+          "sellVolume": "1976641",
+          "netBuyVolume": "336150"
+        }
+      },
+      {
+        "date": "2023-05-04",
+        "arbitrage": {
+          "buyVolume": "65634",
+          "sellVolume": "190181",
+          "netBuyVolume": "-124547"
+        },
+        "nonArbitrage": {
+          "buyVolume": "2052896",
+          "sellVolume": "1539340",
+          "netBuyVolume": "513556"
+        }
+      },
+      {
+        "date": "2023-05-03",
+        "arbitrage": {
+          "buyVolume": "73140",
+          "sellVolume": "118263",
+          "netBuyVolume": "-45123"
+        },
+        "nonArbitrage": {
+          "buyVolume": "2215915",
+          "sellVolume": "1044935",
+          "netBuyVolume": "1170980"
+        }
+      },
+      {
+        "date": "2023-05-02",
+        "arbitrage": {
+          "buyVolume": "254982",
+          "sellVolume": "342841",
+          "netBuyVolume": "-87859"
+        },
+        "nonArbitrage": {
+          "buyVolume": "2703000",
+          "sellVolume": "3511161",
+          "netBuyVolume": "-808161"
+        }
+      },
+      {
+        "date": "2023-04-28",
+        "arbitrage": {
+          "buyVolume": "364740",
+          "sellVolume": "555108",
+          "netBuyVolume": "-190368"
+        },
+        "nonArbitrage": {
+          "buyVolume": "7022402",
+          "sellVolume": "4447477",
+          "netBuyVolume": "2574925"
+        }
+      },
+      {
+        "date": "2023-04-27",
+        "arbitrage": {
+          "buyVolume": "51198",
+          "sellVolume": "183821",
+          "netBuyVolume": "-132623"
+        },
+        "nonArbitrage": {
+          "buyVolume": "3024352",
+          "sellVolume": "1505945",
+          "netBuyVolume": "1518407"
+        }
+      },
+      {
+        "date": "2023-04-26",
+        "arbitrage": {
+          "buyVolume": "251388",
+          "sellVolume": "280475",
+          "netBuyVolume": "-29087"
+        },
+        "nonArbitrage": {
+          "buyVolume": "3723012",
+          "sellVolume": "2400935",
+          "netBuyVolume": "1322077"
+        }
+      },
+      {
+        "date": "2023-04-25",
+        "arbitrage": {
+          "buyVolume": "236534",
+          "sellVolume": "236534",
+          "netBuyVolume": "0"
+        },
+        "nonArbitrage": {
+          "buyVolume": "1763247",
+          "sellVolume": "1991156",
+          "netBuyVolume": "-227909"
+        }
+      },
+      {
+        "date": "2023-04-24",
+        "arbitrage": {
+          "buyVolume": "258477",
+          "sellVolume": "258477",
+          "netBuyVolume": "0"
+        },
+        "nonArbitrage": {
+          "buyVolume": "2700188",
+          "sellVolume": "2336445",
+          "netBuyVolume": "363743"
+        }
+      },
+      {
+        "date": "2023-04-21",
+        "arbitrage": {
+          "buyVolume": "206651",
+          "sellVolume": "254091",
+          "netBuyVolume": "-47440"
+        },
+        "nonArbitrage": {
+          "buyVolume": "1500068",
+          "sellVolume": "2857115",
+          "netBuyVolume": "-1357047"
+        }
+      },
+      {
+        "date": "2023-04-20",
+        "arbitrage": {
+          "buyVolume": "229050",
+          "sellVolume": "323981",
+          "netBuyVolume": "-94931"
+        },
+        "nonArbitrage": {
+          "buyVolume": "2157487",
+          "sellVolume": "1351431",
+          "netBuyVolume": "806056"
+        }
+      },
+      {
+        "date": "2023-04-19",
+        "arbitrage": {
+          "buyVolume": "206713",
+          "sellVolume": "206873",
+          "netBuyVolume": "-160"
+        },
+        "nonArbitrage": {
+          "buyVolume": "2012445",
+          "sellVolume": "1808057",
+          "netBuyVolume": "204388"
+        }
+      },
+      {
+        "date": "2023-04-18",
+        "arbitrage": {
+          "buyVolume": "132782",
+          "sellVolume": "273284",
+          "netBuyVolume": "-140502"
+        },
+        "nonArbitrage": {
+          "buyVolume": "3997697",
+          "sellVolume": "1786460",
+          "netBuyVolume": "2211237"
+        }
+      },
+      {
+        "date": "2023-04-17",
+        "arbitrage": {
+          "buyVolume": "104014",
+          "sellVolume": "132245",
+          "netBuyVolume": "-28231"
+        },
+        "nonArbitrage": {
+          "buyVolume": "3304036",
+          "sellVolume": "1399092",
+          "netBuyVolume": "1904944"
+        }
+      },
+      {
+        "date": "2023-04-14",
+        "arbitrage": {
+          "buyVolume": "206962",
+          "sellVolume": "301578",
+          "netBuyVolume": "-94616"
+        },
+        "nonArbitrage": {
+          "buyVolume": "1736182",
+          "sellVolume": "2747939",
+          "netBuyVolume": "-1011757"
+        }
+      },
+      {
+        "date": "2023-04-13",
+        "arbitrage": {
+          "buyVolume": "243850",
+          "sellVolume": "251363",
+          "netBuyVolume": "-7513"
+        },
+        "nonArbitrage": {
+          "buyVolume": "5078642",
+          "sellVolume": "4871630",
+          "netBuyVolume": "207012"
+        }
+      },
+      {
+        "date": "2023-04-12",
+        "arbitrage": {
+          "buyVolume": "155826",
+          "sellVolume": "198682",
+          "netBuyVolume": "-42856"
+        },
+        "nonArbitrage": {
+          "buyVolume": "3052182",
+          "sellVolume": "1836486",
+          "netBuyVolume": "1215696"
+        }
+      },
+      {
+        "date": "2023-04-11",
+        "arbitrage": {
+          "buyVolume": "228233",
+          "sellVolume": "242921",
+          "netBuyVolume": "-14688"
+        },
+        "nonArbitrage": {
+          "buyVolume": "3687762",
+          "sellVolume": "4154010",
+          "netBuyVolume": "-466248"
+        }
+      },
+      {
+        "date": "2023-04-10",
+        "arbitrage": {
+          "buyVolume": "81223",
+          "sellVolume": "103357",
+          "netBuyVolume": "-22134"
+        },
+        "nonArbitrage": {
+          "buyVolume": "5806628",
+          "sellVolume": "2633951",
+          "netBuyVolume": "3172677"
+        }
+      },
+      {
+        "date": "2023-04-07",
+        "arbitrage": {
+          "buyVolume": "58851",
+          "sellVolume": "124748",
+          "netBuyVolume": "-65897"
+        },
+        "nonArbitrage": {
+          "buyVolume": "13102383",
+          "sellVolume": "1357693",
+          "netBuyVolume": "11744690"
+        }
+      },
+      {
+        "date": "2023-04-06",
+        "arbitrage": {
+          "buyVolume": "22647",
+          "sellVolume": "38804",
+          "netBuyVolume": "-16157"
+        },
+        "nonArbitrage": {
+          "buyVolume": "1818292",
+          "sellVolume": "1710258",
+          "netBuyVolume": "108034"
+        }
+      },
+      {
+        "date": "2023-04-05",
+        "arbitrage": {
+          "buyVolume": "133285",
+          "sellVolume": "132556",
+          "netBuyVolume": "729"
+        },
+        "nonArbitrage": {
+          "buyVolume": "3354320",
+          "sellVolume": "1067796",
+          "netBuyVolume": "2286524"
+        }
+      },
+      {
+        "date": "2023-04-04",
+        "arbitrage": {
+          "buyVolume": "147483",
+          "sellVolume": "147471",
+          "netBuyVolume": "12"
+        },
+        "nonArbitrage": {
+          "buyVolume": "2102933",
+          "sellVolume": "1790751",
+          "netBuyVolume": "312182"
+        }
+      },
+      {
+        "date": "2023-04-03",
+        "arbitrage": {
+          "buyVolume": "53397",
+          "sellVolume": "110086",
+          "netBuyVolume": "-56689"
+        },
+        "nonArbitrage": {
+          "buyVolume": "2278331",
+          "sellVolume": "1946098",
+          "netBuyVolume": "332233"
+        }
+      },
+      {
+        "date": "2023-03-31",
+        "arbitrage": {
+          "buyVolume": "124263",
+          "sellVolume": "117043",
+          "netBuyVolume": "7220"
+        },
+        "nonArbitrage": {
+          "buyVolume": "4475895",
+          "sellVolume": "2373315",
+          "netBuyVolume": "2102580"
+        }
+      },
+      {
+        "date": "2023-03-30",
+        "arbitrage": {
+          "buyVolume": "242676",
+          "sellVolume": "381277",
+          "netBuyVolume": "-138601"
+        },
+        "nonArbitrage": {
+          "buyVolume": "3229952",
+          "sellVolume": "2177687",
+          "netBuyVolume": "1052265"
+        }
+      },
+      {
+        "date": "2023-03-29",
+        "arbitrage": {
+          "buyVolume": "227022",
+          "sellVolume": "227022",
+          "netBuyVolume": "0"
+        },
+        "nonArbitrage": {
+          "buyVolume": "2988181",
+          "sellVolume": "2083891",
+          "netBuyVolume": "904290"
+        }
+      },
+      {
+        "date": "2023-03-28",
+        "arbitrage": {
+          "buyVolume": "95364",
+          "sellVolume": "95576",
+          "netBuyVolume": "-212"
+        },
+        "nonArbitrage": {
+          "buyVolume": "2329487",
+          "sellVolume": "1648647",
+          "netBuyVolume": "680840"
+        }
+      },
+      {
+        "date": "2023-03-27",
+        "arbitrage": {
+          "buyVolume": "206108",
+          "sellVolume": "220750",
+          "netBuyVolume": "-14642"
+        },
+        "nonArbitrage": {
+          "buyVolume": "1802535",
+          "sellVolume": "2624597",
+          "netBuyVolume": "-822062"
+        }
+      },
+      {
+        "date": "2023-03-24",
+        "arbitrage": {
+          "buyVolume": "243128",
+          "sellVolume": "316027",
+          "netBuyVolume": "-72899"
+        },
+        "nonArbitrage": {
+          "buyVolume": "5924260",
+          "sellVolume": "1818132",
+          "netBuyVolume": "4106128"
+        }
+      },
+      {
+        "date": "2023-03-23",
+        "arbitrage": {
+          "buyVolume": "162371",
+          "sellVolume": "235183",
+          "netBuyVolume": "-72812"
+        },
+        "nonArbitrage": {
+          "buyVolume": "4436431",
+          "sellVolume": "1997357",
+          "netBuyVolume": "2439074"
+        }
+      },
+      {
+        "date": "2023-03-22",
+        "arbitrage": {
+          "buyVolume": "110321",
+          "sellVolume": "131923",
+          "netBuyVolume": "-21602"
+        },
+        "nonArbitrage": {
+          "buyVolume": "1710681",
+          "sellVolume": "1016231",
+          "netBuyVolume": "694450"
+        }
+      },
+      {
+        "date": "2023-03-21",
+        "arbitrage": {
+          "buyVolume": "286338",
+          "sellVolume": "286092",
+          "netBuyVolume": "246"
+        },
+        "nonArbitrage": {
+          "buyVolume": "1326871",
+          "sellVolume": "1635862",
+          "netBuyVolume": "-308991"
+        }
+      },
+      {
+        "date": "2023-03-20",
+        "arbitrage": {
+          "buyVolume": "235398",
+          "sellVolume": "235398",
+          "netBuyVolume": "0"
+        },
+        "nonArbitrage": {
+          "buyVolume": "693852",
+          "sellVolume": "2305298",
+          "netBuyVolume": "-1611446"
+        }
+      },
+      {
+        "date": "2023-03-17",
+        "arbitrage": {
+          "buyVolume": "250641",
+          "sellVolume": "295457",
+          "netBuyVolume": "-44816"
+        },
+        "nonArbitrage": {
+          "buyVolume": "4376267",
+          "sellVolume": "2731350",
+          "netBuyVolume": "1644917"
+        }
+      },
+      {
+        "date": "2023-03-16",
+        "arbitrage": {
+          "buyVolume": "257941",
+          "sellVolume": "287038",
+          "netBuyVolume": "-29097"
+        },
+        "nonArbitrage": {
+          "buyVolume": "1827438",
+          "sellVolume": "1693992",
+          "netBuyVolume": "133446"
+        }
+      },
+      {
+        "date": "2023-03-15",
+        "arbitrage": {
+          "buyVolume": "125902",
+          "sellVolume": "183918",
+          "netBuyVolume": "-58016"
+        },
+        "nonArbitrage": {
+          "buyVolume": "3011411",
+          "sellVolume": "2603179",
+          "netBuyVolume": "408232"
+        }
+      },
+      {
+        "date": "2023-03-14",
+        "arbitrage": {
+          "buyVolume": "316462",
+          "sellVolume": "400858",
+          "netBuyVolume": "-84396"
+        },
+        "nonArbitrage": {
+          "buyVolume": "1480065",
+          "sellVolume": "3232687",
+          "netBuyVolume": "-1752622"
+        }
+      },
+      {
+        "date": "2023-03-13",
+        "arbitrage": {
+          "buyVolume": "383588",
+          "sellVolume": "376020",
+          "netBuyVolume": "7568"
+        },
+        "nonArbitrage": {
+          "buyVolume": "2875983",
+          "sellVolume": "2241106",
+          "netBuyVolume": "634877"
+        }
+      },
+      {
+        "date": "2023-03-10",
+        "arbitrage": {
+          "buyVolume": "132749",
+          "sellVolume": "395613",
+          "netBuyVolume": "-262864"
+        },
+        "nonArbitrage": {
+          "buyVolume": "1065940",
+          "sellVolume": "2351313",
+          "netBuyVolume": "-1285373"
+        }
+      },
+      {
+        "date": "2023-03-09",
+        "arbitrage": {
+          "buyVolume": "272390",
+          "sellVolume": "807979",
+          "netBuyVolume": "-535589"
+        },
+        "nonArbitrage": {
+          "buyVolume": "4069838",
+          "sellVolume": "5390543",
+          "netBuyVolume": "-1320705"
+        }
+      },
+      {
+        "date": "2023-03-08",
+        "arbitrage": {
+          "buyVolume": "29192",
+          "sellVolume": "725746",
+          "netBuyVolume": "-696554"
+        },
+        "nonArbitrage": {
+          "buyVolume": "3332334",
+          "sellVolume": "3165120",
+          "netBuyVolume": "167214"
+        }
+      },
+      {
+        "date": "2023-03-07",
+        "arbitrage": {
+          "buyVolume": "95708",
+          "sellVolume": "124625",
+          "netBuyVolume": "-28917"
+        },
+        "nonArbitrage": {
+          "buyVolume": "1767771",
+          "sellVolume": "2432947",
+          "netBuyVolume": "-665176"
+        }
+      },
+      {
+        "date": "2023-03-06",
+        "arbitrage": {
+          "buyVolume": "140662",
+          "sellVolume": "146925",
+          "netBuyVolume": "-6263"
+        },
+        "nonArbitrage": {
+          "buyVolume": "3411387",
+          "sellVolume": "2128116",
+          "netBuyVolume": "1283271"
+        }
+      },
+      {
+        "date": "2023-03-03",
+        "arbitrage": {
+          "buyVolume": "81364",
+          "sellVolume": "205270",
+          "netBuyVolume": "-123906"
+        },
+        "nonArbitrage": {
+          "buyVolume": "766547",
+          "sellVolume": "3919627",
+          "netBuyVolume": "-3153080"
+        }
+      },
+      {
+        "date": "2023-03-02",
+        "arbitrage": {
+          "buyVolume": "88727",
+          "sellVolume": "234579",
+          "netBuyVolume": "-145852"
+        },
+        "nonArbitrage": {
+          "buyVolume": "3718572",
+          "sellVolume": "2190923",
+          "netBuyVolume": "1527649"
+        }
+      },
+      {
+        "date": "2023-02-28",
+        "arbitrage": {
+          "buyVolume": "124458",
+          "sellVolume": "175737",
+          "netBuyVolume": "-51279"
+        },
+        "nonArbitrage": {
+          "buyVolume": "4120053",
+          "sellVolume": "3933706",
+          "netBuyVolume": "186347"
+        }
+      },
+      {
+        "date": "2023-02-27",
+        "arbitrage": {
+          "buyVolume": "59359",
+          "sellVolume": "183200",
+          "netBuyVolume": "-123841"
+        },
+        "nonArbitrage": {
+          "buyVolume": "2077113",
+          "sellVolume": "1206656",
+          "netBuyVolume": "870457"
+        }
+      },
+      {
+        "date": "2023-02-24",
+        "arbitrage": {
+          "buyVolume": "110072",
+          "sellVolume": "196276",
+          "netBuyVolume": "-86204"
+        },
+        "nonArbitrage": {
+          "buyVolume": "1413751",
+          "sellVolume": "2520451",
+          "netBuyVolume": "-1106700"
+        }
+      },
+      {
+        "date": "2023-02-23",
+        "arbitrage": {
+          "buyVolume": "176386",
+          "sellVolume": "205309",
+          "netBuyVolume": "-28923"
+        },
+        "nonArbitrage": {
+          "buyVolume": "2961145",
+          "sellVolume": "3235279",
+          "netBuyVolume": "-274134"
+        }
+      },
+      {
+        "date": "2023-02-22",
+        "arbitrage": {
+          "buyVolume": "36944",
+          "sellVolume": "103011",
+          "netBuyVolume": "-66067"
+        },
+        "nonArbitrage": {
+          "buyVolume": "2071047",
+          "sellVolume": "2075958",
+          "netBuyVolume": "-4911"
+        }
+      },
+      {
+        "date": "2023-02-21",
+        "arbitrage": {
+          "buyVolume": "154384",
+          "sellVolume": "190542",
+          "netBuyVolume": "-36158"
+        },
+        "nonArbitrage": {
+          "buyVolume": "1124817",
+          "sellVolume": "1045386",
+          "netBuyVolume": "79431"
+        }
+      },
+      {
+        "date": "2023-02-20",
+        "arbitrage": {
+          "buyVolume": "161937",
+          "sellVolume": "205549",
+          "netBuyVolume": "-43612"
+        },
+        "nonArbitrage": {
+          "buyVolume": "848098",
+          "sellVolume": "2835421",
+          "netBuyVolume": "-1987323"
+        }
+      },
+      {
+        "date": "2023-02-17",
+        "arbitrage": {
+          "buyVolume": "89029",
+          "sellVolume": "410492",
+          "netBuyVolume": "-321463"
+        },
+        "nonArbitrage": {
+          "buyVolume": "2490837",
+          "sellVolume": "2061026",
+          "netBuyVolume": "429811"
+        }
+      },
+      {
+        "date": "2023-02-16",
+        "arbitrage": {
+          "buyVolume": "520542",
+          "sellVolume": "161506",
+          "netBuyVolume": "359036"
+        },
+        "nonArbitrage": {
+          "buyVolume": "3133941",
+          "sellVolume": "1924523",
+          "netBuyVolume": "1209418"
+        }
+      },
+      {
+        "date": "2023-02-15",
+        "arbitrage": {
+          "buyVolume": "124551",
+          "sellVolume": "370107",
+          "netBuyVolume": "-245556"
+        },
+        "nonArbitrage": {
+          "buyVolume": "2743731",
+          "sellVolume": "2274523",
+          "netBuyVolume": "469208"
+        }
+      },
+      {
+        "date": "2023-02-14",
+        "arbitrage": {
+          "buyVolume": "315948",
+          "sellVolume": "328013",
+          "netBuyVolume": "-12065"
+        },
+        "nonArbitrage": {
+          "buyVolume": "2418545",
+          "sellVolume": "2415226",
+          "netBuyVolume": "3319"
+        }
+      },
+      {
+        "date": "2023-02-13",
+        "arbitrage": {
+          "buyVolume": "264765",
+          "sellVolume": "694358",
+          "netBuyVolume": "-429593"
+        },
+        "nonArbitrage": {
+          "buyVolume": "2000093",
+          "sellVolume": "1964698",
+          "netBuyVolume": "35395"
+        }
+      },
+      {
+        "date": "2023-02-10",
+        "arbitrage": {
+          "buyVolume": "205896",
+          "sellVolume": "624020",
+          "netBuyVolume": "-418124"
+        },
+        "nonArbitrage": {
+          "buyVolume": "1927631",
+          "sellVolume": "1263226",
+          "netBuyVolume": "664405"
+        }
+      },
+      {
+        "date": "2023-02-09",
+        "arbitrage": {
+          "buyVolume": "177596",
+          "sellVolume": "300596",
+          "netBuyVolume": "-123000"
+        },
+        "nonArbitrage": {
+          "buyVolume": "3042519",
+          "sellVolume": "2032259",
+          "netBuyVolume": "1010260"
+        }
+      },
+      {
+        "date": "2023-02-08",
+        "arbitrage": {
+          "buyVolume": "162321",
+          "sellVolume": "264173",
+          "netBuyVolume": "-101852"
+        },
+        "nonArbitrage": {
+          "buyVolume": "2862665",
+          "sellVolume": "1979378",
+          "netBuyVolume": "883287"
+        }
+      },
+      {
+        "date": "2023-02-07",
+        "arbitrage": {
+          "buyVolume": "140445",
+          "sellVolume": "219912",
+          "netBuyVolume": "-79467"
+        },
+        "nonArbitrage": {
+          "buyVolume": "2827306",
+          "sellVolume": "2880360",
+          "netBuyVolume": "-53054"
+        }
+      },
+      {
+        "date": "2023-02-06",
+        "arbitrage": {
+          "buyVolume": "111530",
+          "sellVolume": "205487",
+          "netBuyVolume": "-93957"
+        },
+        "nonArbitrage": {
+          "buyVolume": "1447318",
+          "sellVolume": "3627989",
+          "netBuyVolume": "-2180671"
+        }
+      },
+      {
+        "date": "2023-02-03",
+        "arbitrage": {
+          "buyVolume": "376219",
+          "sellVolume": "446777",
+          "netBuyVolume": "-70558"
+        },
+        "nonArbitrage": {
+          "buyVolume": "5742941",
+          "sellVolume": "2289953",
+          "netBuyVolume": "3452988"
+        }
+      },
+      {
+        "date": "2023-02-02",
+        "arbitrage": {
+          "buyVolume": "331703",
+          "sellVolume": "344525",
+          "netBuyVolume": "-12822"
+        },
+        "nonArbitrage": {
+          "buyVolume": "6497486",
+          "sellVolume": "4169395",
+          "netBuyVolume": "2328091"
+        }
+      },
+      {
+        "date": "2023-02-01",
+        "arbitrage": {
+          "buyVolume": "156351",
+          "sellVolume": "271611",
+          "netBuyVolume": "-115260"
+        },
+        "nonArbitrage": {
+          "buyVolume": "4339417",
+          "sellVolume": "3312178",
+          "netBuyVolume": "1027239"
+        }
+      },
+      {
+        "date": "2023-01-31",
+        "arbitrage": {
+          "buyVolume": "303388",
+          "sellVolume": "360053",
+          "netBuyVolume": "-56665"
+        },
+        "nonArbitrage": {
+          "buyVolume": "4589542",
+          "sellVolume": "7317164",
+          "netBuyVolume": "-2727622"
+        }
+      },
+      {
+        "date": "2023-01-30",
+        "arbitrage": {
+          "buyVolume": "323764",
+          "sellVolume": "367753",
+          "netBuyVolume": "-43989"
+        },
+        "nonArbitrage": {
+          "buyVolume": "4004425",
+          "sellVolume": "2775777",
+          "netBuyVolume": "1228648"
+        }
+      },
+      {
+        "date": "2023-01-27",
+        "arbitrage": {
+          "buyVolume": "264659",
+          "sellVolume": "294768",
+          "netBuyVolume": "-30109"
+        },
+        "nonArbitrage": {
+          "buyVolume": "4634481",
+          "sellVolume": "2828817",
+          "netBuyVolume": "1805664"
+        }
+      },
+      {
+        "date": "2023-01-26",
+        "arbitrage": {
+          "buyVolume": "290704",
+          "sellVolume": "132438",
+          "netBuyVolume": "158266"
+        },
+        "nonArbitrage": {
+          "buyVolume": "4483037",
+          "sellVolume": "1978296",
+          "netBuyVolume": "2504741"
+        }
+      },
+      {
+        "date": "2023-01-25",
+        "arbitrage": {
+          "buyVolume": "148234",
+          "sellVolume": "169051",
+          "netBuyVolume": "-20817"
+        },
+        "nonArbitrage": {
+          "buyVolume": "5453751",
+          "sellVolume": "2096529",
+          "netBuyVolume": "3357222"
+        }
+      },
+      {
+        "date": "2023-01-20",
+        "arbitrage": {
+          "buyVolume": "52791",
+          "sellVolume": "81035",
+          "netBuyVolume": "-28244"
+        },
+        "nonArbitrage": {
+          "buyVolume": "3396318",
+          "sellVolume": "2608472",
+          "netBuyVolume": "787846"
+        }
+      },
+      {
+        "date": "2023-01-19",
+        "arbitrage": {
+          "buyVolume": "218587",
+          "sellVolume": "118159",
+          "netBuyVolume": "100428"
+        },
+        "nonArbitrage": {
+          "buyVolume": "4615338",
+          "sellVolume": "1669611",
+          "netBuyVolume": "2945727"
+        }
+      },
+      {
+        "date": "2023-01-18",
+        "arbitrage": {
+          "buyVolume": "66483",
+          "sellVolume": "95795",
+          "netBuyVolume": "-29312"
+        },
+        "nonArbitrage": {
+          "buyVolume": "2402874",
+          "sellVolume": "3235084",
+          "netBuyVolume": "-832210"
+        }
+      },
+      {
+        "date": "2023-01-17",
+        "arbitrage": {
+          "buyVolume": "256875",
+          "sellVolume": "81112",
+          "netBuyVolume": "175763"
+        },
+        "nonArbitrage": {
+          "buyVolume": "2150094",
+          "sellVolume": "1263349",
+          "netBuyVolume": "886745"
+        }
+      },
+      {
+        "date": "2023-01-16",
+        "arbitrage": {
+          "buyVolume": "129980",
+          "sellVolume": "88789",
+          "netBuyVolume": "41191"
+        },
+        "nonArbitrage": {
+          "buyVolume": "1888664",
+          "sellVolume": "1674088",
+          "netBuyVolume": "214576"
+        }
+      },
+      {
+        "date": "2023-01-13",
+        "arbitrage": {
+          "buyVolume": "396721",
+          "sellVolume": "213623",
+          "netBuyVolume": "183098"
+        },
+        "nonArbitrage": {
+          "buyVolume": "2561918",
+          "sellVolume": "2055452",
+          "netBuyVolume": "506466"
+        }
+      },
+      {
+        "date": "2023-01-12",
+        "arbitrage": {
+          "buyVolume": "476295",
+          "sellVolume": "51576",
+          "netBuyVolume": "424719"
+        },
+        "nonArbitrage": {
+          "buyVolume": "4195224",
+          "sellVolume": "5133832",
+          "netBuyVolume": "-938608"
+        }
+      },
+      {
+        "date": "2023-01-11",
+        "arbitrage": {
+          "buyVolume": "154659",
+          "sellVolume": "176637",
+          "netBuyVolume": "-21978"
+        },
+        "nonArbitrage": {
+          "buyVolume": "2487332",
+          "sellVolume": "2044856",
+          "netBuyVolume": "442476"
+        }
+      }
+    ]
+  }
+}

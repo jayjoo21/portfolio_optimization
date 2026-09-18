@@ -1,0 +1,5007 @@
+{
+  "result": {
+    "nextUntil": "2025-11-25",
+    "records": [
+      {
+        "date": "2026-04-23",
+        "updatedAt": "2026-04-23T20:00:02.000+09:00",
+        "individual": {
+          "buyAmount": "44029469813059",
+          "sellAmount": "43575053772377"
+        },
+        "foreigner": {
+          "buyAmount": "15399379153641",
+          "sellAmount": "15796641765460"
+        },
+        "institution": {
+          "buyAmount": "9687550034932",
+          "sellAmount": "9680221283282",
+          "breakdown": {
+            "financialInvestment": {
+              "buyAmount": "3338738160130",
+              "sellAmount": "3018887816357"
+            },
+            "insurance": {
+              "buyAmount": "90621565174",
+              "sellAmount": "193707196174"
+            },
+            "trust": {
+              "buyAmount": "414118084192",
+              "sellAmount": "636349752458"
+            },
+            "privateEquityFund": {
+              "buyAmount": "510720573396",
+              "sellAmount": "512249857931"
+            },
+            "bank": {
+              "buyAmount": "16144693919",
+              "sellAmount": "17500364657"
+            },
+            "otherFinancialInstitution": {
+              "buyAmount": "12708281980",
+              "sellAmount": "19649760526"
+            },
+            "pensionFund": {
+              "buyAmount": "5304498676141",
+              "sellAmount": "5281876535179"
+            }
+          }
+        },
+        "otherCorporation": {
+          "buyAmount": "710409795628",
+          "sellAmount": "774891976141"
+        }
+      },
+      {
+        "date": "2026-04-22",
+        "updatedAt": "2026-04-22T20:00:02.000+09:00",
+        "individual": {
+          "buyAmount": "36908289737804",
+          "sellAmount": "35145477722946"
+        },
+        "foreigner": {
+          "buyAmount": "11648319441080",
+          "sellAmount": "12369654747076"
+        },
+        "institution": {
+          "buyAmount": "6380118902122",
+          "sellAmount": "7299312257965",
+          "breakdown": {
+            "financialInvestment": {
+              "buyAmount": "1785624301430",
+              "sellAmount": "2660333939834"
+            },
+            "insurance": {
+              "buyAmount": "103804334198",
+              "sellAmount": "130788956827"
+            },
+            "trust": {
+              "buyAmount": "553141648054",
+              "sellAmount": "523338980573"
+            },
+            "privateEquityFund": {
+              "buyAmount": "388382571002",
+              "sellAmount": "533938593927"
+            },
+            "bank": {
+              "buyAmount": "12443177427",
+              "sellAmount": "6956721613"
+            },
+            "otherFinancialInstitution": {
+              "buyAmount": "10991327232",
+              "sellAmount": "16330014051"
+            },
+            "pensionFund": {
+              "buyAmount": "3525731542779",
+              "sellAmount": "3427625051140"
+            }
+          }
+        },
+        "otherCorporation": {
+          "buyAmount": "531555051965",
+          "sellAmount": "653838404984"
+        }
+      },
+      {
+        "date": "2026-04-21",
+        "updatedAt": "2026-04-21T20:00:02.000+09:00",
+        "individual": {
+          "buyAmount": "33117297107622",
+          "sellAmount": "35415130469639"
+        },
+        "foreigner": {
+          "buyAmount": "11837328015617",
+          "sellAmount": "10285972242802"
+        },
+        "institution": {
+          "buyAmount": "7382147526855",
+          "sellAmount": "6436038376699",
+          "breakdown": {
+            "financialInvestment": {
+              "buyAmount": "2691269831635",
+              "sellAmount": "1689561840508"
+            },
+            "insurance": {
+              "buyAmount": "114618571665",
+              "sellAmount": "213562916090"
+            },
+            "trust": {
+              "buyAmount": "494371106149",
+              "sellAmount": "509691707189"
+            },
+            "privateEquityFund": {
+              "buyAmount": "575459639761",
+              "sellAmount": "548545755648"
+            },
+            "bank": {
+              "buyAmount": "10004385246",
+              "sellAmount": "30575219196"
+            },
+            "otherFinancialInstitution": {
+              "buyAmount": "7543405055",
+              "sellAmount": "17486154355"
+            },
+            "pensionFund": {
+              "buyAmount": "3488880587344",
+              "sellAmount": "3426614783713"
+            }
+          }
+        },
+        "otherCorporation": {
+          "buyAmount": "424269224082",
+          "sellAmount": "623900785036"
+        }
+      },
+      {
+        "date": "2026-04-20",
+        "updatedAt": "2026-04-20T20:00:02.000+09:00",
+        "individual": {
+          "buyAmount": "22990261888035",
+          "sellAmount": "23408365149814"
+        },
+        "foreigner": {
+          "buyAmount": "9619145282684",
+          "sellAmount": "9873408311964"
+        },
+        "institution": {
+          "buyAmount": "5436592246657",
+          "sellAmount": "5010890230365",
+          "breakdown": {
+            "financialInvestment": {
+              "buyAmount": "1972276426709",
+              "sellAmount": "1312274588647"
+            },
+            "insurance": {
+              "buyAmount": "59241288359",
+              "sellAmount": "120238726400"
+            },
+            "trust": {
+              "buyAmount": "339689430814",
+              "sellAmount": "380012750273"
+            },
+            "privateEquityFund": {
+              "buyAmount": "249675534809",
+              "sellAmount": "382579121498"
+            },
+            "bank": {
+              "buyAmount": "8012125569",
+              "sellAmount": "4748275301"
+            },
+            "otherFinancialInstitution": {
+              "buyAmount": "3554372140",
+              "sellAmount": "15302511625"
+            },
+            "pensionFund": {
+              "buyAmount": "2804143068257",
+              "sellAmount": "2795734256621"
+            }
+          }
+        },
+        "otherCorporation": {
+          "buyAmount": "655557876017",
+          "sellAmount": "408893601250"
+        }
+      },
+      {
+        "date": "2026-04-17",
+        "updatedAt": "2026-04-17T20:00:02.000+09:00",
+        "individual": {
+          "buyAmount": "24427438678878",
+          "sellAmount": "22706577233320"
+        },
+        "foreigner": {
+          "buyAmount": "9392121799806",
+          "sellAmount": "11578522237692"
+        },
+        "institution": {
+          "buyAmount": "5174057509102",
+          "sellAmount": "5117877016333",
+          "breakdown": {
+            "financialInvestment": {
+              "buyAmount": "1892706199601",
+              "sellAmount": "1500915337369"
+            },
+            "insurance": {
+              "buyAmount": "88832902232",
+              "sellAmount": "151030482219"
+            },
+            "trust": {
+              "buyAmount": "304935389229",
+              "sellAmount": "341256776868"
+            },
+            "privateEquityFund": {
+              "buyAmount": "270268405758",
+              "sellAmount": "403594847162"
+            },
+            "bank": {
+              "buyAmount": "11672237459",
+              "sellAmount": "20192912175"
+            },
+            "otherFinancialInstitution": {
+              "buyAmount": "4475165570",
+              "sellAmount": "23310451445"
+            },
+            "pensionFund": {
+              "buyAmount": "2601167209253",
+              "sellAmount": "2677576209095"
+            }
+          }
+        },
+        "otherCorporation": {
+          "buyAmount": "788725875340",
+          "sellAmount": "379367375781"
+        }
+      },
+      {
+        "date": "2026-04-16",
+        "updatedAt": "2026-04-16T20:00:02.000+09:00",
+        "individual": {
+          "buyAmount": "27164016302541",
+          "sellAmount": "28963826261949"
+        },
+        "foreigner": {
+          "buyAmount": "10348847235664",
+          "sellAmount": "9679098477232"
+        },
+        "institution": {
+          "buyAmount": "6655806438787",
+          "sellAmount": "5773738223502",
+          "breakdown": {
+            "financialInvestment": {
+              "buyAmount": "2413020087011",
+              "sellAmount": "1345426050245"
+            },
+            "insurance": {
+              "buyAmount": "55891881693",
+              "sellAmount": "100565375320"
+            },
+            "trust": {
+              "buyAmount": "373655282294",
+              "sellAmount": "434563583097"
+            },
+            "privateEquityFund": {
+              "buyAmount": "352438616301",
+              "sellAmount": "383415168967"
+            },
+            "bank": {
+              "buyAmount": "16508884706",
+              "sellAmount": "17190764793"
+            },
+            "otherFinancialInstitution": {
+              "buyAmount": "6018700565",
+              "sellAmount": "24842426785"
+            },
+            "pensionFund": {
+              "buyAmount": "3438272986217",
+              "sellAmount": "3467734854295"
+            }
+          }
+        },
+        "otherCorporation": {
+          "buyAmount": "786829229215",
+          "sellAmount": "538836243524"
+        }
+      },
+      {
+        "date": "2026-04-15",
+        "updatedAt": "2026-04-15T20:00:02.000+09:00",
+        "individual": {
+          "buyAmount": "29819534517082",
+          "sellAmount": "30562625436499"
+        },
+        "foreigner": {
+          "buyAmount": "12183107730374",
+          "sellAmount": "11671644594008"
+        },
+        "institution": {
+          "buyAmount": "7481146136025",
+          "sellAmount": "7617557231801",
+          "breakdown": {
+            "financialInvestment": {
+              "buyAmount": "2867318296751",
+              "sellAmount": "2292465173318"
+            },
+            "insurance": {
+              "buyAmount": "86590554583",
+              "sellAmount": "232568719845"
+            },
+            "trust": {
+              "buyAmount": "419010147828",
+              "sellAmount": "656780655668"
+            },
+            "privateEquityFund": {
+              "buyAmount": "415943620357",
+              "sellAmount": "629482317666"
+            },
+            "bank": {
+              "buyAmount": "26558584566",
+              "sellAmount": "25650172760"
+            },
+            "otherFinancialInstitution": {
+              "buyAmount": "11941351715",
+              "sellAmount": "12165734845"
+            },
+            "pensionFund": {
+              "buyAmount": "3653783580225",
+              "sellAmount": "3768444457699"
+            }
+          }
+        },
+        "otherCorporation": {
+          "buyAmount": "858093338542",
+          "sellAmount": "490054459715"
+        }
+      },
+      {
+        "date": "2026-04-14",
+        "updatedAt": "2026-04-14T20:00:02.000+09:00",
+        "individual": {
+          "buyAmount": "26346222459704",
+          "sellAmount": "28955243774341"
+        },
+        "foreigner": {
+          "buyAmount": "11323178608587",
+          "sellAmount": "10417819885782"
+        },
+        "institution": {
+          "buyAmount": "7043171483718",
+          "sellAmount": "5631856044210",
+          "breakdown": {
+            "financialInvestment": {
+              "buyAmount": "3157655901239",
+              "sellAmount": "1671782377848"
+            },
+            "insurance": {
+              "buyAmount": "94316176395",
+              "sellAmount": "159655766455"
+            },
+            "trust": {
+              "buyAmount": "442203585070",
+              "sellAmount": "474036516881"
+            },
+            "privateEquityFund": {
+              "buyAmount": "419052347354",
+              "sellAmount": "352156374244"
+            },
+            "bank": {
+              "buyAmount": "12693045104",
+              "sellAmount": "25614499988"
+            },
+            "otherFinancialInstitution": {
+              "buyAmount": "6583075100",
+              "sellAmount": "12236538835"
+            },
+            "pensionFund": {
+              "buyAmount": "2910667353456",
+              "sellAmount": "2936373969959"
+            }
+          }
+        },
+        "otherCorporation": {
+          "buyAmount": "767189380426",
+          "sellAmount": "474842228102"
+        }
+      },
+      {
+        "date": "2026-04-13",
+        "updatedAt": "2026-04-13T20:00:02.000+09:00",
+        "individual": {
+          "buyAmount": "20497600458296",
+          "sellAmount": "19516621017087"
+        },
+        "foreigner": {
+          "buyAmount": "8559333254006",
+          "sellAmount": "8992239553328"
+        },
+        "institution": {
+          "buyAmount": "4849849529814",
+          "sellAmount": "5803571223596",
+          "breakdown": {
+            "financialInvestment": {
+              "buyAmount": "1417230763608",
+              "sellAmount": "2118458536557"
+            },
+            "insurance": {
+              "buyAmount": "86376387666",
+              "sellAmount": "115875845721"
+            },
+            "trust": {
+              "buyAmount": "590350873380",
+              "sellAmount": "519161713805"
+            },
+            "privateEquityFund": {
+              "buyAmount": "262130603127",
+              "sellAmount": "415602981328"
+            },
+            "bank": {
+              "buyAmount": "24372601123",
+              "sellAmount": "3593708182"
+            },
+            "otherFinancialInstitution": {
+              "buyAmount": "18983773698",
+              "sellAmount": "6977290735"
+            },
+            "pensionFund": {
+              "buyAmount": "2450404527212",
+              "sellAmount": "2623901147268"
+            }
+          }
+        },
+        "otherCorporation": {
+          "buyAmount": "689152849740",
+          "sellAmount": "283504297845"
+        }
+      },
+      {
+        "date": "2026-04-10",
+        "updatedAt": "2026-04-10T20:00:02.000+09:00",
+        "individual": {
+          "buyAmount": "22215029124763",
+          "sellAmount": "23445428433866"
+        },
+        "foreigner": {
+          "buyAmount": "9949530114687",
+          "sellAmount": "8978567030547"
+        },
+        "institution": {
+          "buyAmount": "5255440289581",
+          "sellAmount": "5387689154984",
+          "breakdown": {
+            "financialInvestment": {
+              "buyAmount": "1624280254475",
+              "sellAmount": "1444928589554"
+            },
+            "insurance": {
+              "buyAmount": "55548660277",
+              "sellAmount": "77098456408"
+            },
+            "trust": {
+              "buyAmount": "712208619644",
+              "sellAmount": "920518630350"
+            },
+            "privateEquityFund": {
+              "buyAmount": "448959720187",
+              "sellAmount": "481645225515"
+            },
+            "bank": {
+              "buyAmount": "3358837400",
+              "sellAmount": "25160917520"
+            },
+            "otherFinancialInstitution": {
+              "buyAmount": "74187578860",
+              "sellAmount": "59871169968"
+            },
+            "pensionFund": {
+              "buyAmount": "2336896618738",
+              "sellAmount": "2378466165669"
+            }
+          }
+        },
+        "otherCorporation": {
+          "buyAmount": "704591300883",
+          "sellAmount": "312906210517"
+        }
+      },
+      {
+        "date": "2026-04-09",
+        "updatedAt": "2026-04-09T20:00:02.000+09:00",
+        "individual": {
+          "buyAmount": "26921983876532",
+          "sellAmount": "26506829909683"
+        },
+        "foreigner": {
+          "buyAmount": "15277401321257",
+          "sellAmount": "13743527411846"
+        },
+        "institution": {
+          "buyAmount": "8291922365461",
+          "sellAmount": "10651034861407",
+          "breakdown": {
+            "financialInvestment": {
+              "buyAmount": "3804018748615",
+              "sellAmount": "3108380116881"
+            },
+            "insurance": {
+              "buyAmount": "100803801113",
+              "sellAmount": "67362852963"
+            },
+            "trust": {
+              "buyAmount": "568988836282",
+              "sellAmount": "566283354026"
+            },
+            "privateEquityFund": {
+              "buyAmount": "506776274754",
+              "sellAmount": "511698790947"
+            },
+            "bank": {
+              "buyAmount": "4900941850",
+              "sellAmount": "3116554138428"
+            },
+            "otherFinancialInstitution": {
+              "buyAmount": "25643140575",
+              "sellAmount": "4831843255"
+            },
+            "pensionFund": {
+              "buyAmount": "3280790622272",
+              "sellAmount": "3275923764907"
+            }
+          }
+        },
+        "otherCorporation": {
+          "buyAmount": "723176994937",
+          "sellAmount": "313092375251"
+        }
+      },
+      {
+        "date": "2026-04-08",
+        "updatedAt": "2026-04-08T20:00:02.000+09:00",
+        "individual": {
+          "buyAmount": "36177937774090",
+          "sellAmount": "43178481470185"
+        },
+        "foreigner": {
+          "buyAmount": "15051402288715",
+          "sellAmount": "12592860699805"
+        },
+        "institution": {
+          "buyAmount": "11938694719212",
+          "sellAmount": "8167600405966",
+          "breakdown": {
+            "financialInvestment": {
+              "buyAmount": "6160184183879",
+              "sellAmount": "2489619416272"
+            },
+            "insurance": {
+              "buyAmount": "114195728140",
+              "sellAmount": "178946669236"
+            },
+            "trust": {
+              "buyAmount": "599272367518",
+              "sellAmount": "573448949282"
+            },
+            "privateEquityFund": {
+              "buyAmount": "874042472211",
+              "sellAmount": "538101529966"
+            },
+            "bank": {
+              "buyAmount": "24861437837",
+              "sellAmount": "18843909911"
+            },
+            "otherFinancialInstitution": {
+              "buyAmount": "21166007665",
+              "sellAmount": "14971229735"
+            },
+            "pensionFund": {
+              "buyAmount": "4144972521962",
+              "sellAmount": "4353668701564"
+            }
+          }
+        },
+        "otherCorporation": {
+          "buyAmount": "1474879244427",
+          "sellAmount": "703971450488"
+        }
+      },
+      {
+        "date": "2026-04-07",
+        "updatedAt": "2026-04-07T20:00:02.000+09:00",
+        "individual": {
+          "buyAmount": "26170978588651",
+          "sellAmount": "26647697608023"
+        },
+        "foreigner": {
+          "buyAmount": "8702161226103",
+          "sellAmount": "8390290686858"
+        },
+        "institution": {
+          "buyAmount": "5816840526065",
+          "sellAmount": "6054956253676",
+          "breakdown": {
+            "financialInvestment": {
+              "buyAmount": "1795453449762",
+              "sellAmount": "2018949615305"
+            },
+            "insurance": {
+              "buyAmount": "84504076316",
+              "sellAmount": "71861299497"
+            },
+            "trust": {
+              "buyAmount": "446820222219",
+              "sellAmount": "356954657926"
+            },
+            "privateEquityFund": {
+              "buyAmount": "371856566721",
+              "sellAmount": "435908545413"
+            },
+            "bank": {
+              "buyAmount": "4217310425",
+              "sellAmount": "887405200"
+            },
+            "otherFinancialInstitution": {
+              "buyAmount": "34728661705",
+              "sellAmount": "9428162528"
+            },
+            "pensionFund": {
+              "buyAmount": "3079260238917",
+              "sellAmount": "3160966567807"
+            }
+          }
+        },
+        "otherCorporation": {
+          "buyAmount": "804420973592",
+          "sellAmount": "401456765854"
+        }
+      },
+      {
+        "date": "2026-04-06",
+        "updatedAt": "2026-04-06T20:00:02.000+09:00",
+        "individual": {
+          "buyAmount": "25299902246181",
+          "sellAmount": "26275955004025"
+        },
+        "foreigner": {
+          "buyAmount": "6352779202143",
+          "sellAmount": "6563057104212"
+        },
+        "institution": {
+          "buyAmount": "5614130048125",
+          "sellAmount": "4837206023650",
+          "breakdown": {
+            "financialInvestment": {
+              "buyAmount": "2132367678123",
+              "sellAmount": "1311947331651"
+            },
+            "insurance": {
+              "buyAmount": "70616902680",
+              "sellAmount": "60705010798"
+            },
+            "trust": {
+              "buyAmount": "370655886144",
+              "sellAmount": "283750981292"
+            },
+            "privateEquityFund": {
+              "buyAmount": "429525133573",
+              "sellAmount": "499803281195"
+            },
+            "bank": {
+              "buyAmount": "14002395617",
+              "sellAmount": "27500977170"
+            },
+            "otherFinancialInstitution": {
+              "buyAmount": "36589040895",
+              "sellAmount": "8120378427"
+            },
+            "pensionFund": {
+              "buyAmount": "2560373011093",
+              "sellAmount": "2645378063117"
+            }
+          }
+        },
+        "otherCorporation": {
+          "buyAmount": "2452526072215",
+          "sellAmount": "2043119436777"
+        }
+      },
+      {
+        "date": "2026-04-03",
+        "updatedAt": "2026-04-03T20:01:32.000+09:00",
+        "individual": {
+          "buyAmount": "22464642227823",
+          "sellAmount": "24901723566837"
+        },
+        "foreigner": {
+          "buyAmount": "7843008304708",
+          "sellAmount": "6909756641219"
+        },
+        "institution": {
+          "buyAmount": "5687819551475",
+          "sellAmount": "4782737653742",
+          "breakdown": {
+            "financialInvestment": {
+              "buyAmount": "1892018533210",
+              "sellAmount": "1477889018514"
+            },
+            "insurance": {
+              "buyAmount": "77202561385",
+              "sellAmount": "67972933840"
+            },
+            "trust": {
+              "buyAmount": "544187526488",
+              "sellAmount": "321091862271"
+            },
+            "privateEquityFund": {
+              "buyAmount": "614756827013",
+              "sellAmount": "299508498907"
+            },
+            "bank": {
+              "buyAmount": "8526490700",
+              "sellAmount": "5681025165"
+            },
+            "otherFinancialInstitution": {
+              "buyAmount": "35875585470",
+              "sellAmount": "39533050331"
+            },
+            "pensionFund": {
+              "buyAmount": "2515252027209",
+              "sellAmount": "2571061264714"
+            }
+          }
+        },
+        "otherCorporation": {
+          "buyAmount": "914923946065",
+          "sellAmount": "316176168273"
+        }
+      },
+      {
+        "date": "2026-04-02",
+        "updatedAt": "2026-04-02T20:00:02.000+09:00",
+        "individual": {
+          "buyAmount": "32027148611837",
+          "sellAmount": "30673894580480"
+        },
+        "foreigner": {
+          "buyAmount": "11706140951170",
+          "sellAmount": "12110150090857"
+        },
+        "institution": {
+          "buyAmount": "8052200237742",
+          "sellAmount": "9368316514691",
+          "breakdown": {
+            "financialInvestment": {
+              "buyAmount": "2211731499566",
+              "sellAmount": "3755175408275"
+            },
+            "insurance": {
+              "buyAmount": "104809130028",
+              "sellAmount": "76948452392"
+            },
+            "trust": {
+              "buyAmount": "475900927396",
+              "sellAmount": "497094218248"
+            },
+            "privateEquityFund": {
+              "buyAmount": "548889673754",
+              "sellAmount": "372536707711"
+            },
+            "bank": {
+              "buyAmount": "13978469405",
+              "sellAmount": "6759147573"
+            },
+            "otherFinancialInstitution": {
+              "buyAmount": "41541762075",
+              "sellAmount": "13636878255"
+            },
+            "pensionFund": {
+              "buyAmount": "4655348775518",
+              "sellAmount": "4646165702237"
+            }
+          }
+        },
+        "otherCorporation": {
+          "buyAmount": "840008785061",
+          "sellAmount": "473137399782"
+        }
+      },
+      {
+        "date": "2026-04-01",
+        "updatedAt": "2026-04-01T20:00:02.000+09:00",
+        "individual": {
+          "buyAmount": "23873051966104",
+          "sellAmount": "28133040468296"
+        },
+        "foreigner": {
+          "buyAmount": "12121264642098",
+          "sellAmount": "12571161936053"
+        },
+        "institution": {
+          "buyAmount": "9369877500788",
+          "sellAmount": "5136167334144",
+          "breakdown": {
+            "financialInvestment": {
+              "buyAmount": "4962042258116",
+              "sellAmount": "1467862941390"
+            },
+            "insurance": {
+              "buyAmount": "89638116536",
+              "sellAmount": "103132505533"
+            },
+            "trust": {
+              "buyAmount": "699066935582",
+              "sellAmount": "333586983944"
+            },
+            "privateEquityFund": {
+              "buyAmount": "681859793478",
+              "sellAmount": "303851456483"
+            },
+            "bank": {
+              "buyAmount": "8834429680",
+              "sellAmount": "7660138804"
+            },
+            "otherFinancialInstitution": {
+              "buyAmount": "36836503410",
+              "sellAmount": "9703305308"
+            },
+            "pensionFund": {
+              "buyAmount": "2891599463986",
+              "sellAmount": "2910370002682"
+            }
+          }
+        },
+        "otherCorporation": {
+          "buyAmount": "885147902664",
+          "sellAmount": "408972273161"
+        }
+      },
+      {
+        "date": "2026-03-31",
+        "updatedAt": "2026-03-31T20:00:02.000+09:00",
+        "individual": {
+          "buyAmount": "25433872022528",
+          "sellAmount": "22497623931593"
+        },
+        "foreigner": {
+          "buyAmount": "11350048244494",
+          "sellAmount": "15576375748904"
+        },
+        "institution": {
+          "buyAmount": "7951586579324",
+          "sellAmount": "6994702306090",
+          "breakdown": {
+            "financialInvestment": {
+              "buyAmount": "3202102361583",
+              "sellAmount": "2302277580970"
+            },
+            "insurance": {
+              "buyAmount": "113116433144",
+              "sellAmount": "67799791769"
+            },
+            "trust": {
+              "buyAmount": "467722823041",
+              "sellAmount": "431002509747"
+            },
+            "privateEquityFund": {
+              "buyAmount": "702946141834",
+              "sellAmount": "706213370323"
+            },
+            "bank": {
+              "buyAmount": "5480928031",
+              "sellAmount": "9460232083"
+            },
+            "otherFinancialInstitution": {
+              "buyAmount": "17831568805",
+              "sellAmount": "6654858015"
+            },
+            "pensionFund": {
+              "buyAmount": "3442386322886",
+              "sellAmount": "3471293963183"
+            }
+          }
+        },
+        "otherCorporation": {
+          "buyAmount": "737805229830",
+          "sellAmount": "404610089589"
+        }
+      },
+      {
+        "date": "2026-03-30",
+        "updatedAt": "2026-03-30T20:00:02.000+09:00",
+        "individual": {
+          "buyAmount": "18042910072196",
+          "sellAmount": "16456935236363"
+        },
+        "foreigner": {
+          "buyAmount": "7734378685334",
+          "sellAmount": "10257189321148"
+        },
+        "institution": {
+          "buyAmount": "5846579101876",
+          "sellAmount": "5315673554099",
+          "breakdown": {
+            "financialInvestment": {
+              "buyAmount": "2292802450938",
+              "sellAmount": "1785163079807"
+            },
+            "insurance": {
+              "buyAmount": "84712290630",
+              "sellAmount": "75440363756"
+            },
+            "trust": {
+              "buyAmount": "367150427218",
+              "sellAmount": "300449499680"
+            },
+            "privateEquityFund": {
+              "buyAmount": "406646974895",
+              "sellAmount": "383916451349"
+            },
+            "bank": {
+              "buyAmount": "3591353814",
+              "sellAmount": "11571482225"
+            },
+            "otherFinancialInstitution": {
+              "buyAmount": "17587485195",
+              "sellAmount": "4202055035"
+            },
+            "pensionFund": {
+              "buyAmount": "2674088119186",
+              "sellAmount": "2754930622247"
+            }
+          }
+        },
+        "otherCorporation": {
+          "buyAmount": "658322664443",
+          "sellAmount": "252392412239"
+        }
+      },
+      {
+        "date": "2026-03-27",
+        "updatedAt": "2026-03-27T20:00:02.000+09:00",
+        "individual": {
+          "buyAmount": "22616603980897",
+          "sellAmount": "19780111344668"
+        },
+        "foreigner": {
+          "buyAmount": "8440815751303",
+          "sellAmount": "12126286645419"
+        },
+        "institution": {
+          "buyAmount": "5829533360578",
+          "sellAmount": "5329008400424",
+          "breakdown": {
+            "financialInvestment": {
+              "buyAmount": "1927185491726",
+              "sellAmount": "1698320651972"
+            },
+            "insurance": {
+              "buyAmount": "116344303829",
+              "sellAmount": "72698374328"
+            },
+            "trust": {
+              "buyAmount": "458198146556",
+              "sellAmount": "270880399996"
+            },
+            "privateEquityFund": {
+              "buyAmount": "400981000971",
+              "sellAmount": "353918330388"
+            },
+            "bank": {
+              "buyAmount": "3445532426",
+              "sellAmount": "4424560320"
+            },
+            "otherFinancialInstitution": {
+              "buyAmount": "23550156680",
+              "sellAmount": "6508346670"
+            },
+            "pensionFund": {
+              "buyAmount": "2899828728390",
+              "sellAmount": "2922257736750"
+            }
+          }
+        },
+        "otherCorporation": {
+          "buyAmount": "732749998389",
+          "sellAmount": "384296700656"
+        }
+      },
+      {
+        "date": "2026-03-26",
+        "updatedAt": "2026-03-26T20:00:02.000+09:00",
+        "individual": {
+          "buyAmount": "24818415005997",
+          "sellAmount": "21014030555587"
+        },
+        "foreigner": {
+          "buyAmount": "7896344288656",
+          "sellAmount": "11271467940905"
+        },
+        "institution": {
+          "buyAmount": "5856296507894",
+          "sellAmount": "6445497522307",
+          "breakdown": {
+            "financialInvestment": {
+              "buyAmount": "2311948175871",
+              "sellAmount": "2207053475184"
+            },
+            "insurance": {
+              "buyAmount": "78840636422",
+              "sellAmount": "71309912952"
+            },
+            "trust": {
+              "buyAmount": "319429307996",
+              "sellAmount": "586408478933"
+            },
+            "privateEquityFund": {
+              "buyAmount": "262234956806",
+              "sellAmount": "452228202656"
+            },
+            "bank": {
+              "buyAmount": "3160863666",
+              "sellAmount": "15365581182"
+            },
+            "otherFinancialInstitution": {
+              "buyAmount": "16956438360",
+              "sellAmount": "7459172550"
+            },
+            "pensionFund": {
+              "buyAmount": "2863726128773",
+              "sellAmount": "3105672698850"
+            }
+          }
+        },
+        "otherCorporation": {
+          "buyAmount": "1851991516433",
+          "sellAmount": "1692051300181"
+        }
+      },
+      {
+        "date": "2026-03-25",
+        "updatedAt": "2026-03-25T20:00:02.000+09:00",
+        "individual": {
+          "buyAmount": "21379493475675",
+          "sellAmount": "23268118043580"
+        },
+        "foreigner": {
+          "buyAmount": "9476980610310",
+          "sellAmount": "10626525335855"
+        },
+        "institution": {
+          "buyAmount": "7345830277384",
+          "sellAmount": "4624961868228",
+          "breakdown": {
+            "financialInvestment": {
+              "buyAmount": "3845579249046",
+              "sellAmount": "1101550216312"
+            },
+            "insurance": {
+              "buyAmount": "79716903247",
+              "sellAmount": "110890509103"
+            },
+            "trust": {
+              "buyAmount": "378127177453",
+              "sellAmount": "339101361877"
+            },
+            "privateEquityFund": {
+              "buyAmount": "342696147186",
+              "sellAmount": "402183287133"
+            },
+            "bank": {
+              "buyAmount": "8905654640",
+              "sellAmount": "8656649747"
+            },
+            "otherFinancialInstitution": {
+              "buyAmount": "19761623045",
+              "sellAmount": "6239310690"
+            },
+            "pensionFund": {
+              "buyAmount": "2671043522767",
+              "sellAmount": "2656340533366"
+            }
+          }
+        },
+        "otherCorporation": {
+          "buyAmount": "632763799037",
+          "sellAmount": "315462914743"
+        }
+      },
+      {
+        "date": "2026-03-24",
+        "updatedAt": "2026-03-24T20:00:02.000+09:00",
+        "individual": {
+          "buyAmount": "23568597679751",
+          "sellAmount": "23322102380305"
+        },
+        "foreigner": {
+          "buyAmount": "8784876103371",
+          "sellAmount": "10714728729254"
+        },
+        "institution": {
+          "buyAmount": "7038635527149",
+          "sellAmount": "5655132371724",
+          "breakdown": {
+            "financialInvestment": {
+              "buyAmount": "2895317984032",
+              "sellAmount": "1477725944605"
+            },
+            "insurance": {
+              "buyAmount": "61839953311",
+              "sellAmount": "93913577743"
+            },
+            "trust": {
+              "buyAmount": "500950913393",
+              "sellAmount": "485697583146"
+            },
+            "privateEquityFund": {
+              "buyAmount": "278909349516",
+              "sellAmount": "351938509789"
+            },
+            "bank": {
+              "buyAmount": "3494995712",
+              "sellAmount": "4682316757"
+            },
+            "otherFinancialInstitution": {
+              "buyAmount": "19278247815",
+              "sellAmount": "5941905495"
+            },
+            "pensionFund": {
+              "buyAmount": "3278844083370",
+              "sellAmount": "3235232534189"
+            }
+          }
+        },
+        "otherCorporation": {
+          "buyAmount": "643130740393",
+          "sellAmount": "343276569381"
+        }
+      },
+      {
+        "date": "2026-03-23",
+        "updatedAt": "2026-03-23T20:00:02.000+09:00",
+        "individual": {
+          "buyAmount": "31815786119843",
+          "sellAmount": "23627590099058"
+        },
+        "foreigner": {
+          "buyAmount": "8147512960491",
+          "sellAmount": "12180143517763"
+        },
+        "institution": {
+          "buyAmount": "4290728710688",
+          "sellAmount": "8958903605966",
+          "breakdown": {
+            "financialInvestment": {
+              "buyAmount": "1366242644523",
+              "sellAmount": "5065423751419"
+            },
+            "insurance": {
+              "buyAmount": "78303485226",
+              "sellAmount": "62418271296"
+            },
+            "trust": {
+              "buyAmount": "272040275449",
+              "sellAmount": "617062920456"
+            },
+            "privateEquityFund": {
+              "buyAmount": "228758484134",
+              "sellAmount": "720351759823"
+            },
+            "bank": {
+              "buyAmount": "14427204016",
+              "sellAmount": "7935656683"
+            },
+            "otherFinancialInstitution": {
+              "buyAmount": "21618283784",
+              "sellAmount": "14707862510"
+            },
+            "pensionFund": {
+              "buyAmount": "2309338333556",
+              "sellAmount": "2471003383779"
+            }
+          }
+        },
+        "otherCorporation": {
+          "buyAmount": "855732611841",
+          "sellAmount": "343123180076"
+        }
+      },
+      {
+        "date": "2026-03-20",
+        "updatedAt": "2026-03-20T20:00:02.000+09:00",
+        "individual": {
+          "buyAmount": "29105214066984",
+          "sellAmount": "26217901083400"
+        },
+        "foreigner": {
+          "buyAmount": "16878340494023",
+          "sellAmount": "18340221955120"
+        },
+        "institution": {
+          "buyAmount": "4741811648773",
+          "sellAmount": "6257301633621",
+          "breakdown": {
+            "financialInvestment": {
+              "buyAmount": "1829670101215",
+              "sellAmount": "1829360431058"
+            },
+            "insurance": {
+              "buyAmount": "69390581555",
+              "sellAmount": "1501942250333"
+            },
+            "trust": {
+              "buyAmount": "301132203734",
+              "sellAmount": "380984090882"
+            },
+            "privateEquityFund": {
+              "buyAmount": "343364427770",
+              "sellAmount": "410782159894"
+            },
+            "bank": {
+              "buyAmount": "4500156738",
+              "sellAmount": "5281834630"
+            },
+            "otherFinancialInstitution": {
+              "buyAmount": "20188559164",
+              "sellAmount": "15977959725"
+            },
+            "pensionFund": {
+              "buyAmount": "2173565618597",
+              "sellAmount": "2112972907099"
+            }
+          }
+        },
+        "otherCorporation": {
+          "buyAmount": "437553418011",
+          "sellAmount": "347494955650"
+        }
+      },
+      {
+        "date": "2026-03-19",
+        "updatedAt": "2026-03-19T20:00:02.000+09:00",
+        "individual": {
+          "buyAmount": "27980840827555",
+          "sellAmount": "24376631060133"
+        },
+        "foreigner": {
+          "buyAmount": "7891424998462",
+          "sellAmount": "10541005696348"
+        },
+        "institution": {
+          "buyAmount": "4318642562433",
+          "sellAmount": "5420110317104",
+          "breakdown": {
+            "financialInvestment": {
+              "buyAmount": "1255697221240",
+              "sellAmount": "2257004730043"
+            },
+            "insurance": {
+              "buyAmount": "61588201585",
+              "sellAmount": "59157082308"
+            },
+            "trust": {
+              "buyAmount": "384526372562",
+              "sellAmount": "381901354704"
+            },
+            "privateEquityFund": {
+              "buyAmount": "429067241558",
+              "sellAmount": "492166840267"
+            },
+            "bank": {
+              "buyAmount": "13376615318",
+              "sellAmount": "9559883554"
+            },
+            "otherFinancialInstitution": {
+              "buyAmount": "19421199465",
+              "sellAmount": "2181781230"
+            },
+            "pensionFund": {
+              "buyAmount": "2154965710705",
+              "sellAmount": "2218138644998"
+            }
+          }
+        },
+        "otherCorporation": {
+          "buyAmount": "464088350793",
+          "sellAmount": "317249665658"
+        }
+      },
+      {
+        "date": "2026-03-18",
+        "updatedAt": "2026-03-18T20:01:32.000+09:00",
+        "individual": {
+          "buyAmount": "24502659602552",
+          "sellAmount": "29035218130899"
+        },
+        "foreigner": {
+          "buyAmount": "11022950705356",
+          "sellAmount": "9843612829394"
+        },
+        "institution": {
+          "buyAmount": "7405395490380",
+          "sellAmount": "3916147234567",
+          "breakdown": {
+            "financialInvestment": {
+              "buyAmount": "4479330696188",
+              "sellAmount": "985201118962"
+            },
+            "insurance": {
+              "buyAmount": "74302074291",
+              "sellAmount": "118689021548"
+            },
+            "trust": {
+              "buyAmount": "384649657726",
+              "sellAmount": "383377110931"
+            },
+            "privateEquityFund": {
+              "buyAmount": "360366901471",
+              "sellAmount": "437964117203"
+            },
+            "bank": {
+              "buyAmount": "10247708696",
+              "sellAmount": "3533062611"
+            },
+            "otherFinancialInstitution": {
+              "buyAmount": "20186554089",
+              "sellAmount": "6390974625"
+            },
+            "pensionFund": {
+              "buyAmount": "2076311897919",
+              "sellAmount": "1980991828687"
+            }
+          }
+        },
+        "otherCorporation": {
+          "buyAmount": "333679862118",
+          "sellAmount": "469707465546"
+        }
+      },
+      {
+        "date": "2026-03-17",
+        "updatedAt": "2026-03-17T20:00:02.000+09:00",
+        "individual": {
+          "buyAmount": "23212229877646",
+          "sellAmount": "23853125944666"
+        },
+        "foreigner": {
+          "buyAmount": "9178626501835",
+          "sellAmount": "9455775757794"
+        },
+        "institution": {
+          "buyAmount": "4890872845817",
+          "sellAmount": "3967110974281",
+          "breakdown": {
+            "financialInvestment": {
+              "buyAmount": "1683283982838",
+              "sellAmount": "1079595550365"
+            },
+            "insurance": {
+              "buyAmount": "58501849236",
+              "sellAmount": "105846555162"
+            },
+            "trust": {
+              "buyAmount": "576311358679",
+              "sellAmount": "352204876712"
+            },
+            "privateEquityFund": {
+              "buyAmount": "455783627759",
+              "sellAmount": "408149447358"
+            },
+            "bank": {
+              "buyAmount": "4363560065",
+              "sellAmount": "5757045253"
+            },
+            "otherFinancialInstitution": {
+              "buyAmount": "21845536246",
+              "sellAmount": "5731682570"
+            },
+            "pensionFund": {
+              "buyAmount": "2090782930994",
+              "sellAmount": "2009825816861"
+            }
+          }
+        },
+        "otherCorporation": {
+          "buyAmount": "352868545821",
+          "sellAmount": "358585094378"
+        }
+      },
+      {
+        "date": "2026-03-16",
+        "updatedAt": "2026-03-16T20:00:02.000+09:00",
+        "individual": {
+          "buyAmount": "21132388563096",
+          "sellAmount": "20329200912109"
+        },
+        "foreigner": {
+          "buyAmount": "8459153493534",
+          "sellAmount": "9308581609343"
+        },
+        "institution": {
+          "buyAmount": "4742449415275",
+          "sellAmount": "4760268850528",
+          "breakdown": {
+            "financialInvestment": {
+              "buyAmount": "1533069027104",
+              "sellAmount": "1667918157476"
+            },
+            "insurance": {
+              "buyAmount": "61605074686",
+              "sellAmount": "48733485081"
+            },
+            "trust": {
+              "buyAmount": "450287933129",
+              "sellAmount": "473783787346"
+            },
+            "privateEquityFund": {
+              "buyAmount": "362252051192",
+              "sellAmount": "303034560400"
+            },
+            "bank": {
+              "buyAmount": "2470656036",
+              "sellAmount": "3784771178"
+            },
+            "otherFinancialInstitution": {
+              "buyAmount": "29985668267",
+              "sellAmount": "5141439540"
+            },
+            "pensionFund": {
+              "buyAmount": "2302779004861",
+              "sellAmount": "2257872649507"
+            }
+          }
+        },
+        "otherCorporation": {
+          "buyAmount": "404293165078",
+          "sellAmount": "340233265003"
+        }
+      },
+      {
+        "date": "2026-03-13",
+        "updatedAt": "2026-03-13T20:00:02.000+09:00",
+        "individual": {
+          "buyAmount": "22617458031598",
+          "sellAmount": "19352530786055"
+        },
+        "foreigner": {
+          "buyAmount": "9348495688969",
+          "sellAmount": "11183688135426"
+        },
+        "institution": {
+          "buyAmount": "4952565782772",
+          "sellAmount": "6412623181253",
+          "breakdown": {
+            "financialInvestment": {
+              "buyAmount": "1352540683352",
+              "sellAmount": "2684112254540"
+            },
+            "insurance": {
+              "buyAmount": "88324362712",
+              "sellAmount": "87118094883"
+            },
+            "trust": {
+              "buyAmount": "917992724766",
+              "sellAmount": "1066205351774"
+            },
+            "privateEquityFund": {
+              "buyAmount": "437247946447",
+              "sellAmount": "472138165584"
+            },
+            "bank": {
+              "buyAmount": "6715412201",
+              "sellAmount": "3533702007"
+            },
+            "otherFinancialInstitution": {
+              "buyAmount": "25221662933",
+              "sellAmount": "3230197880"
+            },
+            "pensionFund": {
+              "buyAmount": "2124522990361",
+              "sellAmount": "2096285414585"
+            }
+          }
+        },
+        "otherCorporation": {
+          "buyAmount": "327205858887",
+          "sellAmount": "296883259492"
+        }
+      },
+      {
+        "date": "2026-03-12",
+        "updatedAt": "2026-03-12T20:00:02.000+09:00",
+        "individual": {
+          "buyAmount": "21598964850691",
+          "sellAmount": "18491694448028"
+        },
+        "foreigner": {
+          "buyAmount": "8413258299200",
+          "sellAmount": "11413564745859"
+        },
+        "institution": {
+          "buyAmount": "6230668559408",
+          "sellAmount": "6470734582173",
+          "breakdown": {
+            "financialInvestment": {
+              "buyAmount": "3039398865750",
+              "sellAmount": "3413628908570"
+            },
+            "insurance": {
+              "buyAmount": "67687867725",
+              "sellAmount": "55244194208"
+            },
+            "trust": {
+              "buyAmount": "584893297444",
+              "sellAmount": "529414724232"
+            },
+            "privateEquityFund": {
+              "buyAmount": "398710069135",
+              "sellAmount": "290805858627"
+            },
+            "bank": {
+              "buyAmount": "5337569690",
+              "sellAmount": "4116729617"
+            },
+            "otherFinancialInstitution": {
+              "buyAmount": "25922738125",
+              "sellAmount": "31445391860"
+            },
+            "pensionFund": {
+              "buyAmount": "2108718151539",
+              "sellAmount": "2146078775059"
+            }
+          }
+        },
+        "otherCorporation": {
+          "buyAmount": "345602321754",
+          "sellAmount": "212500254993"
+        }
+      },
+      {
+        "date": "2026-03-11",
+        "updatedAt": "2026-03-11T20:00:02.000+09:00",
+        "individual": {
+          "buyAmount": "27741280773073",
+          "sellAmount": "28129897000301"
+        },
+        "foreigner": {
+          "buyAmount": "11069548475269",
+          "sellAmount": "11379548347556"
+        },
+        "institution": {
+          "buyAmount": "6253223812899",
+          "sellAmount": "5534363934273",
+          "breakdown": {
+            "financialInvestment": {
+              "buyAmount": "2297167227983",
+              "sellAmount": "1631791125629"
+            },
+            "insurance": {
+              "buyAmount": "79835303960",
+              "sellAmount": "106730900778"
+            },
+            "trust": {
+              "buyAmount": "350561230176",
+              "sellAmount": "316751858245"
+            },
+            "privateEquityFund": {
+              "buyAmount": "390796779114",
+              "sellAmount": "288050425114"
+            },
+            "bank": {
+              "buyAmount": "13407511159",
+              "sellAmount": "3984011840"
+            },
+            "otherFinancialInstitution": {
+              "buyAmount": "34149737105",
+              "sellAmount": "10503182695"
+            },
+            "pensionFund": {
+              "buyAmount": "3087306023402",
+              "sellAmount": "3176552429972"
+            }
+          }
+        },
+        "otherCorporation": {
+          "buyAmount": "382534051541",
+          "sellAmount": "402777830652"
+        }
+      },
+      {
+        "date": "2026-03-10",
+        "updatedAt": "2026-03-10T20:00:02.000+09:00",
+        "individual": {
+          "buyAmount": "28338950413615",
+          "sellAmount": "31173725725108"
+        },
+        "foreigner": {
+          "buyAmount": "13392165415648",
+          "sellAmount": "11884282113368"
+        },
+        "institution": {
+          "buyAmount": "7291679710112",
+          "sellAmount": "5835591923518",
+          "breakdown": {
+            "financialInvestment": {
+              "buyAmount": "2938022337518",
+              "sellAmount": "1668661397943"
+            },
+            "insurance": {
+              "buyAmount": "59292708671",
+              "sellAmount": "104011135307"
+            },
+            "trust": {
+              "buyAmount": "442508087874",
+              "sellAmount": "370929048423"
+            },
+            "privateEquityFund": {
+              "buyAmount": "367035955788",
+              "sellAmount": "226507851917"
+            },
+            "bank": {
+              "buyAmount": "8588521343",
+              "sellAmount": "6036416598"
+            },
+            "otherFinancialInstitution": {
+              "buyAmount": "33150630165",
+              "sellAmount": "5268902165"
+            },
+            "pensionFund": {
+              "buyAmount": "3443081468753",
+              "sellAmount": "3454177171165"
+            }
+          }
+        },
+        "otherCorporation": {
+          "buyAmount": "465203589149",
+          "sellAmount": "594399366530"
+        }
+      },
+      {
+        "date": "2026-03-09",
+        "updatedAt": "2026-03-09T20:00:02.000+09:00",
+        "individual": {
+          "buyAmount": "35672301755600",
+          "sellAmount": "30619702458815"
+        },
+        "foreigner": {
+          "buyAmount": "12713389057461",
+          "sellAmount": "16200189071541"
+        },
+        "institution": {
+          "buyAmount": "7034728418826",
+          "sellAmount": "8804434315258",
+          "breakdown": {
+            "financialInvestment": {
+              "buyAmount": "2399971675833",
+              "sellAmount": "3746367894788"
+            },
+            "insurance": {
+              "buyAmount": "118402777846",
+              "sellAmount": "107286889415"
+            },
+            "trust": {
+              "buyAmount": "421691006978",
+              "sellAmount": "667305060365"
+            },
+            "privateEquityFund": {
+              "buyAmount": "402606873327",
+              "sellAmount": "505892816725"
+            },
+            "bank": {
+              "buyAmount": "4794396578",
+              "sellAmount": "22241311236"
+            },
+            "otherFinancialInstitution": {
+              "buyAmount": "38138946697",
+              "sellAmount": "5598190530"
+            },
+            "pensionFund": {
+              "buyAmount": "3649122741567",
+              "sellAmount": "3749742152199"
+            }
+          }
+        },
+        "otherCorporation": {
+          "buyAmount": "747903658536",
+          "sellAmount": "543997044809"
+        }
+      },
+      {
+        "date": "2026-03-06",
+        "updatedAt": "2026-03-06T20:00:02.000+09:00",
+        "individual": {
+          "buyAmount": "37053690034336",
+          "sellAmount": "33176204907314"
+        },
+        "foreigner": {
+          "buyAmount": "11843333185469",
+          "sellAmount": "14264226819408"
+        },
+        "institution": {
+          "buyAmount": "6560068890006",
+          "sellAmount": "8063190421969",
+          "breakdown": {
+            "financialInvestment": {
+              "buyAmount": "1898235289324",
+              "sellAmount": "2835191458256"
+            },
+            "insurance": {
+              "buyAmount": "105459313844",
+              "sellAmount": "132840042906"
+            },
+            "trust": {
+              "buyAmount": "370361025621",
+              "sellAmount": "593731698384"
+            },
+            "privateEquityFund": {
+              "buyAmount": "253715056861",
+              "sellAmount": "433898907781"
+            },
+            "bank": {
+              "buyAmount": "8613006656",
+              "sellAmount": "3874049280"
+            },
+            "otherFinancialInstitution": {
+              "buyAmount": "50326315160",
+              "sellAmount": "15639285555"
+            },
+            "pensionFund": {
+              "buyAmount": "3873358882540",
+              "sellAmount": "4048014979807"
+            }
+          }
+        },
+        "otherCorporation": {
+          "buyAmount": "576753593045",
+          "sellAmount": "530223554165"
+        }
+      },
+      {
+        "date": "2026-03-05",
+        "updatedAt": "2026-03-05T20:00:02.000+09:00",
+        "individual": {
+          "buyAmount": "49402788450749",
+          "sellAmount": "46876503902491"
+        },
+        "foreigner": {
+          "buyAmount": "18307033174226",
+          "sellAmount": "18762811677962"
+        },
+        "institution": {
+          "buyAmount": "9006341512376",
+          "sellAmount": "11117926783073",
+          "breakdown": {
+            "financialInvestment": {
+              "buyAmount": "2686702213390",
+              "sellAmount": "4331058381213"
+            },
+            "insurance": {
+              "buyAmount": "129174314480",
+              "sellAmount": "193096794485"
+            },
+            "trust": {
+              "buyAmount": "626077205785",
+              "sellAmount": "713742725709"
+            },
+            "privateEquityFund": {
+              "buyAmount": "404212414384",
+              "sellAmount": "536756879748"
+            },
+            "bank": {
+              "buyAmount": "11641134410",
+              "sellAmount": "83594647971"
+            },
+            "otherFinancialInstitution": {
+              "buyAmount": "42762489120",
+              "sellAmount": "68845295850"
+            },
+            "pensionFund": {
+              "buyAmount": "5105771740807",
+              "sellAmount": "5190832058097"
+            }
+          }
+        },
+        "otherCorporation": {
+          "buyAmount": "916449666855",
+          "sellAmount": "875370440680"
+        }
+      },
+      {
+        "date": "2026-03-04",
+        "updatedAt": "2026-03-04T20:00:02.000+09:00",
+        "individual": {
+          "buyAmount": "76027739240989",
+          "sellAmount": "76678576906569"
+        },
+        "foreigner": {
+          "buyAmount": "25902383736412",
+          "sellAmount": "25662924415147"
+        },
+        "institution": {
+          "buyAmount": "13210271447110",
+          "sellAmount": "13269408704215",
+          "breakdown": {
+            "financialInvestment": {
+              "buyAmount": "4890645692972",
+              "sellAmount": "4899823240530"
+            },
+            "insurance": {
+              "buyAmount": "189044914003",
+              "sellAmount": "129297685548"
+            },
+            "trust": {
+              "buyAmount": "652137621445",
+              "sellAmount": "803228017184"
+            },
+            "privateEquityFund": {
+              "buyAmount": "726080109625",
+              "sellAmount": "569488010249"
+            },
+            "bank": {
+              "buyAmount": "12507285404",
+              "sellAmount": "36915243589"
+            },
+            "otherFinancialInstitution": {
+              "buyAmount": "44190860182",
+              "sellAmount": "58743009595"
+            },
+            "pensionFund": {
+              "buyAmount": "6695664963479",
+              "sellAmount": "6771913497520"
+            }
+          }
+        },
+        "otherCorporation": {
+          "buyAmount": "1464280816903",
+          "sellAmount": "993765215483"
+        }
+      },
+      {
+        "date": "2026-03-03",
+        "updatedAt": "2026-03-03T20:00:02.000+09:00",
+        "individual": {
+          "buyAmount": "70057010697927",
+          "sellAmount": "63878839519765"
+        },
+        "foreigner": {
+          "buyAmount": "19396056004329",
+          "sellAmount": "24798021324534"
+        },
+        "institution": {
+          "buyAmount": "9903582225577",
+          "sellAmount": "10924782858455",
+          "breakdown": {
+            "financialInvestment": {
+              "buyAmount": "3489390937173",
+              "sellAmount": "4380333196675"
+            },
+            "insurance": {
+              "buyAmount": "171463179660",
+              "sellAmount": "128989155896"
+            },
+            "trust": {
+              "buyAmount": "597849619568",
+              "sellAmount": "613544431169"
+            },
+            "privateEquityFund": {
+              "buyAmount": "507488275571",
+              "sellAmount": "641950629197"
+            },
+            "bank": {
+              "buyAmount": "12227233714",
+              "sellAmount": "42704294460"
+            },
+            "otherFinancialInstitution": {
+              "buyAmount": "27997419545",
+              "sellAmount": "59884203380"
+            },
+            "pensionFund": {
+              "buyAmount": "5097165560346",
+              "sellAmount": "5057376947678"
+            }
+          }
+        },
+        "otherCorporation": {
+          "buyAmount": "1309474157343",
+          "sellAmount": "1064479382422"
+        }
+      },
+      {
+        "date": "2026-02-27",
+        "updatedAt": "2026-02-27T20:00:02.000+09:00",
+        "individual": {
+          "buyAmount": "49499138707169",
+          "sellAmount": "42080159891154"
+        },
+        "foreigner": {
+          "buyAmount": "25351740887265",
+          "sellAmount": "33072021214767"
+        },
+        "institution": {
+          "buyAmount": "8714385125898",
+          "sellAmount": "8651839063374",
+          "breakdown": {
+            "financialInvestment": {
+              "buyAmount": "3962874017104",
+              "sellAmount": "3296227921140"
+            },
+            "insurance": {
+              "buyAmount": "136056473870",
+              "sellAmount": "201465479715"
+            },
+            "trust": {
+              "buyAmount": "493291298175",
+              "sellAmount": "763744188582"
+            },
+            "privateEquityFund": {
+              "buyAmount": "460257381824",
+              "sellAmount": "506277328364"
+            },
+            "bank": {
+              "buyAmount": "27090697013",
+              "sellAmount": "27585341385"
+            },
+            "otherFinancialInstitution": {
+              "buyAmount": "20453721550",
+              "sellAmount": "13965944172"
+            },
+            "pensionFund": {
+              "buyAmount": "3614361536362",
+              "sellAmount": "3842572860016"
+            }
+          }
+        },
+        "otherCorporation": {
+          "buyAmount": "911511839243",
+          "sellAmount": "672756390280"
+        }
+      },
+      {
+        "date": "2026-02-26",
+        "updatedAt": "2026-02-26T20:00:02.000+09:00",
+        "individual": {
+          "buyAmount": "43734641627720",
+          "sellAmount": "42408452103837"
+        },
+        "foreigner": {
+          "buyAmount": "15463136156556",
+          "sellAmount": "17963278646423"
+        },
+        "institution": {
+          "buyAmount": "8466263059968",
+          "sellAmount": "7512952882315",
+          "breakdown": {
+            "financialInvestment": {
+              "buyAmount": "3979212833663",
+              "sellAmount": "2610132681860"
+            },
+            "insurance": {
+              "buyAmount": "93817982065",
+              "sellAmount": "302625606513"
+            },
+            "trust": {
+              "buyAmount": "616259588987",
+              "sellAmount": "580790972394"
+            },
+            "privateEquityFund": {
+              "buyAmount": "439641619683",
+              "sellAmount": "580114430654"
+            },
+            "bank": {
+              "buyAmount": "17217348426",
+              "sellAmount": "27210528771"
+            },
+            "otherFinancialInstitution": {
+              "buyAmount": "20529652105",
+              "sellAmount": "11796854325"
+            },
+            "pensionFund": {
+              "buyAmount": "3299584035039",
+              "sellAmount": "3400281807798"
+            }
+          }
+        },
+        "otherCorporation": {
+          "buyAmount": "888767480194",
+          "sellAmount": "668124691863"
+        }
+      },
+      {
+        "date": "2026-02-25",
+        "updatedAt": "2026-02-25T20:00:02.000+09:00",
+        "individual": {
+          "buyAmount": "34901679048017",
+          "sellAmount": "34328356439581"
+        },
+        "foreigner": {
+          "buyAmount": "14107729762928",
+          "sellAmount": "15587425228880"
+        },
+        "institution": {
+          "buyAmount": "7625569078716",
+          "sellAmount": "6336385906974",
+          "breakdown": {
+            "financialInvestment": {
+              "buyAmount": "3892216273080",
+              "sellAmount": "2058788416317"
+            },
+            "insurance": {
+              "buyAmount": "90585652224",
+              "sellAmount": "221912131760"
+            },
+            "trust": {
+              "buyAmount": "452454896791",
+              "sellAmount": "775633807003"
+            },
+            "privateEquityFund": {
+              "buyAmount": "343767009578",
+              "sellAmount": "511239570808"
+            },
+            "bank": {
+              "buyAmount": "10092192786",
+              "sellAmount": "10666069308"
+            },
+            "otherFinancialInstitution": {
+              "buyAmount": "22124374965",
+              "sellAmount": "18857065080"
+            },
+            "pensionFund": {
+              "buyAmount": "2814328679292",
+              "sellAmount": "2739288846698"
+            }
+          }
+        },
+        "otherCorporation": {
+          "buyAmount": "1137807676876",
+          "sellAmount": "1520617991102"
+        }
+      },
+      {
+        "date": "2026-02-24",
+        "updatedAt": "2026-02-24T20:00:02.000+09:00",
+        "individual": {
+          "buyAmount": "28823395665404",
+          "sellAmount": "31168132584402"
+        },
+        "foreigner": {
+          "buyAmount": "12717871167699",
+          "sellAmount": "13001349673774"
+        },
+        "institution": {
+          "buyAmount": "7810450405457",
+          "sellAmount": "5291285454662",
+          "breakdown": {
+            "financialInvestment": {
+              "buyAmount": "3856076532829",
+              "sellAmount": "1034404566861"
+            },
+            "insurance": {
+              "buyAmount": "83839888602",
+              "sellAmount": "130496765082"
+            },
+            "trust": {
+              "buyAmount": "391457639339",
+              "sellAmount": "536857307204"
+            },
+            "privateEquityFund": {
+              "buyAmount": "356845510823",
+              "sellAmount": "384135310471"
+            },
+            "bank": {
+              "buyAmount": "12604111904",
+              "sellAmount": "11205022601"
+            },
+            "otherFinancialInstitution": {
+              "buyAmount": "19460374845",
+              "sellAmount": "31985651935"
+            },
+            "pensionFund": {
+              "buyAmount": "3090166347115",
+              "sellAmount": "3162200830508"
+            }
+          }
+        },
+        "otherCorporation": {
+          "buyAmount": "659170746886",
+          "sellAmount": "550120272608"
+        }
+      },
+      {
+        "date": "2026-02-23",
+        "updatedAt": "2026-02-23T20:00:02.000+09:00",
+        "individual": {
+          "buyAmount": "31716480487931",
+          "sellAmount": "30421293986826"
+        },
+        "foreigner": {
+          "buyAmount": "12040806865380",
+          "sellAmount": "13582965105579"
+        },
+        "institution": {
+          "buyAmount": "7094733313780",
+          "sellAmount": "6980437826760",
+          "breakdown": {
+            "financialInvestment": {
+              "buyAmount": "2887858621407",
+              "sellAmount": "2176602811324"
+            },
+            "insurance": {
+              "buyAmount": "97171077748",
+              "sellAmount": "257215777567"
+            },
+            "trust": {
+              "buyAmount": "374752795744",
+              "sellAmount": "545851113066"
+            },
+            "privateEquityFund": {
+              "buyAmount": "484804734866",
+              "sellAmount": "476104986042"
+            },
+            "bank": {
+              "buyAmount": "6108093626",
+              "sellAmount": "8158129921"
+            },
+            "otherFinancialInstitution": {
+              "buyAmount": "25406552875",
+              "sellAmount": "30447245590"
+            },
+            "pensionFund": {
+              "buyAmount": "3218631437514",
+              "sellAmount": "3486057763250"
+            }
+          }
+        },
+        "otherCorporation": {
+          "buyAmount": "696981840491",
+          "sellAmount": "564305588417"
+        }
+      },
+      {
+        "date": "2026-02-20",
+        "updatedAt": "2026-02-20T20:00:02.000+09:00",
+        "individual": {
+          "buyAmount": "32887552501246",
+          "sellAmount": "33740406368121"
+        },
+        "foreigner": {
+          "buyAmount": "11743703742999",
+          "sellAmount": "12656779522718"
+        },
+        "institution": {
+          "buyAmount": "7728701064850",
+          "sellAmount": "6021480906122",
+          "breakdown": {
+            "financialInvestment": {
+              "buyAmount": "3504833772634",
+              "sellAmount": "1451602428107"
+            },
+            "insurance": {
+              "buyAmount": "110206428349",
+              "sellAmount": "184297284339"
+            },
+            "trust": {
+              "buyAmount": "629708131127",
+              "sellAmount": "682301170819"
+            },
+            "privateEquityFund": {
+              "buyAmount": "418332354292",
+              "sellAmount": "465119500371"
+            },
+            "bank": {
+              "buyAmount": "8921926209",
+              "sellAmount": "8070794102"
+            },
+            "otherFinancialInstitution": {
+              "buyAmount": "22792219220",
+              "sellAmount": "54190245320"
+            },
+            "pensionFund": {
+              "buyAmount": "3033906233019",
+              "sellAmount": "3175899483064"
+            }
+          }
+        },
+        "otherCorporation": {
+          "buyAmount": "685414762500",
+          "sellAmount": "626705274634"
+        }
+      },
+      {
+        "date": "2026-02-19",
+        "updatedAt": "2026-02-19T20:00:02.000+09:00",
+        "individual": {
+          "buyAmount": "28013195844993",
+          "sellAmount": "28536406121857"
+        },
+        "foreigner": {
+          "buyAmount": "11658847248179",
+          "sellAmount": "12791264179338"
+        },
+        "institution": {
+          "buyAmount": "6912391439399",
+          "sellAmount": "5311902588629",
+          "breakdown": {
+            "financialInvestment": {
+              "buyAmount": "3133506008502",
+              "sellAmount": "1511545463670"
+            },
+            "insurance": {
+              "buyAmount": "125785075349",
+              "sellAmount": "270943107314"
+            },
+            "trust": {
+              "buyAmount": "447195169594",
+              "sellAmount": "383556735949"
+            },
+            "privateEquityFund": {
+              "buyAmount": "351306322894",
+              "sellAmount": "307632380801"
+            },
+            "bank": {
+              "buyAmount": "4513543397",
+              "sellAmount": "7211373474"
+            },
+            "otherFinancialInstitution": {
+              "buyAmount": "21300151325",
+              "sellAmount": "17449122299"
+            },
+            "pensionFund": {
+              "buyAmount": "2828785168338",
+              "sellAmount": "2813564405122"
+            }
+          }
+        },
+        "otherCorporation": {
+          "buyAmount": "676399733998",
+          "sellAmount": "621261376745"
+        }
+      },
+      {
+        "date": "2026-02-13",
+        "updatedAt": "2026-02-13T20:01:32.000+09:00",
+        "individual": {
+          "buyAmount": "28024074905283",
+          "sellAmount": "26949299650407"
+        },
+        "foreigner": {
+          "buyAmount": "10655087950953",
+          "sellAmount": "11829711519021"
+        },
+        "institution": {
+          "buyAmount": "5582725735997",
+          "sellAmount": "5567159636592",
+          "breakdown": {
+            "financialInvestment": {
+              "buyAmount": "1859993615064",
+              "sellAmount": "1745303743277"
+            },
+            "insurance": {
+              "buyAmount": "68658908374",
+              "sellAmount": "137446514945"
+            },
+            "trust": {
+              "buyAmount": "403359429682",
+              "sellAmount": "498191617398"
+            },
+            "privateEquityFund": {
+              "buyAmount": "286267297495",
+              "sellAmount": "281894145981"
+            },
+            "bank": {
+              "buyAmount": "9058282327",
+              "sellAmount": "11607781246"
+            },
+            "otherFinancialInstitution": {
+              "buyAmount": "22250155873",
+              "sellAmount": "16035428745"
+            },
+            "pensionFund": {
+              "buyAmount": "2933138047182",
+              "sellAmount": "2876680405000"
+            }
+          }
+        },
+        "otherCorporation": {
+          "buyAmount": "602555784538",
+          "sellAmount": "518273570751"
+        }
+      },
+      {
+        "date": "2026-02-12",
+        "updatedAt": "2026-02-12T20:00:02.000+09:00",
+        "individual": {
+          "buyAmount": "24331436493736",
+          "sellAmount": "29346369478267"
+        },
+        "foreigner": {
+          "buyAmount": "14210692078931",
+          "sellAmount": "11032702273830"
+        },
+        "institution": {
+          "buyAmount": "8347169060259",
+          "sellAmount": "6563694535205",
+          "breakdown": {
+            "financialInvestment": {
+              "buyAmount": "4368980465968",
+              "sellAmount": "2921499498936"
+            },
+            "insurance": {
+              "buyAmount": "84375129910",
+              "sellAmount": "165923737702"
+            },
+            "trust": {
+              "buyAmount": "499166992439",
+              "sellAmount": "349849153077"
+            },
+            "privateEquityFund": {
+              "buyAmount": "483089824510",
+              "sellAmount": "323670481937"
+            },
+            "bank": {
+              "buyAmount": "31755981644",
+              "sellAmount": "11624668299"
+            },
+            "otherFinancialInstitution": {
+              "buyAmount": "74401576800",
+              "sellAmount": "58241003310"
+            },
+            "pensionFund": {
+              "buyAmount": "2805399088988",
+              "sellAmount": "2732885991944"
+            }
+          }
+        },
+        "otherCorporation": {
+          "buyAmount": "612194688235",
+          "sellAmount": "558726033859"
+        }
+      },
+      {
+        "date": "2026-02-11",
+        "updatedAt": "2026-02-11T20:00:02.000+09:00",
+        "individual": {
+          "buyAmount": "22015315705828",
+          "sellAmount": "23671911123561"
+        },
+        "foreigner": {
+          "buyAmount": "10480488879425",
+          "sellAmount": "9635966590789"
+        },
+        "institution": {
+          "buyAmount": "5350420371113",
+          "sellAmount": "4732063833928",
+          "breakdown": {
+            "financialInvestment": {
+              "buyAmount": "1693212594172",
+              "sellAmount": "1242039474910"
+            },
+            "insurance": {
+              "buyAmount": "108274298467",
+              "sellAmount": "143352256750"
+            },
+            "trust": {
+              "buyAmount": "402029201730",
+              "sellAmount": "303741542157"
+            },
+            "privateEquityFund": {
+              "buyAmount": "371935452806",
+              "sellAmount": "251919435544"
+            },
+            "bank": {
+              "buyAmount": "23852238718",
+              "sellAmount": "25052127082"
+            },
+            "otherFinancialInstitution": {
+              "buyAmount": "21417900442",
+              "sellAmount": "10272719695"
+            },
+            "pensionFund": {
+              "buyAmount": "2729698684778",
+              "sellAmount": "2755686277790"
+            }
+          }
+        },
+        "otherCorporation": {
+          "buyAmount": "547082608727",
+          "sellAmount": "353366016815"
+        }
+      },
+      {
+        "date": "2026-02-10",
+        "updatedAt": "2026-02-10T20:00:02.000+09:00",
+        "individual": {
+          "buyAmount": "19066652495882",
+          "sellAmount": "20007332751436"
+        },
+        "foreigner": {
+          "buyAmount": "9683401551844",
+          "sellAmount": "9571992923541"
+        },
+        "institution": {
+          "buyAmount": "5215949414973",
+          "sellAmount": "4580339879622",
+          "breakdown": {
+            "financialInvestment": {
+              "buyAmount": "1820138639709",
+              "sellAmount": "1002371750257"
+            },
+            "insurance": {
+              "buyAmount": "92285216023",
+              "sellAmount": "117200894581"
+            },
+            "trust": {
+              "buyAmount": "323615789856",
+              "sellAmount": "365635728904"
+            },
+            "privateEquityFund": {
+              "buyAmount": "331313288240",
+              "sellAmount": "351044573219"
+            },
+            "bank": {
+              "buyAmount": "16287281488",
+              "sellAmount": "21245298553"
+            },
+            "otherFinancialInstitution": {
+              "buyAmount": "19933857027",
+              "sellAmount": "11691614377"
+            },
+            "pensionFund": {
+              "buyAmount": "2612375342630",
+              "sellAmount": "2711150019731"
+            }
+          }
+        },
+        "otherCorporation": {
+          "buyAmount": "476284603623",
+          "sellAmount": "282622511723"
+        }
+      },
+      {
+        "date": "2026-02-09",
+        "updatedAt": "2026-02-09T20:00:02.000+09:00",
+        "individual": {
+          "buyAmount": "21460212631490",
+          "sellAmount": "25707456424612"
+        },
+        "foreigner": {
+          "buyAmount": "10779313078076",
+          "sellAmount": "10177804898227"
+        },
+        "institution": {
+          "buyAmount": "7704429943933",
+          "sellAmount": "4232653422364",
+          "breakdown": {
+            "financialInvestment": {
+              "buyAmount": "3844987582206",
+              "sellAmount": "706522151028"
+            },
+            "insurance": {
+              "buyAmount": "63700583233",
+              "sellAmount": "106495469522"
+            },
+            "trust": {
+              "buyAmount": "489038246976",
+              "sellAmount": "289696275128"
+            },
+            "privateEquityFund": {
+              "buyAmount": "543984216496",
+              "sellAmount": "273049881768"
+            },
+            "bank": {
+              "buyAmount": "10936377091",
+              "sellAmount": "20454133408"
+            },
+            "otherFinancialInstitution": {
+              "buyAmount": "19036142336",
+              "sellAmount": "21397457385"
+            },
+            "pensionFund": {
+              "buyAmount": "2732746795595",
+              "sellAmount": "2815038054125"
+            }
+          }
+        },
+        "otherCorporation": {
+          "buyAmount": "587826996158",
+          "sellAmount": "413867904454"
+        }
+      },
+      {
+        "date": "2026-02-06",
+        "updatedAt": "2026-02-06T20:00:02.000+09:00",
+        "individual": {
+          "buyAmount": "27259732156868",
+          "sellAmount": "24743834899114"
+        },
+        "foreigner": {
+          "buyAmount": "10254446131679",
+          "sellAmount": "14008718722231"
+        },
+        "institution": {
+          "buyAmount": "6810613660222",
+          "sellAmount": "5746241087733",
+          "breakdown": {
+            "financialInvestment": {
+              "buyAmount": "2276855274678",
+              "sellAmount": "1555413721953"
+            },
+            "insurance": {
+              "buyAmount": "104536838338",
+              "sellAmount": "80624002674"
+            },
+            "trust": {
+              "buyAmount": "509297398600",
+              "sellAmount": "364567431618"
+            },
+            "privateEquityFund": {
+              "buyAmount": "351591785417",
+              "sellAmount": "326473314245"
+            },
+            "bank": {
+              "buyAmount": "31528959652",
+              "sellAmount": "10284450497"
+            },
+            "otherFinancialInstitution": {
+              "buyAmount": "24617346230",
+              "sellAmount": "29006334760"
+            },
+            "pensionFund": {
+              "buyAmount": "3512186057307",
+              "sellAmount": "3379871831986"
+            }
+          }
+        },
+        "otherCorporation": {
+          "buyAmount": "958450191235",
+          "sellAmount": "784447430926"
+        }
+      },
+      {
+        "date": "2026-02-05",
+        "updatedAt": "2026-02-05T20:00:02.000+09:00",
+        "individual": {
+          "buyAmount": "33621016043768",
+          "sellAmount": "25122679995825"
+        },
+        "foreigner": {
+          "buyAmount": "9906066700157",
+          "sellAmount": "16077763150917"
+        },
+        "institution": {
+          "buyAmount": "5632789884608",
+          "sellAmount": "8254291794990",
+          "breakdown": {
+            "financialInvestment": {
+              "buyAmount": "1663860290118",
+              "sellAmount": "4013319281723"
+            },
+            "insurance": {
+              "buyAmount": "135250324471",
+              "sellAmount": "101989065784"
+            },
+            "trust": {
+              "buyAmount": "387763277371",
+              "sellAmount": "449830008270"
+            },
+            "privateEquityFund": {
+              "buyAmount": "289997417568",
+              "sellAmount": "453795648453"
+            },
+            "bank": {
+              "buyAmount": "37439669712",
+              "sellAmount": "16474914696"
+            },
+            "otherFinancialInstitution": {
+              "buyAmount": "9595674150",
+              "sellAmount": "11923579541"
+            },
+            "pensionFund": {
+              "buyAmount": "3108883231218",
+              "sellAmount": "3206959296523"
+            }
+          }
+        },
+        "otherCorporation": {
+          "buyAmount": "733130083140",
+          "sellAmount": "438267769941"
+        }
+      },
+      {
+        "date": "2026-02-04",
+        "updatedAt": "2026-02-04T20:00:02.000+09:00",
+        "individual": {
+          "buyAmount": "27993686338191",
+          "sellAmount": "28755640298809"
+        },
+        "foreigner": {
+          "buyAmount": "11240724413138",
+          "sellAmount": "12469217741147"
+        },
+        "institution": {
+          "buyAmount": "6879949647724",
+          "sellAmount": "5094128046265",
+          "breakdown": {
+            "financialInvestment": {
+              "buyAmount": "2926510196116",
+              "sellAmount": "1390087636286"
+            },
+            "insurance": {
+              "buyAmount": "98617797844",
+              "sellAmount": "122046363975"
+            },
+            "trust": {
+              "buyAmount": "537720172005",
+              "sellAmount": "440073538109"
+            },
+            "privateEquityFund": {
+              "buyAmount": "385220219089",
+              "sellAmount": "260477854421"
+            },
+            "bank": {
+              "buyAmount": "23467912287",
+              "sellAmount": "5720152463"
+            },
+            "otherFinancialInstitution": {
+              "buyAmount": "35758368277",
+              "sellAmount": "32506930462"
+            },
+            "pensionFund": {
+              "buyAmount": "2872654982106",
+              "sellAmount": "2843215570549"
+            }
+          }
+        },
+        "otherCorporation": {
+          "buyAmount": "623068404202",
+          "sellAmount": "418442717034"
+        }
+      },
+      {
+        "date": "2026-02-03",
+        "updatedAt": "2026-02-03T20:00:02.000+09:00",
+        "individual": {
+          "buyAmount": "24220892315683",
+          "sellAmount": "27550450590902"
+        },
+        "foreigner": {
+          "buyAmount": "12380364979708",
+          "sellAmount": "11499509326375"
+        },
+        "institution": {
+          "buyAmount": "7060371282109",
+          "sellAmount": "4683626197472",
+          "breakdown": {
+            "financialInvestment": {
+              "buyAmount": "2751254306195",
+              "sellAmount": "1103882419099"
+            },
+            "insurance": {
+              "buyAmount": "97469623141",
+              "sellAmount": "112332982837"
+            },
+            "trust": {
+              "buyAmount": "635611059913",
+              "sellAmount": "286507060841"
+            },
+            "privateEquityFund": {
+              "buyAmount": "506848585763",
+              "sellAmount": "256892416133"
+            },
+            "bank": {
+              "buyAmount": "12426177489",
+              "sellAmount": "10252099690"
+            },
+            "otherFinancialInstitution": {
+              "buyAmount": "52405275730",
+              "sellAmount": "5190927815"
+            },
+            "pensionFund": {
+              "buyAmount": "3004356253878",
+              "sellAmount": "2908568291057"
+            }
+          }
+        },
+        "otherCorporation": {
+          "buyAmount": "542349326705",
+          "sellAmount": "470391789456"
+        }
+      },
+      {
+        "date": "2026-02-02",
+        "updatedAt": "2026-02-02T20:01:32.000+09:00",
+        "individual": {
+          "buyAmount": "29147909224049",
+          "sellAmount": "23624407609737"
+        },
+        "foreigner": {
+          "buyAmount": "10832693891000",
+          "sellAmount": "14053115690029"
+        },
+        "institution": {
+          "buyAmount": "6170127355688",
+          "sellAmount": "8628609952351",
+          "breakdown": {
+            "financialInvestment": {
+              "buyAmount": "1708460002514",
+              "sellAmount": "4113987717002"
+            },
+            "insurance": {
+              "buyAmount": "156467275471",
+              "sellAmount": "104323136288"
+            },
+            "trust": {
+              "buyAmount": "431020182049",
+              "sellAmount": "407143140194"
+            },
+            "privateEquityFund": {
+              "buyAmount": "288730032610",
+              "sellAmount": "395966108871"
+            },
+            "bank": {
+              "buyAmount": "9299795501",
+              "sellAmount": "9924869005"
+            },
+            "otherFinancialInstitution": {
+              "buyAmount": "32830788380",
+              "sellAmount": "13569330815"
+            },
+            "pensionFund": {
+              "buyAmount": "3543319279163",
+              "sellAmount": "3583695650176"
+            }
+          }
+        },
+        "otherCorporation": {
+          "buyAmount": "640927725036",
+          "sellAmount": "485524943656"
+        }
+      },
+      {
+        "date": "2026-01-30",
+        "updatedAt": "2026-01-30T20:00:02.000+09:00",
+        "individual": {
+          "buyAmount": "31115065025664",
+          "sellAmount": "28358491333389"
+        },
+        "foreigner": {
+          "buyAmount": "14289305163264",
+          "sellAmount": "16452083430697"
+        },
+        "institution": {
+          "buyAmount": "6166449320346",
+          "sellAmount": "6810423256342",
+          "breakdown": {
+            "financialInvestment": {
+              "buyAmount": "2163952280277",
+              "sellAmount": "2406097128804"
+            },
+            "insurance": {
+              "buyAmount": "76613158614",
+              "sellAmount": "217348667003"
+            },
+            "trust": {
+              "buyAmount": "414641996337",
+              "sellAmount": "555846458933"
+            },
+            "privateEquityFund": {
+              "buyAmount": "386528483252",
+              "sellAmount": "471449926592"
+            },
+            "bank": {
+              "buyAmount": "21264080887",
+              "sellAmount": "7198330374"
+            },
+            "otherFinancialInstitution": {
+              "buyAmount": "4717262836",
+              "sellAmount": "23227354662"
+            },
+            "pensionFund": {
+              "buyAmount": "3098732058143",
+              "sellAmount": "3129255389974"
+            }
+          }
+        },
+        "otherCorporation": {
+          "buyAmount": "570973146650",
+          "sellAmount": "520794635496"
+        }
+      },
+      {
+        "date": "2026-01-29",
+        "updatedAt": "2026-01-29T20:00:02.000+09:00",
+        "individual": {
+          "buyAmount": "33489433460301",
+          "sellAmount": "31305555439138"
+        },
+        "foreigner": {
+          "buyAmount": "12618572990106",
+          "sellAmount": "14371945857415"
+        },
+        "institution": {
+          "buyAmount": "7203163126720",
+          "sellAmount": "7660713978696",
+          "breakdown": {
+            "financialInvestment": {
+              "buyAmount": "2386245436072",
+              "sellAmount": "2386773315877"
+            },
+            "insurance": {
+              "buyAmount": "66606932990",
+              "sellAmount": "137994510556"
+            },
+            "trust": {
+              "buyAmount": "352337758897",
+              "sellAmount": "504180510458"
+            },
+            "privateEquityFund": {
+              "buyAmount": "456928587735",
+              "sellAmount": "546716987956"
+            },
+            "bank": {
+              "buyAmount": "14941915111",
+              "sellAmount": "13661677276"
+            },
+            "otherFinancialInstitution": {
+              "buyAmount": "12832025027",
+              "sellAmount": "38731220777"
+            },
+            "pensionFund": {
+              "buyAmount": "3913270470888",
+              "sellAmount": "4032655755796"
+            }
+          }
+        },
+        "otherCorporation": {
+          "buyAmount": "532547934497",
+          "sellAmount": "505502236375"
+        }
+      },
+      {
+        "date": "2026-01-28",
+        "updatedAt": "2026-01-28T20:00:02.000+09:00",
+        "individual": {
+          "buyAmount": "29871486039067",
+          "sellAmount": "28135862884093"
+        },
+        "foreigner": {
+          "buyAmount": "12923753026481",
+          "sellAmount": "12941861599214"
+        },
+        "institution": {
+          "buyAmount": "5025321830722",
+          "sellAmount": "6559926813830",
+          "breakdown": {
+            "financialInvestment": {
+              "buyAmount": "1305148029917",
+              "sellAmount": "1993018988712"
+            },
+            "insurance": {
+              "buyAmount": "59351616149",
+              "sellAmount": "202763807220"
+            },
+            "trust": {
+              "buyAmount": "417984426513",
+              "sellAmount": "576046634331"
+            },
+            "privateEquityFund": {
+              "buyAmount": "346851297408",
+              "sellAmount": "583360141890"
+            },
+            "bank": {
+              "buyAmount": "22848038659",
+              "sellAmount": "14868262517"
+            },
+            "otherFinancialInstitution": {
+              "buyAmount": "15537743137",
+              "sellAmount": "241730105470"
+            },
+            "pensionFund": {
+              "buyAmount": "2857600678939",
+              "sellAmount": "2948138873690"
+            }
+          }
+        },
+        "otherCorporation": {
+          "buyAmount": "461521035396",
+          "sellAmount": "644430634529"
+        }
+      },
+      {
+        "date": "2026-01-27",
+        "updatedAt": "2026-01-27T20:00:02.000+09:00",
+        "individual": {
+          "buyAmount": "26744133620036",
+          "sellAmount": "27799217503414"
+        },
+        "foreigner": {
+          "buyAmount": "11328508322089",
+          "sellAmount": "10461905690146"
+        },
+        "institution": {
+          "buyAmount": "5469911551245",
+          "sellAmount": "5187453037927",
+          "breakdown": {
+            "financialInvestment": {
+              "buyAmount": "1934884152208",
+              "sellAmount": "1296501083666"
+            },
+            "insurance": {
+              "buyAmount": "82403163495",
+              "sellAmount": "156118932870"
+            },
+            "trust": {
+              "buyAmount": "394511975661",
+              "sellAmount": "613141880466"
+            },
+            "privateEquityFund": {
+              "buyAmount": "353940839469",
+              "sellAmount": "370458882656"
+            },
+            "bank": {
+              "buyAmount": "21092032236",
+              "sellAmount": "12394856006"
+            },
+            "otherFinancialInstitution": {
+              "buyAmount": "14385863415",
+              "sellAmount": "12761363700"
+            },
+            "pensionFund": {
+              "buyAmount": "2668693524761",
+              "sellAmount": "2726076038563"
+            }
+          }
+        },
+        "otherCorporation": {
+          "buyAmount": "451331679475",
+          "sellAmount": "545308941358"
+        }
+      },
+      {
+        "date": "2026-01-26",
+        "updatedAt": "2026-01-26T20:00:02.000+09:00",
+        "individual": {
+          "buyAmount": "23101129728032",
+          "sellAmount": "20895650163402"
+        },
+        "foreigner": {
+          "buyAmount": "8445282998963",
+          "sellAmount": "8854070282221"
+        },
+        "institution": {
+          "buyAmount": "3758891761099",
+          "sellAmount": "5543305005128",
+          "breakdown": {
+            "financialInvestment": {
+              "buyAmount": "1155358217572",
+              "sellAmount": "2343706822526"
+            },
+            "insurance": {
+              "buyAmount": "74740097133",
+              "sellAmount": "108671971556"
+            },
+            "trust": {
+              "buyAmount": "280624695357",
+              "sellAmount": "484396491121"
+            },
+            "privateEquityFund": {
+              "buyAmount": "320635792357",
+              "sellAmount": "481314590857"
+            },
+            "bank": {
+              "buyAmount": "6216949111",
+              "sellAmount": "13762381127"
+            },
+            "otherFinancialInstitution": {
+              "buyAmount": "5373376743",
+              "sellAmount": "22490435545"
+            },
+            "pensionFund": {
+              "buyAmount": "1915942632826",
+              "sellAmount": "2088962312396"
+            }
+          }
+        },
+        "otherCorporation": {
+          "buyAmount": "372288731951",
+          "sellAmount": "384567769294"
+        }
+      },
+      {
+        "date": "2026-01-23",
+        "updatedAt": "2026-01-23T20:00:02.000+09:00",
+        "individual": {
+          "buyAmount": "27107412074331",
+          "sellAmount": "27713048259642"
+        },
+        "foreigner": {
+          "buyAmount": "11000116429863",
+          "sellAmount": "10996996617017"
+        },
+        "institution": {
+          "buyAmount": "6264929261355",
+          "sellAmount": "5758721543169",
+          "breakdown": {
+            "financialInvestment": {
+              "buyAmount": "2445690349906",
+              "sellAmount": "1511976338245"
+            },
+            "insurance": {
+              "buyAmount": "85128953056",
+              "sellAmount": "103987119276"
+            },
+            "trust": {
+              "buyAmount": "387542086189",
+              "sellAmount": "472604876898"
+            },
+            "privateEquityFund": {
+              "buyAmount": "443713265999",
+              "sellAmount": "481974912233"
+            },
+            "bank": {
+              "buyAmount": "8905544340",
+              "sellAmount": "15848156137"
+            },
+            "otherFinancialInstitution": {
+              "buyAmount": "7179391215",
+              "sellAmount": "11424842975"
+            },
+            "pensionFund": {
+              "buyAmount": "2886769670650",
+              "sellAmount": "3160905297405"
+            }
+          }
+        },
+        "otherCorporation": {
+          "buyAmount": "560551644310",
+          "sellAmount": "464242990031"
+        }
+      },
+      {
+        "date": "2026-01-22",
+        "updatedAt": "2026-01-22T20:00:02.000+09:00",
+        "individual": {
+          "buyAmount": "31774252391758",
+          "sellAmount": "30782220472499"
+        },
+        "foreigner": {
+          "buyAmount": "12519489880870",
+          "sellAmount": "13451866879076"
+        },
+        "institution": {
+          "buyAmount": "6271509009151",
+          "sellAmount": "6575983316236",
+          "breakdown": {
+            "financialInvestment": {
+              "buyAmount": "2035730919532",
+              "sellAmount": "1891876517965"
+            },
+            "insurance": {
+              "buyAmount": "88160667895",
+              "sellAmount": "280350023911"
+            },
+            "trust": {
+              "buyAmount": "513522647985",
+              "sellAmount": "549689904252"
+            },
+            "privateEquityFund": {
+              "buyAmount": "509696445768",
+              "sellAmount": "525591018503"
+            },
+            "bank": {
+              "buyAmount": "13353303385",
+              "sellAmount": "11744400666"
+            },
+            "otherFinancialInstitution": {
+              "buyAmount": "11569549473",
+              "sellAmount": "9537779076"
+            },
+            "pensionFund": {
+              "buyAmount": "3099475475113",
+              "sellAmount": "3307193671863"
+            }
+          }
+        },
+        "otherCorporation": {
+          "buyAmount": "803054717129",
+          "sellAmount": "558235331097"
+        }
+      },
+      {
+        "date": "2026-01-21",
+        "updatedAt": "2026-01-21T20:00:02.000+09:00",
+        "individual": {
+          "buyAmount": "26550695593094",
+          "sellAmount": "27552818205693"
+        },
+        "foreigner": {
+          "buyAmount": "12251481051650",
+          "sellAmount": "11986550928719"
+        },
+        "institution": {
+          "buyAmount": "5794333141238",
+          "sellAmount": "5316241588056",
+          "breakdown": {
+            "financialInvestment": {
+              "buyAmount": "1780524527261",
+              "sellAmount": "1333286981658"
+            },
+            "insurance": {
+              "buyAmount": "81171639279",
+              "sellAmount": "104246399638"
+            },
+            "trust": {
+              "buyAmount": "392320086844",
+              "sellAmount": "386673179042"
+            },
+            "privateEquityFund": {
+              "buyAmount": "382083589704",
+              "sellAmount": "277465389908"
+            },
+            "bank": {
+              "buyAmount": "7505527309",
+              "sellAmount": "13385684187"
+            },
+            "otherFinancialInstitution": {
+              "buyAmount": "11197096460",
+              "sellAmount": "5468693310"
+            },
+            "pensionFund": {
+              "buyAmount": "3139530674381",
+              "sellAmount": "3195715260313"
+            }
+          }
+        },
+        "otherCorporation": {
+          "buyAmount": "700092139842",
+          "sellAmount": "440991203356"
+        }
+      },
+      {
+        "date": "2026-01-20",
+        "updatedAt": "2026-01-20T20:00:02.000+09:00",
+        "individual": {
+          "buyAmount": "32864859198372",
+          "sellAmount": "32217218023540"
+        },
+        "foreigner": {
+          "buyAmount": "9896566928456",
+          "sellAmount": "10035545011059"
+        },
+        "institution": {
+          "buyAmount": "4961677138003",
+          "sellAmount": "5583140469276",
+          "breakdown": {
+            "financialInvestment": {
+              "buyAmount": "1721666891145",
+              "sellAmount": "1896546303887"
+            },
+            "insurance": {
+              "buyAmount": "95754906341",
+              "sellAmount": "132419840181"
+            },
+            "trust": {
+              "buyAmount": "334965618598",
+              "sellAmount": "427165032593"
+            },
+            "privateEquityFund": {
+              "buyAmount": "292539885764",
+              "sellAmount": "426320285041"
+            },
+            "bank": {
+              "buyAmount": "10845088040",
+              "sellAmount": "7458645056"
+            },
+            "otherFinancialInstitution": {
+              "buyAmount": "5220720665",
+              "sellAmount": "19238350775"
+            },
+            "pensionFund": {
+              "buyAmount": "2500684027450",
+              "sellAmount": "2673992011743"
+            }
+          }
+        },
+        "otherCorporation": {
+          "buyAmount": "662508992756",
+          "sellAmount": "549708753712"
+        }
+      },
+      {
+        "date": "2026-01-19",
+        "updatedAt": "2026-01-19T20:00:02.000+09:00",
+        "individual": {
+          "buyAmount": "24820651389339",
+          "sellAmount": "25486498736696"
+        },
+        "foreigner": {
+          "buyAmount": "8893306131610",
+          "sellAmount": "8431759193096"
+        },
+        "institution": {
+          "buyAmount": "4941355801561",
+          "sellAmount": "4972767202195",
+          "breakdown": {
+            "financialInvestment": {
+              "buyAmount": "1523721437647",
+              "sellAmount": "1332326224687"
+            },
+            "insurance": {
+              "buyAmount": "90939213749",
+              "sellAmount": "139988728005"
+            },
+            "trust": {
+              "buyAmount": "310857393593",
+              "sellAmount": "355863205825"
+            },
+            "privateEquityFund": {
+              "buyAmount": "369453076602",
+              "sellAmount": "383738152243"
+            },
+            "bank": {
+              "buyAmount": "12958904344",
+              "sellAmount": "9716971171"
+            },
+            "otherFinancialInstitution": {
+              "buyAmount": "8283541403",
+              "sellAmount": "7588642815"
+            },
+            "pensionFund": {
+              "buyAmount": "2625142234223",
+              "sellAmount": "2743545277449"
+            }
+          }
+        },
+        "otherCorporation": {
+          "buyAmount": "632903254934",
+          "sellAmount": "397191445457"
+        }
+      },
+      {
+        "date": "2026-01-16",
+        "updatedAt": "2026-01-16T20:00:02.000+09:00",
+        "individual": {
+          "buyAmount": "24084792573292",
+          "sellAmount": "24869657136210"
+        },
+        "foreigner": {
+          "buyAmount": "10232361758725",
+          "sellAmount": "10038673703619"
+        },
+        "institution": {
+          "buyAmount": "4786599382428",
+          "sellAmount": "4365386451445",
+          "breakdown": {
+            "financialInvestment": {
+              "buyAmount": "1688648449034",
+              "sellAmount": "1100134568521"
+            },
+            "insurance": {
+              "buyAmount": "89600725933",
+              "sellAmount": "168544044428"
+            },
+            "trust": {
+              "buyAmount": "470572923260",
+              "sellAmount": "443218816820"
+            },
+            "privateEquityFund": {
+              "buyAmount": "329828619011",
+              "sellAmount": "350945018988"
+            },
+            "bank": {
+              "buyAmount": "12782799579",
+              "sellAmount": "13813916562"
+            },
+            "otherFinancialInstitution": {
+              "buyAmount": "5879453275",
+              "sellAmount": "10446665340"
+            },
+            "pensionFund": {
+              "buyAmount": "2189286412336",
+              "sellAmount": "2278283420786"
+            }
+          }
+        },
+        "otherCorporation": {
+          "buyAmount": "547753794147",
+          "sellAmount": "377790217318"
+        }
+      },
+      {
+        "date": "2026-01-15",
+        "updatedAt": "2026-01-15T20:00:02.000+09:00",
+        "individual": {
+          "buyAmount": "21499714804303",
+          "sellAmount": "23313061658797"
+        },
+        "foreigner": {
+          "buyAmount": "9164512102087",
+          "sellAmount": "8854285755933"
+        },
+        "institution": {
+          "buyAmount": "5456925706984",
+          "sellAmount": "4144264376822",
+          "breakdown": {
+            "financialInvestment": {
+              "buyAmount": "2498395387286",
+              "sellAmount": "1001535763477"
+            },
+            "insurance": {
+              "buyAmount": "99393069991",
+              "sellAmount": "127539542393"
+            },
+            "trust": {
+              "buyAmount": "348170578518",
+              "sellAmount": "347640750379"
+            },
+            "privateEquityFund": {
+              "buyAmount": "261835800580",
+              "sellAmount": "368482992764"
+            },
+            "bank": {
+              "buyAmount": "6921535038",
+              "sellAmount": "12823744713"
+            },
+            "otherFinancialInstitution": {
+              "buyAmount": "6437303395",
+              "sellAmount": "13258509020"
+            },
+            "pensionFund": {
+              "buyAmount": "2235772032176",
+              "sellAmount": "2272983074076"
+            }
+          }
+        },
+        "otherCorporation": {
+          "buyAmount": "588808930167",
+          "sellAmount": "398349751989"
+        }
+      },
+      {
+        "date": "2026-01-14",
+        "updatedAt": "2026-01-14T20:00:02.000+09:00",
+        "individual": {
+          "buyAmount": "20337632600969",
+          "sellAmount": "20566531183888"
+        },
+        "foreigner": {
+          "buyAmount": "9942339867228",
+          "sellAmount": "10564084928573"
+        },
+        "institution": {
+          "buyAmount": "4482414972172",
+          "sellAmount": "3868633501848",
+          "breakdown": {
+            "financialInvestment": {
+              "buyAmount": "1731203360155",
+              "sellAmount": "1102158167400"
+            },
+            "insurance": {
+              "buyAmount": "82098287765",
+              "sellAmount": "121863462101"
+            },
+            "trust": {
+              "buyAmount": "320839111622",
+              "sellAmount": "337702581627"
+            },
+            "privateEquityFund": {
+              "buyAmount": "343692368752",
+              "sellAmount": "323838537981"
+            },
+            "bank": {
+              "buyAmount": "8198223000",
+              "sellAmount": "8426826439"
+            },
+            "otherFinancialInstitution": {
+              "buyAmount": "10945217705",
+              "sellAmount": "4143096906"
+            },
+            "pensionFund": {
+              "buyAmount": "1985438403173",
+              "sellAmount": "1970500829394"
+            }
+          }
+        },
+        "otherCorporation": {
+          "buyAmount": "513599099234",
+          "sellAmount": "276736925294"
+        }
+      },
+      {
+        "date": "2026-01-13",
+        "updatedAt": "2026-01-13T20:00:02.000+09:00",
+        "individual": {
+          "buyAmount": "22197659799325",
+          "sellAmount": "23208972450855"
+        },
+        "foreigner": {
+          "buyAmount": "9291038934506",
+          "sellAmount": "9440969468267"
+        },
+        "institution": {
+          "buyAmount": "5173940306182",
+          "sellAmount": "4228433619485",
+          "breakdown": {
+            "financialInvestment": {
+              "buyAmount": "1926635025726",
+              "sellAmount": "994135363114"
+            },
+            "insurance": {
+              "buyAmount": "106945397696",
+              "sellAmount": "188995721418"
+            },
+            "trust": {
+              "buyAmount": "432775897235",
+              "sellAmount": "315766405494"
+            },
+            "privateEquityFund": {
+              "buyAmount": "298468901981",
+              "sellAmount": "333709050266"
+            },
+            "bank": {
+              "buyAmount": "13305601175",
+              "sellAmount": "2955359516"
+            },
+            "otherFinancialInstitution": {
+              "buyAmount": "10535325630",
+              "sellAmount": "9329241140"
+            },
+            "pensionFund": {
+              "buyAmount": "2385274156739",
+              "sellAmount": "2383542478537"
+            }
+          }
+        },
+        "otherCorporation": {
+          "buyAmount": "627601978685",
+          "sellAmount": "411865480091"
+        }
+      },
+      {
+        "date": "2026-01-12",
+        "updatedAt": "2026-01-12T20:00:02.000+09:00",
+        "individual": {
+          "buyAmount": "21508705126009",
+          "sellAmount": "21487516974353"
+        },
+        "foreigner": {
+          "buyAmount": "8565928025884",
+          "sellAmount": "9051850758453"
+        },
+        "institution": {
+          "buyAmount": "4902593524201",
+          "sellAmount": "4679247513170",
+          "breakdown": {
+            "financialInvestment": {
+              "buyAmount": "1698142545595",
+              "sellAmount": "1098131041832"
+            },
+            "insurance": {
+              "buyAmount": "95611755830",
+              "sellAmount": "229690142427"
+            },
+            "trust": {
+              "buyAmount": "446118130081",
+              "sellAmount": "382782488162"
+            },
+            "privateEquityFund": {
+              "buyAmount": "274238075733",
+              "sellAmount": "525810828453"
+            },
+            "bank": {
+              "buyAmount": "8959613720",
+              "sellAmount": "4429511241"
+            },
+            "otherFinancialInstitution": {
+              "buyAmount": "10675583615",
+              "sellAmount": "18670609139"
+            },
+            "pensionFund": {
+              "buyAmount": "2368847819627",
+              "sellAmount": "2419732891916"
+            }
+          }
+        },
+        "otherCorporation": {
+          "buyAmount": "614011526612",
+          "sellAmount": "372622956730"
+        }
+      },
+      {
+        "date": "2026-01-09",
+        "updatedAt": "2026-01-09T20:00:02.000+09:00",
+        "individual": {
+          "buyAmount": "20543792957429",
+          "sellAmount": "20226902223275"
+        },
+        "foreigner": {
+          "buyAmount": "8565424966357",
+          "sellAmount": "10395288696502"
+        },
+        "institution": {
+          "buyAmount": "5035491151460",
+          "sellAmount": "3806761600470",
+          "breakdown": {
+            "financialInvestment": {
+              "buyAmount": "1904927147370",
+              "sellAmount": "709926777439"
+            },
+            "insurance": {
+              "buyAmount": "148632736117",
+              "sellAmount": "199260573497"
+            },
+            "trust": {
+              "buyAmount": "494222264285",
+              "sellAmount": "460135067275"
+            },
+            "privateEquityFund": {
+              "buyAmount": "307752423571",
+              "sellAmount": "323473136269"
+            },
+            "bank": {
+              "buyAmount": "13759203075",
+              "sellAmount": "1073534290"
+            },
+            "otherFinancialInstitution": {
+              "buyAmount": "9354319836",
+              "sellAmount": "8873239845"
+            },
+            "pensionFund": {
+              "buyAmount": "2156843057206",
+              "sellAmount": "2104019271855"
+            }
+          }
+        },
+        "otherCorporation": {
+          "buyAmount": "611999708470",
+          "sellAmount": "327756263469"
+        }
+      },
+      {
+        "date": "2026-01-08",
+        "updatedAt": "2026-01-08T20:00:02.000+09:00",
+        "individual": {
+          "buyAmount": "22696236021363",
+          "sellAmount": "20838894584258"
+        },
+        "foreigner": {
+          "buyAmount": "10361871339641",
+          "sellAmount": "10865897865957"
+        },
+        "institution": {
+          "buyAmount": "5674239517914",
+          "sellAmount": "7286924557136",
+          "breakdown": {
+            "financialInvestment": {
+              "buyAmount": "1894798425617",
+              "sellAmount": "2932973640285"
+            },
+            "insurance": {
+              "buyAmount": "111659325657",
+              "sellAmount": "158005235837"
+            },
+            "trust": {
+              "buyAmount": "468772754121",
+              "sellAmount": "666867112038"
+            },
+            "privateEquityFund": {
+              "buyAmount": "366832719808",
+              "sellAmount": "548876817376"
+            },
+            "bank": {
+              "buyAmount": "14255635726",
+              "sellAmount": "13097856569"
+            },
+            "otherFinancialInstitution": {
+              "buyAmount": "11543331057",
+              "sellAmount": "9849444255"
+            },
+            "pensionFund": {
+              "buyAmount": "2806377325928",
+              "sellAmount": "2957254450776"
+            }
+          }
+        },
+        "otherCorporation": {
+          "buyAmount": "619920047008",
+          "sellAmount": "360549918575"
+        }
+      },
+      {
+        "date": "2026-01-07",
+        "updatedAt": "2026-01-07T20:00:02.000+09:00",
+        "individual": {
+          "buyAmount": "25348230032517",
+          "sellAmount": "25410731023360"
+        },
+        "foreigner": {
+          "buyAmount": "12071577904428",
+          "sellAmount": "10869666960100"
+        },
+        "institution": {
+          "buyAmount": "5162525892486",
+          "sellAmount": "6263135910837",
+          "breakdown": {
+            "financialInvestment": {
+              "buyAmount": "1127509522746",
+              "sellAmount": "1623403850410"
+            },
+            "insurance": {
+              "buyAmount": "103668023041",
+              "sellAmount": "248985842924"
+            },
+            "trust": {
+              "buyAmount": "307998524560",
+              "sellAmount": "529576179153"
+            },
+            "privateEquityFund": {
+              "buyAmount": "402348270499",
+              "sellAmount": "555846558980"
+            },
+            "bank": {
+              "buyAmount": "18681144710",
+              "sellAmount": "12296830770"
+            },
+            "otherFinancialInstitution": {
+              "buyAmount": "14475361180",
+              "sellAmount": "10613306675"
+            },
+            "pensionFund": {
+              "buyAmount": "3187845045750",
+              "sellAmount": "3282413341925"
+            }
+          }
+        },
+        "otherCorporation": {
+          "buyAmount": "418447853998",
+          "sellAmount": "457247789132"
+        }
+      },
+      {
+        "date": "2026-01-06",
+        "updatedAt": "2026-01-06T20:00:02.000+09:00",
+        "individual": {
+          "buyAmount": "23888869670875",
+          "sellAmount": "23109874229147"
+        },
+        "foreigner": {
+          "buyAmount": "9596014080304",
+          "sellAmount": "10369268549749"
+        },
+        "institution": {
+          "buyAmount": "4678343126035",
+          "sellAmount": "4790052240100",
+          "breakdown": {
+            "financialInvestment": {
+              "buyAmount": "1272794543380",
+              "sellAmount": "1132005248650"
+            },
+            "insurance": {
+              "buyAmount": "146359603691",
+              "sellAmount": "170698856298"
+            },
+            "trust": {
+              "buyAmount": "394343736496",
+              "sellAmount": "499139423999"
+            },
+            "privateEquityFund": {
+              "buyAmount": "347592303629",
+              "sellAmount": "393381743704"
+            },
+            "bank": {
+              "buyAmount": "10204476120",
+              "sellAmount": "3652709598"
+            },
+            "otherFinancialInstitution": {
+              "buyAmount": "8890234755",
+              "sellAmount": "14703504050"
+            },
+            "pensionFund": {
+              "buyAmount": "2498158227964",
+              "sellAmount": "2576470753801"
+            }
+          }
+        },
+        "otherCorporation": {
+          "buyAmount": "487033334438",
+          "sellAmount": "381065192656"
+        }
+      },
+      {
+        "date": "2026-01-05",
+        "updatedAt": "2026-01-05T20:00:02.000+09:00",
+        "individual": {
+          "buyAmount": "19059902727710",
+          "sellAmount": "20527486527963"
+        },
+        "foreigner": {
+          "buyAmount": "10588607261635",
+          "sellAmount": "8296194864373"
+        },
+        "institution": {
+          "buyAmount": "4028344094104",
+          "sellAmount": "4877056468163",
+          "breakdown": {
+            "financialInvestment": {
+              "buyAmount": "1144304662175",
+              "sellAmount": "1323568217786"
+            },
+            "insurance": {
+              "buyAmount": "85024388138",
+              "sellAmount": "244713539122"
+            },
+            "trust": {
+              "buyAmount": "328143420108",
+              "sellAmount": "587523401132"
+            },
+            "privateEquityFund": {
+              "buyAmount": "358907698479",
+              "sellAmount": "453746821918"
+            },
+            "bank": {
+              "buyAmount": "14950762785",
+              "sellAmount": "6410091091"
+            },
+            "otherFinancialInstitution": {
+              "buyAmount": "13300784050",
+              "sellAmount": "18399008685"
+            },
+            "pensionFund": {
+              "buyAmount": "2083712378369",
+              "sellAmount": "2242695388429"
+            }
+          }
+        },
+        "otherCorporation": {
+          "buyAmount": "439721455581",
+          "sellAmount": "415837678531"
+        }
+      },
+      {
+        "date": "2026-01-02",
+        "updatedAt": "2026-01-02T20:00:32.000+09:00",
+        "individual": {
+          "buyAmount": "13465019518933",
+          "sellAmount": "13919300191296"
+        },
+        "foreigner": {
+          "buyAmount": "6373689382256",
+          "sellAmount": "5673038107146"
+        },
+        "institution": {
+          "buyAmount": "3227028818504",
+          "sellAmount": "3518842533632",
+          "breakdown": {
+            "financialInvestment": {
+              "buyAmount": "944082087189",
+              "sellAmount": "1098453845847"
+            },
+            "insurance": {
+              "buyAmount": "76373116589",
+              "sellAmount": "137904157427"
+            },
+            "trust": {
+              "buyAmount": "301947969916",
+              "sellAmount": "376929398691"
+            },
+            "privateEquityFund": {
+              "buyAmount": "278440971942",
+              "sellAmount": "257523461698"
+            },
+            "bank": {
+              "buyAmount": "8440552016",
+              "sellAmount": "1164840759"
+            },
+            "otherFinancialInstitution": {
+              "buyAmount": "2665260141",
+              "sellAmount": "11863630595"
+            },
+            "pensionFund": {
+              "buyAmount": "1615078860711",
+              "sellAmount": "1635003198615"
+            }
+          }
+        },
+        "otherCorporation": {
+          "buyAmount": "304518379015",
+          "sellAmount": "259075266634"
+        }
+      },
+      {
+        "date": "2025-12-30",
+        "updatedAt": "2025-12-30T20:00:02.000+09:00",
+        "individual": {
+          "buyAmount": "10243095332282",
+          "sellAmount": "9301578506675"
+        },
+        "foreigner": {
+          "buyAmount": "4788338261009",
+          "sellAmount": "5299901161481"
+        },
+        "institution": {
+          "buyAmount": "2172061883443",
+          "sellAmount": "2608131702744",
+          "breakdown": {
+            "financialInvestment": {
+              "buyAmount": "690570659380",
+              "sellAmount": "980863999757"
+            },
+            "insurance": {
+              "buyAmount": "86610824270",
+              "sellAmount": "94221685390"
+            },
+            "trust": {
+              "buyAmount": "244666696327",
+              "sellAmount": "269322658974"
+            },
+            "privateEquityFund": {
+              "buyAmount": "192482913726",
+              "sellAmount": "199227184657"
+            },
+            "bank": {
+              "buyAmount": "4134912648",
+              "sellAmount": "1829235010"
+            },
+            "otherFinancialInstitution": {
+              "buyAmount": "4540642425",
+              "sellAmount": "5203346255"
+            },
+            "pensionFund": {
+              "buyAmount": "949055234667",
+              "sellAmount": "1057463592701"
+            }
+          }
+        },
+        "otherCorporation": {
+          "buyAmount": "186965400907",
+          "sellAmount": "180849506741"
+        }
+      },
+      {
+        "date": "2025-12-29",
+        "updatedAt": "2025-12-29T20:00:02.000+09:00",
+        "individual": {
+          "buyAmount": "12222950000941",
+          "sellAmount": "11916103937134"
+        },
+        "foreigner": {
+          "buyAmount": "5231339688037",
+          "sellAmount": "4818665163639"
+        },
+        "institution": {
+          "buyAmount": "2563845312446",
+          "sellAmount": "3158447929646",
+          "breakdown": {
+            "financialInvestment": {
+              "buyAmount": "973609526736",
+              "sellAmount": "1620673979130"
+            },
+            "insurance": {
+              "buyAmount": "43515141553",
+              "sellAmount": "99617185296"
+            },
+            "trust": {
+              "buyAmount": "228993086380",
+              "sellAmount": "202162067660"
+            },
+            "privateEquityFund": {
+              "buyAmount": "305732518306",
+              "sellAmount": "259655363129"
+            },
+            "bank": {
+              "buyAmount": "2623003512",
+              "sellAmount": "3357622998"
+            },
+            "otherFinancialInstitution": {
+              "buyAmount": "1953301715",
+              "sellAmount": "3437218755"
+            },
+            "pensionFund": {
+              "buyAmount": "1007418734244",
+              "sellAmount": "969544492678"
+            }
+          }
+        },
+        "otherCorporation": {
+          "buyAmount": "184996157596",
+          "sellAmount": "309914128601"
+        }
+      },
+      {
+        "date": "2025-12-26",
+        "updatedAt": "2025-12-26T20:00:02.000+09:00",
+        "individual": {
+          "buyAmount": "12112807566556",
+          "sellAmount": "14516813979462"
+        },
+        "foreigner": {
+          "buyAmount": "4964331272295",
+          "sellAmount": "3203755965303"
+        },
+        "institution": {
+          "buyAmount": "3061322261855",
+          "sellAmount": "2537651992403",
+          "breakdown": {
+            "financialInvestment": {
+              "buyAmount": "1239882484591",
+              "sellAmount": "652252490334"
+            },
+            "insurance": {
+              "buyAmount": "63250736370",
+              "sellAmount": "87559747204"
+            },
+            "trust": {
+              "buyAmount": "287978531040",
+              "sellAmount": "312032191067"
+            },
+            "privateEquityFund": {
+              "buyAmount": "344282592401",
+              "sellAmount": "244548911526"
+            },
+            "bank": {
+              "buyAmount": "4259031033",
+              "sellAmount": "5630686636"
+            },
+            "otherFinancialInstitution": {
+              "buyAmount": "4428533171",
+              "sellAmount": "20527360535"
+            },
+            "pensionFund": {
+              "buyAmount": "1117240353249",
+              "sellAmount": "1215100605101"
+            }
+          }
+        },
+        "otherCorporation": {
+          "buyAmount": "375340200001",
+          "sellAmount": "255579363539"
+        }
+      },
+      {
+        "date": "2025-12-24",
+        "updatedAt": "2025-12-24T20:00:02.000+09:00",
+        "individual": {
+          "buyAmount": "9440858425624",
+          "sellAmount": "10146092279800"
+        },
+        "foreigner": {
+          "buyAmount": "3593883505069",
+          "sellAmount": "3107015532403"
+        },
+        "institution": {
+          "buyAmount": "2206014594828",
+          "sellAmount": "1984827345621",
+          "breakdown": {
+            "financialInvestment": {
+              "buyAmount": "998655654084",
+              "sellAmount": "730868742924"
+            },
+            "insurance": {
+              "buyAmount": "57351040292",
+              "sellAmount": "65536315197"
+            },
+            "trust": {
+              "buyAmount": "173417309693",
+              "sellAmount": "199529957379"
+            },
+            "privateEquityFund": {
+              "buyAmount": "137607665180",
+              "sellAmount": "182362464007"
+            },
+            "bank": {
+              "buyAmount": "5924511480",
+              "sellAmount": "5399958220"
+            },
+            "otherFinancialInstitution": {
+              "buyAmount": "4594635465",
+              "sellAmount": "5692201732"
+            },
+            "pensionFund": {
+              "buyAmount": "828463778634",
+              "sellAmount": "795437706162"
+            }
+          }
+        },
+        "otherCorporation": {
+          "buyAmount": "246411538563",
+          "sellAmount": "249232906260"
+        }
+      },
+      {
+        "date": "2025-12-23",
+        "updatedAt": "2025-12-23T20:00:02.000+09:00",
+        "individual": {
+          "buyAmount": "10257174025455",
+          "sellAmount": "11556639442272"
+        },
+        "foreigner": {
+          "buyAmount": "4319740632233",
+          "sellAmount": "3392987748605"
+        },
+        "institution": {
+          "buyAmount": "2634543203362",
+          "sellAmount": "2240917003063",
+          "breakdown": {
+            "financialInvestment": {
+              "buyAmount": "1210175415537",
+              "sellAmount": "644824553042"
+            },
+            "insurance": {
+              "buyAmount": "41109070172",
+              "sellAmount": "71004931667"
+            },
+            "trust": {
+              "buyAmount": "158233366803",
+              "sellAmount": "279068972037"
+            },
+            "privateEquityFund": {
+              "buyAmount": "221137092155",
+              "sellAmount": "204031186411"
+            },
+            "bank": {
+              "buyAmount": "2601654217",
+              "sellAmount": "4622157272"
+            },
+            "otherFinancialInstitution": {
+              "buyAmount": "4536661730",
+              "sellAmount": "3230802881"
+            },
+            "pensionFund": {
+              "buyAmount": "996749942748",
+              "sellAmount": "1034134399753"
+            }
+          }
+        },
+        "otherCorporation": {
+          "buyAmount": "206284710000",
+          "sellAmount": "227198377110"
+        }
+      },
+      {
+        "date": "2025-12-22",
+        "updatedAt": "2025-12-22T20:00:02.000+09:00",
+        "individual": {
+          "buyAmount": "8329804433304",
+          "sellAmount": "11214714193425"
+        },
+        "foreigner": {
+          "buyAmount": "4811811058863",
+          "sellAmount": "3625554955788"
+        },
+        "institution": {
+          "buyAmount": "3501448733130",
+          "sellAmount": "1770380105488",
+          "breakdown": {
+            "financialInvestment": {
+              "buyAmount": "2240881583142",
+              "sellAmount": "496483077218"
+            },
+            "insurance": {
+              "buyAmount": "42928626087",
+              "sellAmount": "65987128178"
+            },
+            "trust": {
+              "buyAmount": "166756180669",
+              "sellAmount": "201056081957"
+            },
+            "privateEquityFund": {
+              "buyAmount": "231734402999",
+              "sellAmount": "204819510777"
+            },
+            "bank": {
+              "buyAmount": "4959542271",
+              "sellAmount": "4220289124"
+            },
+            "otherFinancialInstitution": {
+              "buyAmount": "4073886805",
+              "sellAmount": "8130966014"
+            },
+            "pensionFund": {
+              "buyAmount": "810114511157",
+              "sellAmount": "789683052220"
+            }
+          }
+        },
+        "otherCorporation": {
+          "buyAmount": "154067003907",
+          "sellAmount": "186481974503"
+        }
+      },
+      {
+        "date": "2025-12-19",
+        "updatedAt": "2025-12-19T20:00:02.000+09:00",
+        "individual": {
+          "buyAmount": "9440739027115",
+          "sellAmount": "9591423027356"
+        },
+        "foreigner": {
+          "buyAmount": "7108652698412",
+          "sellAmount": "7904782347590"
+        },
+        "institution": {
+          "buyAmount": "2986778904734",
+          "sellAmount": "2094817771059",
+          "breakdown": {
+            "financialInvestment": {
+              "buyAmount": "1492378134581",
+              "sellAmount": "490794297054"
+            },
+            "insurance": {
+              "buyAmount": "49691971419",
+              "sellAmount": "96528557517"
+            },
+            "trust": {
+              "buyAmount": "181163765121",
+              "sellAmount": "205732357363"
+            },
+            "privateEquityFund": {
+              "buyAmount": "213954772507",
+              "sellAmount": "180458929865"
+            },
+            "bank": {
+              "buyAmount": "2791047943",
+              "sellAmount": "3201776820"
+            },
+            "otherFinancialInstitution": {
+              "buyAmount": "80783780295",
+              "sellAmount": "110911430110"
+            },
+            "pensionFund": {
+              "buyAmount": "966015432868",
+              "sellAmount": "1007190422330"
+            }
+          }
+        },
+        "otherCorporation": {
+          "buyAmount": "223967912270",
+          "sellAmount": "169115396526"
+        }
+      },
+      {
+        "date": "2025-12-18",
+        "updatedAt": "2025-12-18T20:00:02.000+09:00",
+        "individual": {
+          "buyAmount": "9261462717478",
+          "sellAmount": "8786876654854"
+        },
+        "foreigner": {
+          "buyAmount": "4638601314981",
+          "sellAmount": "5053524166379"
+        },
+        "institution": {
+          "buyAmount": "2305715491211",
+          "sellAmount": "2397654503189",
+          "breakdown": {
+            "financialInvestment": {
+              "buyAmount": "1047353732379",
+              "sellAmount": "867993265815"
+            },
+            "insurance": {
+              "buyAmount": "45104924420",
+              "sellAmount": "68392202243"
+            },
+            "trust": {
+              "buyAmount": "145866570536",
+              "sellAmount": "212995310227"
+            },
+            "privateEquityFund": {
+              "buyAmount": "139961914699",
+              "sellAmount": "234435970832"
+            },
+            "bank": {
+              "buyAmount": "2523929424",
+              "sellAmount": "3054644307"
+            },
+            "otherFinancialInstitution": {
+              "buyAmount": "2879635115",
+              "sellAmount": "4101548009"
+            },
+            "pensionFund": {
+              "buyAmount": "922024784638",
+              "sellAmount": "1006681561756"
+            }
+          }
+        },
+        "otherCorporation": {
+          "buyAmount": "187355249078",
+          "sellAmount": "155079448326"
+        }
+      },
+      {
+        "date": "2025-12-17",
+        "updatedAt": "2025-12-17T20:00:02.000+09:00",
+        "individual": {
+          "buyAmount": "8105017870726",
+          "sellAmount": "8500138609114"
+        },
+        "foreigner": {
+          "buyAmount": "5136308483483",
+          "sellAmount": "5140551462313"
+        },
+        "institution": {
+          "buyAmount": "2530617935681",
+          "sellAmount": "2153987364908",
+          "breakdown": {
+            "financialInvestment": {
+              "buyAmount": "1111523130975",
+              "sellAmount": "689343371152"
+            },
+            "insurance": {
+              "buyAmount": "56664588925",
+              "sellAmount": "51624022934"
+            },
+            "trust": {
+              "buyAmount": "222348748557",
+              "sellAmount": "239668541278"
+            },
+            "privateEquityFund": {
+              "buyAmount": "173496772551",
+              "sellAmount": "180061873810"
+            },
+            "bank": {
+              "buyAmount": "3769246208",
+              "sellAmount": "832518475"
+            },
+            "otherFinancialInstitution": {
+              "buyAmount": "3910204990",
+              "sellAmount": "4334412085"
+            },
+            "pensionFund": {
+              "buyAmount": "958905243475",
+              "sellAmount": "988122625174"
+            }
+          }
+        },
+        "otherCorporation": {
+          "buyAmount": "190155339498",
+          "sellAmount": "167422193053"
+        }
+      },
+      {
+        "date": "2025-12-16",
+        "updatedAt": "2025-12-16T20:00:02.000+09:00",
+        "individual": {
+          "buyAmount": "11324997045610",
+          "sellAmount": "9898403333777"
+        },
+        "foreigner": {
+          "buyAmount": "5161895007844",
+          "sellAmount": "6288323504443"
+        },
+        "institution": {
+          "buyAmount": "3153253207576",
+          "sellAmount": "3453666298597",
+          "breakdown": {
+            "financialInvestment": {
+              "buyAmount": "1130897060241",
+              "sellAmount": "1040509971247"
+            },
+            "insurance": {
+              "buyAmount": "52111016923",
+              "sellAmount": "112662750671"
+            },
+            "trust": {
+              "buyAmount": "648298027120",
+              "sellAmount": "894003526861"
+            },
+            "privateEquityFund": {
+              "buyAmount": "236261167037",
+              "sellAmount": "320864453930"
+            },
+            "bank": {
+              "buyAmount": "696689055",
+              "sellAmount": "7420782350"
+            },
+            "otherFinancialInstitution": {
+              "buyAmount": "2238918395",
+              "sellAmount": "9210963469"
+            },
+            "pensionFund": {
+              "buyAmount": "1082750328805",
+              "sellAmount": "1068993850069"
+            }
+          }
+        },
+        "otherCorporation": {
+          "buyAmount": "231109515064",
+          "sellAmount": "230861639277"
+        }
+      },
+      {
+        "date": "2025-12-15",
+        "updatedAt": "2025-12-15T20:00:02.000+09:00",
+        "individual": {
+          "buyAmount": "11991145210666",
+          "sellAmount": "10305887831962"
+        },
+        "foreigner": {
+          "buyAmount": "4687110376155",
+          "sellAmount": "5769993024605"
+        },
+        "institution": {
+          "buyAmount": "2517992744163",
+          "sellAmount": "3146867030965",
+          "breakdown": {
+            "financialInvestment": {
+              "buyAmount": "984628315776",
+              "sellAmount": "1524445592267"
+            },
+            "insurance": {
+              "buyAmount": "56612669387",
+              "sellAmount": "64872117881"
+            },
+            "trust": {
+              "buyAmount": "257440282740",
+              "sellAmount": "310290817337"
+            },
+            "privateEquityFund": {
+              "buyAmount": "173355123674",
+              "sellAmount": "315458705887"
+            },
+            "bank": {
+              "buyAmount": "3617190962",
+              "sellAmount": "4737604797"
+            },
+            "otherFinancialInstitution": {
+              "buyAmount": "5593434205",
+              "sellAmount": "7517727945"
+            },
+            "pensionFund": {
+              "buyAmount": "1036745727419",
+              "sellAmount": "919544464851"
+            }
+          }
+        },
+        "otherCorporation": {
+          "buyAmount": "189398794168",
+          "sellAmount": "162899237620"
+        }
+      },
+      {
+        "date": "2025-12-12",
+        "updatedAt": "2025-12-12T20:00:02.000+09:00",
+        "individual": {
+          "buyAmount": "10683561979307",
+          "sellAmount": "12227100606985"
+        },
+        "foreigner": {
+          "buyAmount": "5270129579911",
+          "sellAmount": "5192192698452"
+        },
+        "institution": {
+          "buyAmount": "4185145594535",
+          "sellAmount": "2719475568501",
+          "breakdown": {
+            "financialInvestment": {
+              "buyAmount": "2103225205573",
+              "sellAmount": "595532091836"
+            },
+            "insurance": {
+              "buyAmount": "97614305258",
+              "sellAmount": "109414643602"
+            },
+            "trust": {
+              "buyAmount": "860348413595",
+              "sellAmount": "963968369307"
+            },
+            "privateEquityFund": {
+              "buyAmount": "295267310334",
+              "sellAmount": "313419709554"
+            },
+            "bank": {
+              "buyAmount": "2484359142",
+              "sellAmount": "1025907173"
+            },
+            "otherFinancialInstitution": {
+              "buyAmount": "3831375290",
+              "sellAmount": "2947740895"
+            },
+            "pensionFund": {
+              "buyAmount": "822374625343",
+              "sellAmount": "733167106134"
+            }
+          }
+        },
+        "otherCorporation": {
+          "buyAmount": "197172279323",
+          "sellAmount": "197240559138"
+        }
+      },
+      {
+        "date": "2025-12-11",
+        "updatedAt": "2025-12-11T20:00:02.000+09:00",
+        "individual": {
+          "buyAmount": "12390517005817",
+          "sellAmount": "11983769342669"
+        },
+        "foreigner": {
+          "buyAmount": "6934128872831",
+          "sellAmount": "6564155408093"
+        },
+        "institution": {
+          "buyAmount": "5113095218746",
+          "sellAmount": "5895196518148",
+          "breakdown": {
+            "financialInvestment": {
+              "buyAmount": "2375726689448",
+              "sellAmount": "3069736296635"
+            },
+            "insurance": {
+              "buyAmount": "174379473321",
+              "sellAmount": "197681983344"
+            },
+            "trust": {
+              "buyAmount": "1294646048072",
+              "sellAmount": "1310431854699"
+            },
+            "privateEquityFund": {
+              "buyAmount": "251546055514",
+              "sellAmount": "269614796693"
+            },
+            "bank": {
+              "buyAmount": "10619225374",
+              "sellAmount": "7196538392"
+            },
+            "otherFinancialInstitution": {
+              "buyAmount": "3798971750",
+              "sellAmount": "20759821840"
+            },
+            "pensionFund": {
+              "buyAmount": "1002378755267",
+              "sellAmount": "1019775226545"
+            }
+          }
+        },
+        "otherCorporation": {
+          "buyAmount": "212832893585",
+          "sellAmount": "207452722069"
+        }
+      },
+      {
+        "date": "2025-12-10",
+        "updatedAt": "2025-12-10T20:00:02.000+09:00",
+        "individual": {
+          "buyAmount": "10659933026084",
+          "sellAmount": "10670076855976"
+        },
+        "foreigner": {
+          "buyAmount": "4838290135945",
+          "sellAmount": "4515312382120"
+        },
+        "institution": {
+          "buyAmount": "2358444641901",
+          "sellAmount": "2695995387592",
+          "breakdown": {
+            "financialInvestment": {
+              "buyAmount": "812214942636",
+              "sellAmount": "910426924395"
+            },
+            "insurance": {
+              "buyAmount": "49234779912",
+              "sellAmount": "109326605773"
+            },
+            "trust": {
+              "buyAmount": "208169154074",
+              "sellAmount": "303001984384"
+            },
+            "privateEquityFund": {
+              "buyAmount": "200818853774",
+              "sellAmount": "297763142678"
+            },
+            "bank": {
+              "buyAmount": "1430090936",
+              "sellAmount": "4897196555"
+            },
+            "otherFinancialInstitution": {
+              "buyAmount": "4501352840",
+              "sellAmount": "4266230865"
+            },
+            "pensionFund": {
+              "buyAmount": "1082075467729",
+              "sellAmount": "1066313302942"
+            }
+          }
+        },
+        "otherCorporation": {
+          "buyAmount": "196635929330",
+          "sellAmount": "171919107572"
+        }
+      },
+      {
+        "date": "2025-12-09",
+        "updatedAt": "2025-12-09T20:00:02.000+09:00",
+        "individual": {
+          "buyAmount": "10532086396676",
+          "sellAmount": "10431355350423"
+        },
+        "foreigner": {
+          "buyAmount": "5543199300619",
+          "sellAmount": "5718828225536"
+        },
+        "institution": {
+          "buyAmount": "2223182213475",
+          "sellAmount": "2207502633956",
+          "breakdown": {
+            "financialInvestment": {
+              "buyAmount": "644024321083",
+              "sellAmount": "775007977049"
+            },
+            "insurance": {
+              "buyAmount": "45914490302",
+              "sellAmount": "60824155350"
+            },
+            "trust": {
+              "buyAmount": "223308929233",
+              "sellAmount": "212613125951"
+            },
+            "privateEquityFund": {
+              "buyAmount": "232177569062",
+              "sellAmount": "172237628749"
+            },
+            "bank": {
+              "buyAmount": "3861303140",
+              "sellAmount": "3548513204"
+            },
+            "otherFinancialInstitution": {
+              "buyAmount": "6045048405",
+              "sellAmount": "15210476748"
+            },
+            "pensionFund": {
+              "buyAmount": "1067850552250",
+              "sellAmount": "968060756905"
+            }
+          }
+        },
+        "otherCorporation": {
+          "buyAmount": "211258285652",
+          "sellAmount": "152039986507"
+        }
+      },
+      {
+        "date": "2025-12-08",
+        "updatedAt": "2025-12-08T20:00:02.000+09:00",
+        "individual": {
+          "buyAmount": "12981075803607",
+          "sellAmount": "13267065010561"
+        },
+        "foreigner": {
+          "buyAmount": "6077920801161",
+          "sellAmount": "5813468093988"
+        },
+        "institution": {
+          "buyAmount": "2894509098166",
+          "sellAmount": "2947530243357",
+          "breakdown": {
+            "financialInvestment": {
+              "buyAmount": "890479361100",
+              "sellAmount": "1058699689787"
+            },
+            "insurance": {
+              "buyAmount": "68941108457",
+              "sellAmount": "89970916375"
+            },
+            "trust": {
+              "buyAmount": "278005084532",
+              "sellAmount": "237972222967"
+            },
+            "privateEquityFund": {
+              "buyAmount": "387997750022",
+              "sellAmount": "275347173854"
+            },
+            "bank": {
+              "buyAmount": "2622721930",
+              "sellAmount": "6939109410"
+            },
+            "otherFinancialInstitution": {
+              "buyAmount": "7473051630",
+              "sellAmount": "4184922374"
+            },
+            "pensionFund": {
+              "buyAmount": "1258990020495",
+              "sellAmount": "1274416208590"
+            }
+          }
+        },
+        "otherCorporation": {
+          "buyAmount": "300006541406",
+          "sellAmount": "225448896434"
+        }
+      },
+      {
+        "date": "2025-12-05",
+        "updatedAt": "2025-12-05T20:00:02.000+09:00",
+        "individual": {
+          "buyAmount": "12461787504609",
+          "sellAmount": "14766640101775"
+        },
+        "foreigner": {
+          "buyAmount": "6873482937576",
+          "sellAmount": "5770547147046"
+        },
+        "institution": {
+          "buyAmount": "3535698628355",
+          "sellAmount": "2319213226444",
+          "breakdown": {
+            "financialInvestment": {
+              "buyAmount": "1485101248239",
+              "sellAmount": "554129721458"
+            },
+            "insurance": {
+              "buyAmount": "74660185102",
+              "sellAmount": "68602401961"
+            },
+            "trust": {
+              "buyAmount": "368278012804",
+              "sellAmount": "284374611628"
+            },
+            "privateEquityFund": {
+              "buyAmount": "346347722221",
+              "sellAmount": "166917736450"
+            },
+            "bank": {
+              "buyAmount": "9824347075",
+              "sellAmount": "4509050610"
+            },
+            "otherFinancialInstitution": {
+              "buyAmount": "8885404880",
+              "sellAmount": "3954544535"
+            },
+            "pensionFund": {
+              "buyAmount": "1242601708034",
+              "sellAmount": "1236725159802"
+            }
+          }
+        },
+        "otherCorporation": {
+          "buyAmount": "236698507301",
+          "sellAmount": "251267102576"
+        }
+      },
+      {
+        "date": "2025-12-04",
+        "updatedAt": "2025-12-04T20:00:02.000+09:00",
+        "individual": {
+          "buyAmount": "12100446887285",
+          "sellAmount": "11310136855206"
+        },
+        "foreigner": {
+          "buyAmount": "4734397243326",
+          "sellAmount": "5567324802067"
+        },
+        "institution": {
+          "buyAmount": "2633217041664",
+          "sellAmount": "2612812736230",
+          "breakdown": {
+            "financialInvestment": {
+              "buyAmount": "841903498287",
+              "sellAmount": "841661513009"
+            },
+            "insurance": {
+              "buyAmount": "81199270368",
+              "sellAmount": "85351919189"
+            },
+            "trust": {
+              "buyAmount": "313204711806",
+              "sellAmount": "340749750597"
+            },
+            "privateEquityFund": {
+              "buyAmount": "184980411085",
+              "sellAmount": "178955062064"
+            },
+            "bank": {
+              "buyAmount": "833267850",
+              "sellAmount": "8956499208"
+            },
+            "otherFinancialInstitution": {
+              "buyAmount": "5213542242",
+              "sellAmount": "3470710602"
+            },
+            "pensionFund": {
+              "buyAmount": "1205882340026",
+              "sellAmount": "1153667281561"
+            }
+          }
+        },
+        "otherCorporation": {
+          "buyAmount": "230712589871",
+          "sellAmount": "208499368643"
+        }
+      },
+      {
+        "date": "2025-12-03",
+        "updatedAt": "2025-12-03T20:00:02.000+09:00",
+        "individual": {
+          "buyAmount": "10138497615986",
+          "sellAmount": "10900643175663"
+        },
+        "foreigner": {
+          "buyAmount": "5451451370674",
+          "sellAmount": "5256623589628"
+        },
+        "institution": {
+          "buyAmount": "2597939695594",
+          "sellAmount": "1915788142761",
+          "breakdown": {
+            "financialInvestment": {
+              "buyAmount": "986951367084",
+              "sellAmount": "555760633025"
+            },
+            "insurance": {
+              "buyAmount": "66514104187",
+              "sellAmount": "52114309050"
+            },
+            "trust": {
+              "buyAmount": "250460100007",
+              "sellAmount": "212668691199"
+            },
+            "privateEquityFund": {
+              "buyAmount": "284898359445",
+              "sellAmount": "125759491470"
+            },
+            "bank": {
+              "buyAmount": "4049422774",
+              "sellAmount": "4759353946"
+            },
+            "otherFinancialInstitution": {
+              "buyAmount": "3428507950",
+              "sellAmount": "25602206710"
+            },
+            "pensionFund": {
+              "buyAmount": "1001637834147",
+              "sellAmount": "939123457361"
+            }
+          }
+        },
+        "otherCorporation": {
+          "buyAmount": "217898826540",
+          "sellAmount": "332732600742"
+        }
+      },
+      {
+        "date": "2025-12-02",
+        "updatedAt": "2025-12-02T20:00:02.000+09:00",
+        "individual": {
+          "buyAmount": "8564727324155",
+          "sellAmount": "10331258401231"
+        },
+        "foreigner": {
+          "buyAmount": "5865680979281",
+          "sellAmount": "4561515258594"
+        },
+        "institution": {
+          "buyAmount": "2537016050628",
+          "sellAmount": "2038170869496",
+          "breakdown": {
+            "financialInvestment": {
+              "buyAmount": "924815108028",
+              "sellAmount": "573395404159"
+            },
+            "insurance": {
+              "buyAmount": "85167640222",
+              "sellAmount": "87409763300"
+            },
+            "trust": {
+              "buyAmount": "296009803949",
+              "sellAmount": "261596718214"
+            },
+            "privateEquityFund": {
+              "buyAmount": "216535823804",
+              "sellAmount": "156251530217"
+            },
+            "bank": {
+              "buyAmount": "707188483",
+              "sellAmount": "17520909550"
+            },
+            "otherFinancialInstitution": {
+              "buyAmount": "7501096179",
+              "sellAmount": "6454361585"
+            },
+            "pensionFund": {
+              "buyAmount": "1006279389963",
+              "sellAmount": "935542182471"
+            }
+          }
+        },
+        "otherCorporation": {
+          "buyAmount": "163448118473",
+          "sellAmount": "199927943216"
+        }
+      },
+      {
+        "date": "2025-12-01",
+        "updatedAt": "2025-12-01T20:00:02.000+09:00",
+        "individual": {
+          "buyAmount": "9030406848593",
+          "sellAmount": "8929343029145"
+        },
+        "foreigner": {
+          "buyAmount": "4966248706319",
+          "sellAmount": "4795037681977"
+        },
+        "institution": {
+          "buyAmount": "2219506777851",
+          "sellAmount": "2446609323804",
+          "breakdown": {
+            "financialInvestment": {
+              "buyAmount": "665754125660",
+              "sellAmount": "732245187884"
+            },
+            "insurance": {
+              "buyAmount": "58054113489",
+              "sellAmount": "67741797191"
+            },
+            "trust": {
+              "buyAmount": "247266320895",
+              "sellAmount": "217908196992"
+            },
+            "privateEquityFund": {
+              "buyAmount": "217252069372",
+              "sellAmount": "284030526831"
+            },
+            "bank": {
+              "buyAmount": "348113830",
+              "sellAmount": "10557806662"
+            },
+            "otherFinancialInstitution": {
+              "buyAmount": "9648563760",
+              "sellAmount": "7874777910"
+            },
+            "pensionFund": {
+              "buyAmount": "1021183470845",
+              "sellAmount": "1126251030334"
+            }
+          }
+        },
+        "otherCorporation": {
+          "buyAmount": "157657552901",
+          "sellAmount": "202829850738"
+        }
+      },
+      {
+        "date": "2025-11-28",
+        "updatedAt": "2025-11-28T20:00:02.000+09:00",
+        "individual": {
+          "buyAmount": "9742870033087",
+          "sellAmount": "7976199147846"
+        },
+        "foreigner": {
+          "buyAmount": "3844654762049",
+          "sellAmount": "6071578700986"
+        },
+        "institution": {
+          "buyAmount": "2698860253520",
+          "sellAmount": "2243458299134",
+          "breakdown": {
+            "financialInvestment": {
+              "buyAmount": "1335353185860",
+              "sellAmount": "490181241986"
+            },
+            "insurance": {
+              "buyAmount": "43291922464",
+              "sellAmount": "81697062465"
+            },
+            "trust": {
+              "buyAmount": "211358504975",
+              "sellAmount": "287834563968"
+            },
+            "privateEquityFund": {
+              "buyAmount": "158863564247",
+              "sellAmount": "302195623727"
+            },
+            "bank": {
+              "buyAmount": "914126010",
+              "sellAmount": "1662410894"
+            },
+            "otherFinancialInstitution": {
+              "buyAmount": "7814440025",
+              "sellAmount": "1834855575"
+            },
+            "pensionFund": {
+              "buyAmount": "941264509939",
+              "sellAmount": "1078052540519"
+            }
+          }
+        },
+        "otherCorporation": {
+          "buyAmount": "196050934096",
+          "sellAmount": "191199834786"
+        }
+      },
+      {
+        "date": "2025-11-27",
+        "updatedAt": "2025-11-27T20:00:02.000+09:00",
+        "individual": {
+          "buyAmount": "10985066402749",
+          "sellAmount": "11525018695731"
+        },
+        "foreigner": {
+          "buyAmount": "5065428691850",
+          "sellAmount": "4905581642156"
+        },
+        "institution": {
+          "buyAmount": "2834659520479",
+          "sellAmount": "2457944297006",
+          "breakdown": {
+            "financialInvestment": {
+              "buyAmount": "1020037562716",
+              "sellAmount": "791264451525"
+            },
+            "insurance": {
+              "buyAmount": "49371483915",
+              "sellAmount": "56878850672"
+            },
+            "trust": {
+              "buyAmount": "348613109886",
+              "sellAmount": "261981976709"
+            },
+            "privateEquityFund": {
+              "buyAmount": "231705942402",
+              "sellAmount": "168089737528"
+            },
+            "bank": {
+              "buyAmount": "2090398900",
+              "sellAmount": "4857919480"
+            },
+            "otherFinancialInstitution": {
+              "buyAmount": "11098471405",
+              "sellAmount": "2983294868"
+            },
+            "pensionFund": {
+              "buyAmount": "1171742551255",
+              "sellAmount": "1171888066224"
+            }
+          }
+        },
+        "otherCorporation": {
+          "buyAmount": "263616686383",
+          "sellAmount": "260226666568"
+        }
+      },
+      {
+        "date": "2025-11-26",
+        "updatedAt": "2025-11-26T20:00:02.000+09:00",
+        "individual": {
+          "buyAmount": "11280357166396",
+          "sellAmount": "13417900324480"
+        },
+        "foreigner": {
+          "buyAmount": "7012707028378",
+          "sellAmount": "6383835023130"
+        },
+        "institution": {
+          "buyAmount": "4100437017321",
+          "sellAmount": "2655680018489",
+          "breakdown": {
+            "financialInvestment": {
+              "buyAmount": "1812079058338",
+              "sellAmount": "563426193930"
+            },
+            "insurance": {
+              "buyAmount": "60849015576",
+              "sellAmount": "64258867808"
+            },
+            "trust": {
+              "buyAmount": "408829781238",
+              "sellAmount": "300493711123"
+            },
+            "privateEquityFund": {
+              "buyAmount": "282620226073",
+              "sellAmount": "223067981296"
+            },
+            "bank": {
+              "buyAmount": "3066874381",
+              "sellAmount": "15171526740"
+            },
+            "otherFinancialInstitution": {
+              "buyAmount": "11805733930",
+              "sellAmount": "4587537115"
+            },
+            "pensionFund": {
+              "buyAmount": "1521186327785",
+              "sellAmount": "1484674200477"
+            }
+          }
+        },
+        "otherCorporation": {
+          "buyAmount": "300715191950",
+          "sellAmount": "236801037946"
+        }
+      }
+    ]
+  }
+}

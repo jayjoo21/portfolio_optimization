@@ -1,0 +1,16 @@
+﻿symbol,endpoint,status,error,pages,records,newest_date,oldest_date,available_from,stop_reason,output_path
+000030,credit_trades,error,HTTPError('404 Client Error: Not Found for url: https://openapi.tossinvest.com/api/v1/stocks/000030/credit-trades?count=100'),,,,,,,
+000060,credit_trades,error,HTTPError('404 Client Error: Not Found for url: https://openapi.tossinvest.com/api/v1/stocks/000060/credit-trades?count=100'),,,,,,,
+000070,credit_trades,collected,,9.0,837.0,2026-09-17,2023-04-17,2023-04-17,reached_endpoint_start,C:\code\portfolio_optimization\data\raw\toss\flow\credit_trades\000070.json.gz
+000030,investor_trading,error,HTTPError('404 Client Error: Not Found for url: https://openapi.tossinvest.com/api/v1/stocks/000030/investor-trading?count=100'),,,,,,,
+000060,investor_trading,error,HTTPError('404 Client Error: Not Found for url: https://openapi.tossinvest.com/api/v1/stocks/000060/investor-trading?count=100'),,,,,,,
+000070,investor_trading,collected,,19.0,1836.0,2026-09-18,2019-04-01,2019-04-01,reached_endpoint_start,C:\code\portfolio_optimization\data\raw\toss\flow\investor_trading\000070.json.gz
+000030,program_trades,error,HTTPError('404 Client Error: Not Found for url: https://openapi.tossinvest.com/api/v1/stocks/000030/program-trades?count=100'),,,,,,,
+000060,program_trades,error,HTTPError('404 Client Error: Not Found for url: https://openapi.tossinvest.com/api/v1/stocks/000060/program-trades?count=100'),,,,,,,
+000070,program_trades,collected,,19.0,1819.0,2026-09-18,2019-04-01,2019-04-01,reached_endpoint_start,C:\code\portfolio_optimization\data\raw\toss\flow\program_trades\000070.json.gz
+000030,securities_lending,error,HTTPError('404 Client Error: Not Found for url: https://openapi.tossinvest.com/api/v1/stocks/000030/securities-lending?count=100'),,,,,,,
+000060,securities_lending,error,HTTPError('404 Client Error: Not Found for url: https://openapi.tossinvest.com/api/v1/stocks/000060/securities-lending?count=100'),,,,,,,
+000070,securities_lending,collected,,14.0,1346.0,2026-09-18,2021-04-01,2021-04-01,reached_endpoint_start,C:\code\portfolio_optimization\data\raw\toss\flow\securities_lending\000070.json.gz
+000030,short_selling,error,HTTPError('404 Client Error: Not Found for url: https://openapi.tossinvest.com/api/v1/stocks/000030/short-selling?count=100'),,,,,,,
+000060,short_selling,error,HTTPError('404 Client Error: Not Found for url: https://openapi.tossinvest.com/api/v1/stocks/000060/short-selling?count=100'),,,,,,,
+000070,short_selling,collected,,18.0,1709.0,2026-09-18,2019-04-01,2019-04-01,reached_endpoint_start,C:\code\portfolio_optimization\data\raw\toss\flow\short_selling\000070.json.gz

@@ -1,0 +1,1807 @@
+{
+  "result": {
+    "nextUntil": "2025-06-30",
+    "records": [
+      {
+        "date": "2025-11-25",
+        "updatedAt": "2025-11-26T04:00:36.000+09:00",
+        "marginLoan": {
+          "newQuantity": "2806358",
+          "returnQuantity": "2816088",
+          "balanceQuantity": "17192778",
+          "balanceRate": "0.0028",
+          "tradingRate": "0.1214"
+        },
+        "stockLoan": {
+          "newQuantity": "4980",
+          "returnQuantity": "14372",
+          "balanceQuantity": "17870",
+          "balanceRate": "0",
+          "tradingRate": "0.0002"
+        }
+      },
+      {
+        "date": "2025-11-24",
+        "updatedAt": "2025-11-25T04:00:47.000+09:00",
+        "marginLoan": {
+          "newQuantity": "2800549",
+          "returnQuantity": "2892672",
+          "balanceQuantity": "17219976",
+          "balanceRate": "0.0028",
+          "tradingRate": "0.1103"
+        },
+        "stockLoan": {
+          "newQuantity": "14289",
+          "returnQuantity": "6801",
+          "balanceQuantity": "27262",
+          "balanceRate": "0",
+          "tradingRate": "0.0005"
+        }
+      },
+      {
+        "date": "2025-11-21",
+        "updatedAt": "2025-11-24T04:00:49.000+09:00",
+        "marginLoan": {
+          "newQuantity": "1620723",
+          "returnQuantity": "1530947",
+          "balanceQuantity": "17325707",
+          "balanceRate": "0.0028",
+          "tradingRate": "0.0853"
+        },
+        "stockLoan": {
+          "newQuantity": "7832",
+          "returnQuantity": "17226",
+          "balanceQuantity": "19774",
+          "balanceRate": "0",
+          "tradingRate": "0.0004"
+        }
+      },
+      {
+        "date": "2025-11-20",
+        "updatedAt": "2025-11-21T04:00:44.000+09:00",
+        "marginLoan": {
+          "newQuantity": "1543336",
+          "returnQuantity": "1697240",
+          "balanceQuantity": "17248164",
+          "balanceRate": "0.0028",
+          "tradingRate": "0.0825"
+        },
+        "stockLoan": {
+          "newQuantity": "4330",
+          "returnQuantity": "4344",
+          "balanceQuantity": "29168",
+          "balanceRate": "0",
+          "tradingRate": "0.0002"
+        }
+      },
+      {
+        "date": "2025-11-19",
+        "updatedAt": "2025-11-20T04:00:40.000+09:00",
+        "marginLoan": {
+          "newQuantity": "1620472",
+          "returnQuantity": "1891230",
+          "balanceQuantity": "17459562",
+          "balanceRate": "0.0028",
+          "tradingRate": "0.0942"
+        },
+        "stockLoan": {
+          "newQuantity": "9535",
+          "returnQuantity": "4598",
+          "balanceQuantity": "29182",
+          "balanceRate": "0",
+          "tradingRate": "0.0005"
+        }
+      },
+      {
+        "date": "2025-11-18",
+        "updatedAt": "2025-11-19T04:00:43.000+09:00",
+        "marginLoan": {
+          "newQuantity": "2649800",
+          "returnQuantity": "2275418",
+          "balanceQuantity": "17742922",
+          "balanceRate": "0.0029",
+          "tradingRate": "0.1214"
+        },
+        "stockLoan": {
+          "newQuantity": "5882",
+          "returnQuantity": "11670",
+          "balanceQuantity": "24245",
+          "balanceRate": "0",
+          "tradingRate": "0.0002"
+        }
+      },
+      {
+        "date": "2025-11-17",
+        "updatedAt": "2025-11-18T04:00:41.000+09:00",
+        "marginLoan": {
+          "newQuantity": "1811962",
+          "returnQuantity": "1293538",
+          "balanceQuantity": "17377346",
+          "balanceRate": "0.0028",
+          "tradingRate": "0.0868"
+        },
+        "stockLoan": {
+          "newQuantity": "1524",
+          "returnQuantity": "1083",
+          "balanceQuantity": "30033",
+          "balanceRate": "0",
+          "tradingRate": "0"
+        }
+      },
+      {
+        "date": "2025-11-14",
+        "updatedAt": "2025-11-17T04:00:36.000+09:00",
+        "marginLoan": {
+          "newQuantity": "2026762",
+          "returnQuantity": "1576681",
+          "balanceQuantity": "16870954",
+          "balanceRate": "0.0027",
+          "tradingRate": "0.1043"
+        },
+        "stockLoan": {
+          "newQuantity": "2438",
+          "returnQuantity": "3147",
+          "balanceQuantity": "29592",
+          "balanceRate": "0",
+          "tradingRate": "0.0001"
+        }
+      },
+      {
+        "date": "2025-11-13",
+        "updatedAt": "2025-11-14T04:00:42.000+09:00",
+        "marginLoan": {
+          "newQuantity": "3271627",
+          "returnQuantity": "3843244",
+          "balanceQuantity": "16437463",
+          "balanceRate": "0.0027",
+          "tradingRate": "0.1178"
+        },
+        "stockLoan": {
+          "newQuantity": "14248",
+          "returnQuantity": "11404",
+          "balanceQuantity": "30301",
+          "balanceRate": "0",
+          "tradingRate": "0.0005"
+        }
+      },
+      {
+        "date": "2025-11-12",
+        "updatedAt": "2025-11-13T04:00:40.000+09:00",
+        "marginLoan": {
+          "newQuantity": "2274308",
+          "returnQuantity": "2018114",
+          "balanceQuantity": "17045645",
+          "balanceRate": "0.0028",
+          "tradingRate": "0.0953"
+        },
+        "stockLoan": {
+          "newQuantity": "4410",
+          "returnQuantity": "1683",
+          "balanceQuantity": "27457",
+          "balanceRate": "0",
+          "tradingRate": "0.0001"
+        }
+      },
+      {
+        "date": "2025-11-11",
+        "updatedAt": "2025-11-12T04:01:03.000+09:00",
+        "marginLoan": {
+          "newQuantity": "2663136",
+          "returnQuantity": "2714978",
+          "balanceQuantity": "16815737",
+          "balanceRate": "0.0027",
+          "tradingRate": "0.1162"
+        },
+        "stockLoan": {
+          "newQuantity": "23155",
+          "returnQuantity": "23817",
+          "balanceQuantity": "24730",
+          "balanceRate": "0",
+          "tradingRate": "0.001"
+        }
+      },
+      {
+        "date": "2025-11-10",
+        "updatedAt": "2025-11-11T04:00:47.000+09:00",
+        "marginLoan": {
+          "newQuantity": "3504115",
+          "returnQuantity": "3174381",
+          "balanceQuantity": "16893491",
+          "balanceRate": "0.0028",
+          "tradingRate": "0.1221"
+        },
+        "stockLoan": {
+          "newQuantity": "9658",
+          "returnQuantity": "18383",
+          "balanceQuantity": "25392",
+          "balanceRate": "0",
+          "tradingRate": "0.0003"
+        }
+      },
+      {
+        "date": "2025-11-07",
+        "updatedAt": "2025-11-10T04:00:53.000+09:00",
+        "marginLoan": {
+          "newQuantity": "6481142",
+          "returnQuantity": "4471160",
+          "balanceQuantity": "16626627",
+          "balanceRate": "0.0027",
+          "tradingRate": "0.1444"
+        },
+        "stockLoan": {
+          "newQuantity": "31989",
+          "returnQuantity": "24250",
+          "balanceQuantity": "34117",
+          "balanceRate": "0",
+          "tradingRate": "0.0007"
+        }
+      },
+      {
+        "date": "2025-11-06",
+        "updatedAt": "2025-11-07T04:00:52.000+09:00",
+        "marginLoan": {
+          "newQuantity": "4888534",
+          "returnQuantity": "3891285",
+          "balanceQuantity": "14686535",
+          "balanceRate": "0.0023",
+          "tradingRate": "0.1605"
+        },
+        "stockLoan": {
+          "newQuantity": "10655",
+          "returnQuantity": "15352",
+          "balanceQuantity": "26378",
+          "balanceRate": "0",
+          "tradingRate": "0.0003"
+        }
+      },
+      {
+        "date": "2025-11-05",
+        "updatedAt": "2025-11-06T04:00:56.000+09:00",
+        "marginLoan": {
+          "newQuantity": "3099184",
+          "returnQuantity": "2682793",
+          "balanceQuantity": "13749244",
+          "balanceRate": "0.0022",
+          "tradingRate": "0.1028"
+        },
+        "stockLoan": {
+          "newQuantity": "8097",
+          "returnQuantity": "7911",
+          "balanceQuantity": "31075",
+          "balanceRate": "0",
+          "tradingRate": "0.0002"
+        }
+      },
+      {
+        "date": "2025-11-04",
+        "updatedAt": "2025-11-05T04:00:38.000+09:00",
+        "marginLoan": {
+          "newQuantity": "3098858",
+          "returnQuantity": "3134099",
+          "balanceQuantity": "13368053",
+          "balanceRate": "0.0022",
+          "tradingRate": "0.0565"
+        },
+        "stockLoan": {
+          "newQuantity": "4803",
+          "returnQuantity": "3977",
+          "balanceQuantity": "30889",
+          "balanceRate": "0",
+          "tradingRate": "0"
+        }
+      },
+      {
+        "date": "2025-11-03",
+        "updatedAt": "2025-11-04T04:01:02.000+09:00",
+        "marginLoan": {
+          "newQuantity": "3677971",
+          "returnQuantity": "3785823",
+          "balanceQuantity": "13437555",
+          "balanceRate": "0.0022",
+          "tradingRate": "0.1063"
+        },
+        "stockLoan": {
+          "newQuantity": "11525",
+          "returnQuantity": "8402",
+          "balanceQuantity": "30063",
+          "balanceRate": "0",
+          "tradingRate": "0.0003"
+        }
+      },
+      {
+        "date": "2025-10-31",
+        "updatedAt": "2025-11-03T04:00:42.000+09:00",
+        "marginLoan": {
+          "newQuantity": "2658701",
+          "returnQuantity": "2128647",
+          "balanceQuantity": "13595368",
+          "balanceRate": "0.0022",
+          "tradingRate": "0.1271"
+        },
+        "stockLoan": {
+          "newQuantity": "3051",
+          "returnQuantity": "5749",
+          "balanceQuantity": "26940",
+          "balanceRate": "0",
+          "tradingRate": "0.0001"
+        }
+      },
+      {
+        "date": "2025-10-30",
+        "updatedAt": "2025-10-31T04:00:53.000+09:00",
+        "marginLoan": {
+          "newQuantity": "1828136",
+          "returnQuantity": "1983815",
+          "balanceQuantity": "13098323",
+          "balanceRate": "0.0022",
+          "tradingRate": "0.0913"
+        },
+        "stockLoan": {
+          "newQuantity": "1234",
+          "returnQuantity": "3309",
+          "balanceQuantity": "29638",
+          "balanceRate": "0",
+          "tradingRate": "0"
+        }
+      },
+      {
+        "date": "2025-10-29",
+        "updatedAt": "2025-10-30T04:00:49.000+09:00",
+        "marginLoan": {
+          "newQuantity": "3661201",
+          "returnQuantity": "3432914",
+          "balanceQuantity": "13259048",
+          "balanceRate": "0.0022",
+          "tradingRate": "0.1651"
+        },
+        "stockLoan": {
+          "newQuantity": "4752",
+          "returnQuantity": "3244",
+          "balanceQuantity": "31713",
+          "balanceRate": "0",
+          "tradingRate": "0.0001"
+        }
+      },
+      {
+        "date": "2025-10-28",
+        "updatedAt": "2025-10-29T04:00:48.000+09:00",
+        "marginLoan": {
+          "newQuantity": "1873105",
+          "returnQuantity": "2411949",
+          "balanceQuantity": "13090356",
+          "balanceRate": "0.0021",
+          "tradingRate": "0.0995"
+        },
+        "stockLoan": {
+          "newQuantity": "3472",
+          "returnQuantity": "2264",
+          "balanceQuantity": "30205",
+          "balanceRate": "0",
+          "tradingRate": "0.0001"
+        }
+      },
+      {
+        "date": "2025-10-27",
+        "updatedAt": "2025-10-28T04:00:43.000+09:00",
+        "marginLoan": {
+          "newQuantity": "1482970",
+          "returnQuantity": "1383468",
+          "balanceQuantity": "13633801",
+          "balanceRate": "0.0022",
+          "tradingRate": "0.0802"
+        },
+        "stockLoan": {
+          "newQuantity": "2634",
+          "returnQuantity": "3354",
+          "balanceQuantity": "28997",
+          "balanceRate": "0",
+          "tradingRate": "0.0001"
+        }
+      },
+      {
+        "date": "2025-10-24",
+        "updatedAt": "2025-10-27T04:00:52.000+09:00",
+        "marginLoan": {
+          "newQuantity": "1718417",
+          "returnQuantity": "1721593",
+          "balanceQuantity": "13522921",
+          "balanceRate": "0.0022",
+          "tradingRate": "0.1077"
+        },
+        "stockLoan": {
+          "newQuantity": "8849",
+          "returnQuantity": "15796",
+          "balanceQuantity": "29717",
+          "balanceRate": "0",
+          "tradingRate": "0.0005"
+        }
+      },
+      {
+        "date": "2025-10-23",
+        "updatedAt": "2025-10-24T04:00:53.000+09:00",
+        "marginLoan": {
+          "newQuantity": "2331026",
+          "returnQuantity": "2982722",
+          "balanceQuantity": "13532945",
+          "balanceRate": "0.0022",
+          "tradingRate": "0.1021"
+        },
+        "stockLoan": {
+          "newQuantity": "7482",
+          "returnQuantity": "6699",
+          "balanceQuantity": "36664",
+          "balanceRate": "0",
+          "tradingRate": "0.0003"
+        }
+      },
+      {
+        "date": "2025-10-22",
+        "updatedAt": "2025-10-23T04:00:40.000+09:00",
+        "marginLoan": {
+          "newQuantity": "2815735",
+          "returnQuantity": "2489144",
+          "balanceQuantity": "14156700",
+          "balanceRate": "0.0023",
+          "tradingRate": "0.16"
+        },
+        "stockLoan": {
+          "newQuantity": "12593",
+          "returnQuantity": "6697",
+          "balanceQuantity": "35881",
+          "balanceRate": "0",
+          "tradingRate": "0.0007"
+        }
+      },
+      {
+        "date": "2025-10-21",
+        "updatedAt": "2025-10-22T04:00:43.000+09:00",
+        "marginLoan": {
+          "newQuantity": "3544071",
+          "returnQuantity": "4077697",
+          "balanceQuantity": "13840234",
+          "balanceRate": "0.0022",
+          "tradingRate": "0.1558"
+        },
+        "stockLoan": {
+          "newQuantity": "16175",
+          "returnQuantity": "21838",
+          "balanceQuantity": "29985",
+          "balanceRate": "0",
+          "tradingRate": "0.0007"
+        }
+      },
+      {
+        "date": "2025-10-20",
+        "updatedAt": "2025-10-21T04:00:50.000+09:00",
+        "marginLoan": {
+          "newQuantity": "3171457",
+          "returnQuantity": "3174878",
+          "balanceQuantity": "14392598",
+          "balanceRate": "0.0024",
+          "tradingRate": "0.1126"
+        },
+        "stockLoan": {
+          "newQuantity": "20835",
+          "returnQuantity": "31710",
+          "balanceQuantity": "35648",
+          "balanceRate": "0",
+          "tradingRate": "0.0007"
+        }
+      },
+      {
+        "date": "2025-10-17",
+        "updatedAt": "2025-10-20T04:00:40.000+09:00",
+        "marginLoan": {
+          "newQuantity": "3009105",
+          "returnQuantity": "2501242",
+          "balanceQuantity": "14407334",
+          "balanceRate": "0.0023",
+          "tradingRate": "0.1428"
+        },
+        "stockLoan": {
+          "newQuantity": "23168",
+          "returnQuantity": "4177",
+          "balanceQuantity": "46523",
+          "balanceRate": "0",
+          "tradingRate": "0.001"
+        }
+      },
+      {
+        "date": "2025-10-16",
+        "updatedAt": "2025-10-17T04:00:46.000+09:00",
+        "marginLoan": {
+          "newQuantity": "5033967",
+          "returnQuantity": "4703762",
+          "balanceQuantity": "13907051",
+          "balanceRate": "0.0022",
+          "tradingRate": "0.1415"
+        },
+        "stockLoan": {
+          "newQuantity": "19160",
+          "returnQuantity": "17426",
+          "balanceQuantity": "27532",
+          "balanceRate": "0",
+          "tradingRate": "0.0005"
+        }
+      },
+      {
+        "date": "2025-10-15",
+        "updatedAt": "2025-10-16T04:01:08.000+09:00",
+        "marginLoan": {
+          "newQuantity": "4627299",
+          "returnQuantity": "2917866",
+          "balanceQuantity": "13595136",
+          "balanceRate": "0.0022",
+          "tradingRate": "0.1936"
+        },
+        "stockLoan": {
+          "newQuantity": "14351",
+          "returnQuantity": "18018",
+          "balanceQuantity": "25798",
+          "balanceRate": "0",
+          "tradingRate": "0.0005"
+        }
+      },
+      {
+        "date": "2025-10-14",
+        "updatedAt": "2025-10-15T04:00:57.000+09:00",
+        "marginLoan": {
+          "newQuantity": "3103100",
+          "returnQuantity": "2418322",
+          "balanceQuantity": "11969786",
+          "balanceRate": "0.0019",
+          "tradingRate": "0.0879"
+        },
+        "stockLoan": {
+          "newQuantity": "9508",
+          "returnQuantity": "5144",
+          "balanceQuantity": "29465",
+          "balanceRate": "0",
+          "tradingRate": "0.0002"
+        }
+      },
+      {
+        "date": "2025-10-13",
+        "updatedAt": "2025-10-14T04:00:43.000+09:00",
+        "marginLoan": {
+          "newQuantity": "3407675",
+          "returnQuantity": "3043646",
+          "balanceQuantity": "11306007",
+          "balanceRate": "0.0018",
+          "tradingRate": "0.0682"
+        },
+        "stockLoan": {
+          "newQuantity": "7821",
+          "returnQuantity": "6076",
+          "balanceQuantity": "25101",
+          "balanceRate": "0",
+          "tradingRate": "0.0001"
+        }
+      },
+      {
+        "date": "2025-10-10",
+        "updatedAt": "2025-10-13T04:00:39.000+09:00",
+        "marginLoan": {
+          "newQuantity": "1791798",
+          "returnQuantity": "2021147",
+          "balanceQuantity": "10963039",
+          "balanceRate": "0.0018",
+          "tradingRate": "0.0812"
+        },
+        "stockLoan": {
+          "newQuantity": "3616",
+          "returnQuantity": "1944",
+          "balanceQuantity": "23356",
+          "balanceRate": "0",
+          "tradingRate": "0.0001"
+        }
+      },
+      {
+        "date": "2025-10-02",
+        "updatedAt": "2025-10-10T04:00:40.000+09:00",
+        "marginLoan": {
+          "newQuantity": "1095562",
+          "returnQuantity": "1186656",
+          "balanceQuantity": "11212595",
+          "balanceRate": "0.0018",
+          "tradingRate": "0.067"
+        },
+        "stockLoan": {
+          "newQuantity": "910",
+          "returnQuantity": "780",
+          "balanceQuantity": "21684",
+          "balanceRate": "0",
+          "tradingRate": "0"
+        }
+      },
+      {
+        "date": "2025-10-01",
+        "updatedAt": "2025-10-02T04:00:44.000+09:00",
+        "marginLoan": {
+          "newQuantity": "1373489",
+          "returnQuantity": "1620640",
+          "balanceQuantity": "11308589",
+          "balanceRate": "0.0019",
+          "tradingRate": "0.105"
+        },
+        "stockLoan": {
+          "newQuantity": "3169",
+          "returnQuantity": "3201",
+          "balanceQuantity": "21554",
+          "balanceRate": "0",
+          "tradingRate": "0.0002"
+        }
+      },
+      {
+        "date": "2025-09-30",
+        "updatedAt": "2025-10-01T04:00:39.000+09:00",
+        "marginLoan": {
+          "newQuantity": "2646193",
+          "returnQuantity": "2080859",
+          "balanceQuantity": "11565864",
+          "balanceRate": "0.0019",
+          "tradingRate": "0.1098"
+        },
+        "stockLoan": {
+          "newQuantity": "2527",
+          "returnQuantity": "9590",
+          "balanceQuantity": "21586",
+          "balanceRate": "0",
+          "tradingRate": "0.0001"
+        }
+      },
+      {
+        "date": "2025-09-29",
+        "updatedAt": "2025-09-30T04:01:00.000+09:00",
+        "marginLoan": {
+          "newQuantity": "1292646",
+          "returnQuantity": "2118100",
+          "balanceQuantity": "11004590",
+          "balanceRate": "0.0017",
+          "tradingRate": "0.0657"
+        },
+        "stockLoan": {
+          "newQuantity": "3127",
+          "returnQuantity": "2432",
+          "balanceQuantity": "28649",
+          "balanceRate": "0",
+          "tradingRate": "0.0001"
+        }
+      },
+      {
+        "date": "2025-09-26",
+        "updatedAt": "2025-09-29T04:00:58.000+09:00",
+        "marginLoan": {
+          "newQuantity": "1743933",
+          "returnQuantity": "1625400",
+          "balanceQuantity": "11839661",
+          "balanceRate": "0.0019",
+          "tradingRate": "0.0952"
+        },
+        "stockLoan": {
+          "newQuantity": "2785",
+          "returnQuantity": "1975",
+          "balanceQuantity": "27954",
+          "balanceRate": "0",
+          "tradingRate": "0.0001"
+        }
+      },
+      {
+        "date": "2025-09-25",
+        "updatedAt": "2025-09-26T04:00:43.000+09:00",
+        "marginLoan": {
+          "newQuantity": "2877989",
+          "returnQuantity": "2365025",
+          "balanceQuantity": "11745831",
+          "balanceRate": "0.0018",
+          "tradingRate": "0.1218"
+        },
+        "stockLoan": {
+          "newQuantity": "4815",
+          "returnQuantity": "3544",
+          "balanceQuantity": "27144",
+          "balanceRate": "0",
+          "tradingRate": "0.0001"
+        }
+      },
+      {
+        "date": "2025-09-24",
+        "updatedAt": "2025-09-25T04:00:39.000+09:00",
+        "marginLoan": {
+          "newQuantity": "2902587",
+          "returnQuantity": "2913956",
+          "balanceQuantity": "11253925",
+          "balanceRate": "0.0018",
+          "tradingRate": "0.1054"
+        },
+        "stockLoan": {
+          "newQuantity": "15714",
+          "returnQuantity": "7968",
+          "balanceQuantity": "25873",
+          "balanceRate": "0",
+          "tradingRate": "0.0005"
+        }
+      },
+      {
+        "date": "2025-09-23",
+        "updatedAt": "2025-09-24T04:01:01.000+09:00",
+        "marginLoan": {
+          "newQuantity": "2021601",
+          "returnQuantity": "1880097",
+          "balanceQuantity": "11279796",
+          "balanceRate": "0.0018",
+          "tradingRate": "0.0966"
+        },
+        "stockLoan": {
+          "newQuantity": "938",
+          "returnQuantity": "3328",
+          "balanceQuantity": "18127",
+          "balanceRate": "0",
+          "tradingRate": "0"
+        }
+      },
+      {
+        "date": "2025-09-22",
+        "updatedAt": "2025-09-23T04:00:58.000+09:00",
+        "marginLoan": {
+          "newQuantity": "2440380",
+          "returnQuantity": "2348856",
+          "balanceQuantity": "11145794",
+          "balanceRate": "0.0018",
+          "tradingRate": "0.0952"
+        },
+        "stockLoan": {
+          "newQuantity": "5492",
+          "returnQuantity": "2365",
+          "balanceQuantity": "20517",
+          "balanceRate": "0",
+          "tradingRate": "0.0002"
+        }
+      },
+      {
+        "date": "2025-09-19",
+        "updatedAt": "2025-09-22T04:00:38.000+09:00",
+        "marginLoan": {
+          "newQuantity": "2254883",
+          "returnQuantity": "1853055",
+          "balanceQuantity": "11068121",
+          "balanceRate": "0.0018",
+          "tradingRate": "0.108"
+        },
+        "stockLoan": {
+          "newQuantity": "2142",
+          "returnQuantity": "4182",
+          "balanceQuantity": "17390",
+          "balanceRate": "0",
+          "tradingRate": "0.0001"
+        }
+      },
+      {
+        "date": "2025-09-18",
+        "updatedAt": "2025-09-19T04:00:39.000+09:00",
+        "marginLoan": {
+          "newQuantity": "1935730",
+          "returnQuantity": "2132845",
+          "balanceQuantity": "10677080",
+          "balanceRate": "0.0017",
+          "tradingRate": "0.0685"
+        },
+        "stockLoan": {
+          "newQuantity": "4328",
+          "returnQuantity": "2679",
+          "balanceQuantity": "19430",
+          "balanceRate": "0",
+          "tradingRate": "0.0001"
+        }
+      },
+      {
+        "date": "2025-09-17",
+        "updatedAt": "2025-09-18T04:00:44.000+09:00",
+        "marginLoan": {
+          "newQuantity": "2337373",
+          "returnQuantity": "1699342",
+          "balanceQuantity": "10877961",
+          "balanceRate": "0.0018",
+          "tradingRate": "0.1173"
+        },
+        "stockLoan": {
+          "newQuantity": "3740",
+          "returnQuantity": "4585",
+          "balanceQuantity": "17781",
+          "balanceRate": "0",
+          "tradingRate": "0.0001"
+        }
+      },
+      {
+        "date": "2025-09-16",
+        "updatedAt": "2025-09-17T04:00:59.000+09:00",
+        "marginLoan": {
+          "newQuantity": "2130148",
+          "returnQuantity": "2740755",
+          "balanceQuantity": "10241734",
+          "balanceRate": "0.0016",
+          "tradingRate": "0.0754"
+        },
+        "stockLoan": {
+          "newQuantity": "5434",
+          "returnQuantity": "2351",
+          "balanceQuantity": "18626",
+          "balanceRate": "0",
+          "tradingRate": "0.0001"
+        }
+      },
+      {
+        "date": "2025-09-15",
+        "updatedAt": "2025-09-16T04:01:07.000+09:00",
+        "marginLoan": {
+          "newQuantity": "1540462",
+          "returnQuantity": "1588677",
+          "balanceQuantity": "10861823",
+          "balanceRate": "0.0017",
+          "tradingRate": "0.074"
+        },
+        "stockLoan": {
+          "newQuantity": "2004",
+          "returnQuantity": "1867",
+          "balanceQuantity": "15543",
+          "balanceRate": "0",
+          "tradingRate": "0"
+        }
+      },
+      {
+        "date": "2025-09-12",
+        "updatedAt": "2025-09-15T04:00:41.000+09:00",
+        "marginLoan": {
+          "newQuantity": "978467",
+          "returnQuantity": "1733617",
+          "balanceQuantity": "10909187",
+          "balanceRate": "0.0018",
+          "tradingRate": "0.0445"
+        },
+        "stockLoan": {
+          "newQuantity": "2420",
+          "returnQuantity": "1258",
+          "balanceQuantity": "15406",
+          "balanceRate": "0",
+          "tradingRate": "0.0001"
+        }
+      },
+      {
+        "date": "2025-09-11",
+        "updatedAt": "2025-09-12T04:01:02.000+09:00",
+        "marginLoan": {
+          "newQuantity": "699792",
+          "returnQuantity": "1119786",
+          "balanceQuantity": "11665648",
+          "balanceRate": "0.0018",
+          "tradingRate": "0.0469"
+        },
+        "stockLoan": {
+          "newQuantity": "1232",
+          "returnQuantity": "729",
+          "balanceQuantity": "14244",
+          "balanceRate": "0",
+          "tradingRate": "0"
+        }
+      },
+      {
+        "date": "2025-09-10",
+        "updatedAt": "2025-09-11T04:00:56.000+09:00",
+        "marginLoan": {
+          "newQuantity": "368417",
+          "returnQuantity": "547551",
+          "balanceQuantity": "12083460",
+          "balanceRate": "0.002",
+          "tradingRate": "0.0397"
+        },
+        "stockLoan": {
+          "newQuantity": "484",
+          "returnQuantity": "498",
+          "balanceQuantity": "13741",
+          "balanceRate": "0",
+          "tradingRate": "0"
+        }
+      },
+      {
+        "date": "2025-09-09",
+        "updatedAt": "2025-09-10T04:00:43.000+09:00",
+        "marginLoan": {
+          "newQuantity": "620430",
+          "returnQuantity": "513908",
+          "balanceQuantity": "12263129",
+          "balanceRate": "0.002",
+          "tradingRate": "0.0537"
+        },
+        "stockLoan": {
+          "newQuantity": "76",
+          "returnQuantity": "234",
+          "balanceQuantity": "13755",
+          "balanceRate": "0",
+          "tradingRate": "0"
+        }
+      },
+      {
+        "date": "2025-09-08",
+        "updatedAt": "2025-09-09T04:00:59.000+09:00",
+        "marginLoan": {
+          "newQuantity": "419206",
+          "returnQuantity": "480493",
+          "balanceQuantity": "12157820",
+          "balanceRate": "0.002",
+          "tradingRate": "0.034"
+        },
+        "stockLoan": {
+          "newQuantity": "1789",
+          "returnQuantity": "1521",
+          "balanceQuantity": "13913",
+          "balanceRate": "0",
+          "tradingRate": "0.0001"
+        }
+      },
+      {
+        "date": "2025-09-05",
+        "updatedAt": "2025-09-08T04:00:55.000+09:00",
+        "marginLoan": {
+          "newQuantity": "379522",
+          "returnQuantity": "454946",
+          "balanceQuantity": "12221658",
+          "balanceRate": "0.002",
+          "tradingRate": "0.0368"
+        },
+        "stockLoan": {
+          "newQuantity": "2601",
+          "returnQuantity": "1048",
+          "balanceQuantity": "13645",
+          "balanceRate": "0",
+          "tradingRate": "0.0002"
+        }
+      },
+      {
+        "date": "2025-09-04",
+        "updatedAt": "2025-09-05T04:00:43.000+09:00",
+        "marginLoan": {
+          "newQuantity": "542542",
+          "returnQuantity": "891289",
+          "balanceQuantity": "12299216",
+          "balanceRate": "0.002",
+          "tradingRate": "0.051"
+        },
+        "stockLoan": {
+          "newQuantity": "1173",
+          "returnQuantity": "144",
+          "balanceQuantity": "12092",
+          "balanceRate": "0",
+          "tradingRate": "0.0001"
+        }
+      },
+      {
+        "date": "2025-09-03",
+        "updatedAt": "2025-09-04T04:00:43.000+09:00",
+        "marginLoan": {
+          "newQuantity": "1178500",
+          "returnQuantity": "1080190",
+          "balanceQuantity": "12649667",
+          "balanceRate": "0.002",
+          "tradingRate": "0.0981"
+        },
+        "stockLoan": {
+          "newQuantity": "1620",
+          "returnQuantity": "4476",
+          "balanceQuantity": "11063",
+          "balanceRate": "0",
+          "tradingRate": "0.0001"
+        }
+      },
+      {
+        "date": "2025-09-02",
+        "updatedAt": "2025-09-03T04:00:57.000+09:00",
+        "marginLoan": {
+          "newQuantity": "556783",
+          "returnQuantity": "618622",
+          "balanceQuantity": "12553743",
+          "balanceRate": "0.002",
+          "tradingRate": "0.0475"
+        },
+        "stockLoan": {
+          "newQuantity": "663",
+          "returnQuantity": "1649",
+          "balanceQuantity": "13919",
+          "balanceRate": "0",
+          "tradingRate": "0"
+        }
+      },
+      {
+        "date": "2025-09-01",
+        "updatedAt": "2025-09-02T04:00:59.000+09:00",
+        "marginLoan": {
+          "newQuantity": "936612",
+          "returnQuantity": "610103",
+          "balanceQuantity": "12616461",
+          "balanceRate": "0.002",
+          "tradingRate": "0.0808"
+        },
+        "stockLoan": {
+          "newQuantity": "1362",
+          "returnQuantity": "1393",
+          "balanceQuantity": "14905",
+          "balanceRate": "0",
+          "tradingRate": "0.0001"
+        }
+      },
+      {
+        "date": "2025-08-29",
+        "updatedAt": "2025-09-01T04:00:40.000+09:00",
+        "marginLoan": {
+          "newQuantity": "571452",
+          "returnQuantity": "623878",
+          "balanceQuantity": "12292299",
+          "balanceRate": "0.002",
+          "tradingRate": "0.0542"
+        },
+        "stockLoan": {
+          "newQuantity": "305",
+          "returnQuantity": "748",
+          "balanceQuantity": "14936",
+          "balanceRate": "0",
+          "tradingRate": "0"
+        }
+      },
+      {
+        "date": "2025-08-28",
+        "updatedAt": "2025-08-29T04:00:42.000+09:00",
+        "marginLoan": {
+          "newQuantity": "933766",
+          "returnQuantity": "597079",
+          "balanceQuantity": "12346778",
+          "balanceRate": "0.002",
+          "tradingRate": "0.0633"
+        },
+        "stockLoan": {
+          "newQuantity": "208",
+          "returnQuantity": "728",
+          "balanceQuantity": "15379",
+          "balanceRate": "0",
+          "tradingRate": "0"
+        }
+      },
+      {
+        "date": "2025-08-27",
+        "updatedAt": "2025-08-28T04:00:37.000+09:00",
+        "marginLoan": {
+          "newQuantity": "1027758",
+          "returnQuantity": "508150",
+          "balanceQuantity": "12013554",
+          "balanceRate": "0.0019",
+          "tradingRate": "0.0992"
+        },
+        "stockLoan": {
+          "newQuantity": "1882",
+          "returnQuantity": "296",
+          "balanceQuantity": "15899",
+          "balanceRate": "0",
+          "tradingRate": "0.0001"
+        }
+      },
+      {
+        "date": "2025-08-26",
+        "updatedAt": "2025-08-27T04:00:39.000+09:00",
+        "marginLoan": {
+          "newQuantity": "515401",
+          "returnQuantity": "762878",
+          "balanceQuantity": "11496677",
+          "balanceRate": "0.0018",
+          "tradingRate": "0.0554"
+        },
+        "stockLoan": {
+          "newQuantity": "2266",
+          "returnQuantity": "2262",
+          "balanceQuantity": "14313",
+          "balanceRate": "0",
+          "tradingRate": "0.0002"
+        }
+      },
+      {
+        "date": "2025-08-25",
+        "updatedAt": "2025-08-26T04:00:48.000+09:00",
+        "marginLoan": {
+          "newQuantity": "1340238",
+          "returnQuantity": "1128158",
+          "balanceQuantity": "11745908",
+          "balanceRate": "0.0019",
+          "tradingRate": "0.071"
+        },
+        "stockLoan": {
+          "newQuantity": "1580",
+          "returnQuantity": "2146",
+          "balanceQuantity": "14309",
+          "balanceRate": "0",
+          "tradingRate": "0"
+        }
+      },
+      {
+        "date": "2025-08-22",
+        "updatedAt": "2025-08-25T04:00:56.000+09:00",
+        "marginLoan": {
+          "newQuantity": "1165636",
+          "returnQuantity": "1528165",
+          "balanceQuantity": "11538529",
+          "balanceRate": "0.0019",
+          "tradingRate": "0.0667"
+        },
+        "stockLoan": {
+          "newQuantity": "4125",
+          "returnQuantity": "2785",
+          "balanceQuantity": "14875",
+          "balanceRate": "0",
+          "tradingRate": "0.0002"
+        }
+      },
+      {
+        "date": "2025-08-21",
+        "updatedAt": "2025-08-22T04:00:46.000+09:00",
+        "marginLoan": {
+          "newQuantity": "377568",
+          "returnQuantity": "552113",
+          "balanceQuantity": "11925255",
+          "balanceRate": "0.0019",
+          "tradingRate": "0.0358"
+        },
+        "stockLoan": {
+          "newQuantity": "700",
+          "returnQuantity": "1521",
+          "balanceQuantity": "13535",
+          "balanceRate": "0",
+          "tradingRate": "0"
+        }
+      },
+      {
+        "date": "2025-08-20",
+        "updatedAt": "2025-08-21T04:00:41.000+09:00",
+        "marginLoan": {
+          "newQuantity": "1009995",
+          "returnQuantity": "789926",
+          "balanceQuantity": "12100404",
+          "balanceRate": "0.0019",
+          "tradingRate": "0.0742"
+        },
+        "stockLoan": {
+          "newQuantity": "349",
+          "returnQuantity": "1290",
+          "balanceQuantity": "14356",
+          "balanceRate": "0",
+          "tradingRate": "0"
+        }
+      },
+      {
+        "date": "2025-08-19",
+        "updatedAt": "2025-08-27T09:16:47.000+09:00",
+        "marginLoan": {
+          "newQuantity": "469530",
+          "returnQuantity": "604927",
+          "balanceQuantity": "11890080",
+          "balanceRate": "0.0019",
+          "tradingRate": "0"
+        },
+        "stockLoan": {
+          "newQuantity": "158",
+          "returnQuantity": "198",
+          "balanceQuantity": "15297",
+          "balanceRate": "0",
+          "tradingRate": "0.0185"
+        }
+      },
+      {
+        "date": "2025-08-18",
+        "updatedAt": "2025-08-19T04:00:51.000+09:00",
+        "marginLoan": {
+          "newQuantity": "962063",
+          "returnQuantity": "914258",
+          "balanceQuantity": "12027239",
+          "balanceRate": "0.0019",
+          "tradingRate": "0.0781"
+        },
+        "stockLoan": {
+          "newQuantity": "401",
+          "returnQuantity": "458",
+          "balanceQuantity": "15337",
+          "balanceRate": "0",
+          "tradingRate": "0"
+        }
+      },
+      {
+        "date": "2025-08-14",
+        "updatedAt": "2025-08-18T04:00:46.000+09:00",
+        "marginLoan": {
+          "newQuantity": "1466187",
+          "returnQuantity": "1683225",
+          "balanceQuantity": "11980802",
+          "balanceRate": "0.0019",
+          "tradingRate": "0.0927"
+        },
+        "stockLoan": {
+          "newQuantity": "2146",
+          "returnQuantity": "2130",
+          "balanceQuantity": "15394",
+          "balanceRate": "0",
+          "tradingRate": "0.0001"
+        }
+      },
+      {
+        "date": "2025-08-13",
+        "updatedAt": "2025-08-14T04:00:42.000+09:00",
+        "marginLoan": {
+          "newQuantity": "1074771",
+          "returnQuantity": "941569",
+          "balanceQuantity": "12203670",
+          "balanceRate": "0.0019",
+          "tradingRate": "0.0946"
+        },
+        "stockLoan": {
+          "newQuantity": "303",
+          "returnQuantity": "1646",
+          "balanceQuantity": "15378",
+          "balanceRate": "0",
+          "tradingRate": "0"
+        }
+      },
+      {
+        "date": "2025-08-12",
+        "updatedAt": "2025-08-13T04:00:49.000+09:00",
+        "marginLoan": {
+          "newQuantity": "1980012",
+          "returnQuantity": "2209893",
+          "balanceQuantity": "12072651",
+          "balanceRate": "0.0019",
+          "tradingRate": "0.0889"
+        },
+        "stockLoan": {
+          "newQuantity": "4598",
+          "returnQuantity": "3406",
+          "balanceQuantity": "16721",
+          "balanceRate": "0",
+          "tradingRate": "0.0002"
+        }
+      },
+      {
+        "date": "2025-08-11",
+        "updatedAt": "2025-08-12T04:00:47.000+09:00",
+        "marginLoan": {
+          "newQuantity": "2108217",
+          "returnQuantity": "1823804",
+          "balanceQuantity": "12317147",
+          "balanceRate": "0.0019",
+          "tradingRate": "0.1404"
+        },
+        "stockLoan": {
+          "newQuantity": "2764",
+          "returnQuantity": "1180",
+          "balanceQuantity": "15529",
+          "balanceRate": "0",
+          "tradingRate": "0.0001"
+        }
+      },
+      {
+        "date": "2025-08-08",
+        "updatedAt": "2025-08-11T04:00:39.000+09:00",
+        "marginLoan": {
+          "newQuantity": "1064819",
+          "returnQuantity": "932879",
+          "balanceQuantity": "12037575",
+          "balanceRate": "0.0019",
+          "tradingRate": "0.0847"
+        },
+        "stockLoan": {
+          "newQuantity": "2256",
+          "returnQuantity": "4566",
+          "balanceQuantity": "13945",
+          "balanceRate": "0",
+          "tradingRate": "0.0001"
+        }
+      },
+      {
+        "date": "2025-08-07",
+        "updatedAt": "2025-08-08T04:00:50.000+09:00",
+        "marginLoan": {
+          "newQuantity": "1534397",
+          "returnQuantity": "1221569",
+          "balanceQuantity": "11910698",
+          "balanceRate": "0.0019",
+          "tradingRate": "0.1065"
+        },
+        "stockLoan": {
+          "newQuantity": "1633",
+          "returnQuantity": "1936",
+          "balanceQuantity": "16255",
+          "balanceRate": "0",
+          "tradingRate": "0.0001"
+        }
+      },
+      {
+        "date": "2025-08-06",
+        "updatedAt": "2025-08-07T04:00:52.000+09:00",
+        "marginLoan": {
+          "newQuantity": "1170089",
+          "returnQuantity": "1040966",
+          "balanceQuantity": "11610920",
+          "balanceRate": "0.0019",
+          "tradingRate": "0.079"
+        },
+        "stockLoan": {
+          "newQuantity": "4257",
+          "returnQuantity": "2061",
+          "balanceQuantity": "16558",
+          "balanceRate": "0",
+          "tradingRate": "0.0002"
+        }
+      },
+      {
+        "date": "2025-08-05",
+        "updatedAt": "2025-08-06T04:00:50.000+09:00",
+        "marginLoan": {
+          "newQuantity": "2691198",
+          "returnQuantity": "2459776",
+          "balanceQuantity": "11489523",
+          "balanceRate": "0.0019",
+          "tradingRate": "0.1119"
+        },
+        "stockLoan": {
+          "newQuantity": "2446",
+          "returnQuantity": "8533",
+          "balanceQuantity": "14362",
+          "balanceRate": "0",
+          "tradingRate": "0.0001"
+        }
+      },
+      {
+        "date": "2025-08-04",
+        "updatedAt": "2025-08-05T04:00:52.000+09:00",
+        "marginLoan": {
+          "newQuantity": "2171569",
+          "returnQuantity": "1753280",
+          "balanceQuantity": "11290235",
+          "balanceRate": "0.0018",
+          "tradingRate": "0.0817"
+        },
+        "stockLoan": {
+          "newQuantity": "4043",
+          "returnQuantity": "7574",
+          "balanceQuantity": "20449",
+          "balanceRate": "0",
+          "tradingRate": "0.0001"
+        }
+      },
+      {
+        "date": "2025-08-01",
+        "updatedAt": "2025-08-04T04:00:51.000+09:00",
+        "marginLoan": {
+          "newQuantity": "2404183",
+          "returnQuantity": "2928224",
+          "balanceQuantity": "10890337",
+          "balanceRate": "0.0017",
+          "tradingRate": "0.0691"
+        },
+        "stockLoan": {
+          "newQuantity": "11606",
+          "returnQuantity": "7049",
+          "balanceQuantity": "23980",
+          "balanceRate": "0",
+          "tradingRate": "0.0003"
+        }
+      },
+      {
+        "date": "2025-07-31",
+        "updatedAt": "2025-08-01T04:00:50.000+09:00",
+        "marginLoan": {
+          "newQuantity": "2235383",
+          "returnQuantity": "2343920",
+          "balanceQuantity": "11455354",
+          "balanceRate": "0.0018",
+          "tradingRate": "0.0792"
+        },
+        "stockLoan": {
+          "newQuantity": "4963",
+          "returnQuantity": "4208",
+          "balanceQuantity": "19423",
+          "balanceRate": "0",
+          "tradingRate": "0.0001"
+        }
+      },
+      {
+        "date": "2025-07-30",
+        "updatedAt": "2025-07-31T04:00:48.000+09:00",
+        "marginLoan": {
+          "newQuantity": "3596994",
+          "returnQuantity": "3585389",
+          "balanceQuantity": "11597721",
+          "balanceRate": "0.0019",
+          "tradingRate": "0.1017"
+        },
+        "stockLoan": {
+          "newQuantity": "10650",
+          "returnQuantity": "4517",
+          "balanceQuantity": "18668",
+          "balanceRate": "0",
+          "tradingRate": "0.0002"
+        }
+      },
+      {
+        "date": "2025-07-29",
+        "updatedAt": "2025-07-30T04:00:55.000+09:00",
+        "marginLoan": {
+          "newQuantity": "377329",
+          "returnQuantity": "542670",
+          "balanceQuantity": "11706200",
+          "balanceRate": "0.0019",
+          "tradingRate": "0.0466"
+        },
+        "stockLoan": {
+          "newQuantity": "872",
+          "returnQuantity": "1937",
+          "balanceQuantity": "12535",
+          "balanceRate": "0",
+          "tradingRate": "0.0001"
+        }
+      },
+      {
+        "date": "2025-07-28",
+        "updatedAt": "2025-07-29T04:00:51.000+09:00",
+        "marginLoan": {
+          "newQuantity": "825834",
+          "returnQuantity": "1009394",
+          "balanceQuantity": "11878095",
+          "balanceRate": "0.0019",
+          "tradingRate": "0.0651"
+        },
+        "stockLoan": {
+          "newQuantity": "1230",
+          "returnQuantity": "2318",
+          "balanceQuantity": "13600",
+          "balanceRate": "0",
+          "tradingRate": "0"
+        }
+      },
+      {
+        "date": "2025-07-25",
+        "updatedAt": "2025-07-28T04:00:49.000+09:00",
+        "marginLoan": {
+          "newQuantity": "1277704",
+          "returnQuantity": "1257418",
+          "balanceQuantity": "12068440",
+          "balanceRate": "0.0019",
+          "tradingRate": "0.0814"
+        },
+        "stockLoan": {
+          "newQuantity": "1362",
+          "returnQuantity": "2805",
+          "balanceQuantity": "14688",
+          "balanceRate": "0",
+          "tradingRate": "0"
+        }
+      },
+      {
+        "date": "2025-07-24",
+        "updatedAt": "2025-07-25T04:00:50.000+09:00",
+        "marginLoan": {
+          "newQuantity": "1981106",
+          "returnQuantity": "2205135",
+          "balanceQuantity": "12057342",
+          "balanceRate": "0.0019",
+          "tradingRate": "0.095"
+        },
+        "stockLoan": {
+          "newQuantity": "2503",
+          "returnQuantity": "11459",
+          "balanceQuantity": "16131",
+          "balanceRate": "0",
+          "tradingRate": "0.0001"
+        }
+      },
+      {
+        "date": "2025-07-23",
+        "updatedAt": "2025-07-24T04:00:53.000+09:00",
+        "marginLoan": {
+          "newQuantity": "1242485",
+          "returnQuantity": "1567707",
+          "balanceQuantity": "12295193",
+          "balanceRate": "0.002",
+          "tradingRate": "0.07"
+        },
+        "stockLoan": {
+          "newQuantity": "5235",
+          "returnQuantity": "1345",
+          "balanceQuantity": "25087",
+          "balanceRate": "0",
+          "tradingRate": "0.0002"
+        }
+      },
+      {
+        "date": "2025-07-22",
+        "updatedAt": "2025-07-23T04:00:50.000+09:00",
+        "marginLoan": {
+          "newQuantity": "1560997",
+          "returnQuantity": "2353112",
+          "balanceQuantity": "12640286",
+          "balanceRate": "0.002",
+          "tradingRate": "0.065"
+        },
+        "stockLoan": {
+          "newQuantity": "10007",
+          "returnQuantity": "4735",
+          "balanceQuantity": "21197",
+          "balanceRate": "0",
+          "tradingRate": "0.0004"
+        }
+      },
+      {
+        "date": "2025-07-21",
+        "updatedAt": "2025-07-22T04:00:51.000+09:00",
+        "marginLoan": {
+          "newQuantity": "3305745",
+          "returnQuantity": "4125982",
+          "balanceQuantity": "13489114",
+          "balanceRate": "0.0022",
+          "tradingRate": "0.0837"
+        },
+        "stockLoan": {
+          "newQuantity": "9525",
+          "returnQuantity": "2420",
+          "balanceQuantity": "15925",
+          "balanceRate": "0",
+          "tradingRate": "0.0002"
+        }
+      },
+      {
+        "date": "2025-07-18",
+        "updatedAt": "2025-07-21T04:00:51.000+09:00",
+        "marginLoan": {
+          "newQuantity": "2047766",
+          "returnQuantity": "2218317",
+          "balanceQuantity": "14358739",
+          "balanceRate": "0.0023",
+          "tradingRate": "0.0888"
+        },
+        "stockLoan": {
+          "newQuantity": "3150",
+          "returnQuantity": "1052",
+          "balanceQuantity": "8820",
+          "balanceRate": "0",
+          "tradingRate": "0.0001"
+        }
+      },
+      {
+        "date": "2025-07-17",
+        "updatedAt": "2025-07-18T04:00:49.000+09:00",
+        "marginLoan": {
+          "newQuantity": "1683593",
+          "returnQuantity": "1628531",
+          "balanceQuantity": "14563962",
+          "balanceRate": "0.0024",
+          "tradingRate": "0.0912"
+        },
+        "stockLoan": {
+          "newQuantity": "1914",
+          "returnQuantity": "957",
+          "balanceQuantity": "6722",
+          "balanceRate": "0",
+          "tradingRate": "0"
+        }
+      },
+      {
+        "date": "2025-07-16",
+        "updatedAt": "2025-07-17T04:00:48.000+09:00",
+        "marginLoan": {
+          "newQuantity": "873063",
+          "returnQuantity": "946313",
+          "balanceQuantity": "14580880",
+          "balanceRate": "0.0024",
+          "tradingRate": "0.0642"
+        },
+        "stockLoan": {
+          "newQuantity": "59",
+          "returnQuantity": "737",
+          "balanceQuantity": "5765",
+          "balanceRate": "0",
+          "tradingRate": "0"
+        }
+      },
+      {
+        "date": "2025-07-15",
+        "updatedAt": "2025-07-16T04:00:44.000+09:00",
+        "marginLoan": {
+          "newQuantity": "2210861",
+          "returnQuantity": "2608799",
+          "balanceQuantity": "14686023",
+          "balanceRate": "0.0024",
+          "tradingRate": "0.1154"
+        },
+        "stockLoan": {
+          "newQuantity": "1838",
+          "returnQuantity": "603",
+          "balanceQuantity": "6443",
+          "balanceRate": "0",
+          "tradingRate": "0"
+        }
+      },
+      {
+        "date": "2025-07-14",
+        "updatedAt": "2025-07-15T04:00:42.000+09:00",
+        "marginLoan": {
+          "newQuantity": "995330",
+          "returnQuantity": "1007289",
+          "balanceQuantity": "15164178",
+          "balanceRate": "0.0025",
+          "tradingRate": "0.0673"
+        },
+        "stockLoan": {
+          "newQuantity": "21",
+          "returnQuantity": "4",
+          "balanceQuantity": "5208",
+          "balanceRate": "0",
+          "tradingRate": "0"
+        }
+      },
+      {
+        "date": "2025-07-11",
+        "updatedAt": "2025-07-14T04:00:52.000+09:00",
+        "marginLoan": {
+          "newQuantity": "1709011",
+          "returnQuantity": "1216287",
+          "balanceQuantity": "15202710",
+          "balanceRate": "0.0025",
+          "tradingRate": "0.0974"
+        },
+        "stockLoan": {
+          "newQuantity": "362",
+          "returnQuantity": "811",
+          "balanceQuantity": "5191",
+          "balanceRate": "0",
+          "tradingRate": "0"
+        }
+      },
+      {
+        "date": "2025-07-10",
+        "updatedAt": "2025-07-11T04:00:47.000+09:00",
+        "marginLoan": {
+          "newQuantity": "2631400",
+          "returnQuantity": "2074835",
+          "balanceQuantity": "14717670",
+          "balanceRate": "0.0023",
+          "tradingRate": "0.1301"
+        },
+        "stockLoan": {
+          "newQuantity": "1236",
+          "returnQuantity": "1782",
+          "balanceQuantity": "5640",
+          "balanceRate": "0",
+          "tradingRate": "0"
+        }
+      },
+      {
+        "date": "2025-07-09",
+        "updatedAt": "2025-07-10T04:00:44.000+09:00",
+        "marginLoan": {
+          "newQuantity": "1886483",
+          "returnQuantity": "1502074",
+          "balanceQuantity": "14225000",
+          "balanceRate": "0.0023",
+          "tradingRate": "0.1098"
+        },
+        "stockLoan": {
+          "newQuantity": "1413",
+          "returnQuantity": "4580",
+          "balanceQuantity": "6186",
+          "balanceRate": "0",
+          "tradingRate": "0"
+        }
+      },
+      {
+        "date": "2025-07-08",
+        "updatedAt": "2025-07-09T04:00:47.000+09:00",
+        "marginLoan": {
+          "newQuantity": "2833001",
+          "returnQuantity": "3063798",
+          "balanceQuantity": "13845774",
+          "balanceRate": "0.0022",
+          "tradingRate": "0.1192"
+        },
+        "stockLoan": {
+          "newQuantity": "1725",
+          "returnQuantity": "2538",
+          "balanceQuantity": "9353",
+          "balanceRate": "0",
+          "tradingRate": "0"
+        }
+      },
+      {
+        "date": "2025-07-07",
+        "updatedAt": "2025-07-08T04:00:42.000+09:00",
+        "marginLoan": {
+          "newQuantity": "3736816",
+          "returnQuantity": "4216204",
+          "balanceQuantity": "14117589",
+          "balanceRate": "0.0023",
+          "tradingRate": "0.1166"
+        },
+        "stockLoan": {
+          "newQuantity": "7082",
+          "returnQuantity": "2571",
+          "balanceQuantity": "10166",
+          "balanceRate": "0",
+          "tradingRate": "0.0002"
+        }
+      },
+      {
+        "date": "2025-07-04",
+        "updatedAt": "2025-07-07T04:00:46.000+09:00",
+        "marginLoan": {
+          "newQuantity": "1096130",
+          "returnQuantity": "1109316",
+          "balanceQuantity": "14655952",
+          "balanceRate": "0.0024",
+          "tradingRate": "0.0728"
+        },
+        "stockLoan": {
+          "newQuantity": "1325",
+          "returnQuantity": "259",
+          "balanceQuantity": "5655",
+          "balanceRate": "0",
+          "tradingRate": "0"
+        }
+      },
+      {
+        "date": "2025-07-03",
+        "updatedAt": "2025-07-04T04:00:48.000+09:00",
+        "marginLoan": {
+          "newQuantity": "1254983",
+          "returnQuantity": "1733929",
+          "balanceQuantity": "14745292",
+          "balanceRate": "0.0024",
+          "tradingRate": "0.0918"
+        },
+        "stockLoan": {
+          "newQuantity": "1039",
+          "returnQuantity": "1330",
+          "balanceQuantity": "4589",
+          "balanceRate": "0",
+          "tradingRate": "0"
+        }
+      },
+      {
+        "date": "2025-07-02",
+        "updatedAt": "2025-07-03T04:00:53.000+09:00",
+        "marginLoan": {
+          "newQuantity": "1757224",
+          "returnQuantity": "1195724",
+          "balanceQuantity": "15248584",
+          "balanceRate": "0.0025",
+          "tradingRate": "0.1026"
+        },
+        "stockLoan": {
+          "newQuantity": "140",
+          "returnQuantity": "1638",
+          "balanceQuantity": "4880",
+          "balanceRate": "0",
+          "tradingRate": "0"
+        }
+      },
+      {
+        "date": "2025-07-01",
+        "updatedAt": "2025-07-02T04:00:39.000+09:00",
+        "marginLoan": {
+          "newQuantity": "1921654",
+          "returnQuantity": "2063834",
+          "balanceQuantity": "14695638",
+          "balanceRate": "0.0024",
+          "tradingRate": "0.1108"
+        },
+        "stockLoan": {
+          "newQuantity": "4260",
+          "returnQuantity": "2809",
+          "balanceQuantity": "6378",
+          "balanceRate": "0",
+          "tradingRate": "0.0002"
+        }
+      }
+    ]
+  }
+}
