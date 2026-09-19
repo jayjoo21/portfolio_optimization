@@ -343,8 +343,17 @@ def extract_period_info(
 
     text = str(period_key)
 
+    # Corrected-source historical folders often use:
+    #   사업보고서_(2022.12)
+    #
+    # Non-corrected canonical keys are stored as:
+    #   사업보고서|2022.12
+    # and safe_name() turns that into:
+    #   사업보고서_2022.12
+    #
+    # Accept all three without changing the semantic period.
     match = re.search(
-        r"\((\d{4})\.(\d{2})\)",
+        r"(\d{4})\.(\d{2})",
         text,
     )
 

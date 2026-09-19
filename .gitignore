@@ -1,24 +1,27 @@
-.env
-
-# Jupyter Notebook 임시 체크포인트
-.ipynb_checkpoints/
-**/.ipynb_checkpoints/
-
-# Python cache
+# Python
 __pycache__/
 *.pyc
 
-# 환경변수
+# Environments
 .env
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
 
 # OS 임시파일
 .DS_Store
 Thumbs.db
 
-# Large generated KRX data
-data/clean/krx/*.pkl
-data/clean/krx/*.parquet
+# Large/generated data
+data/raw/
+data/interim/
+data/clean/
 
-data/clean/krx/stocks/krx_stock_panel_clean.parquet
-data/clean/krx/stocks/krx_stock_panel_clean_temp.pkldata/clean/krx/stocks/krx_stock_panel_clean.parquet
-data/clean/krx/stocks/krx_stock_panel_clean_temp.pkl
+*.parquet
+
+# Optional local outputs
+*.log
+

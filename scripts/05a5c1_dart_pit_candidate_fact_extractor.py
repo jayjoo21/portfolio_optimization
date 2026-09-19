@@ -4,13 +4,20 @@ import io
 import json
 import re
 import zipfile
+import warnings
 from pathlib import Path
 from typing import Any
 
 import numpy as np
 import pandas as pd
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup, XMLParsedAsHTMLWarning
 from lxml import etree
+
+
+warnings.filterwarnings(
+    "ignore",
+    category=XMLParsedAsHTMLWarning,
+)
 
 
 # ============================================================
@@ -630,6 +637,203 @@ def statement_score(
     return score, " | ".join(reasons)
 
 
+def _direct_table_rows(table) -> list[Any]:
+    """
+    nested table의 <tr>까지 섞이지 않게 현재 table에 직접 속한 row만 반환한다.
+    """
+    return [
+        tr
+        for tr in table.find_all("tr")
+        if tr.find_parent("table") is table
+    ]
+
+
+def _direct_row_cells(tr) -> list[Any]:
+    """
+    nested element 내부의 td/th를 중복 집계하지 않고 현재 row cell만 반환한다.
+    """
+    return [
+        cell
+        for cell in tr.find_all(["th", "td"])
+        if cell.find_parent("tr") is tr
+    ]
+
+
+def _expand_table_grid(table) -> list[list[str]]:
+    """
+    DART HTML-like table을 pandas.read_html 없이 직접 grid로 펼친다.
+
+    rowspan / colspan을 지원한다.
+    값 자체를 반복해서 넣는 이유는 column header 조합에 필요하기 때문이다.
+    """
+    trs = _direct_table_rows(table)
+
+    grid: list[list[str]] = []
+    spans: dict[int, tuple[int, str]] = {}
+
+    for tr in trs:
+        row_map: dict[int, str] = {}
+
+        # 이전 row에서 내려온 rowspan 적용
+        next_spans: dict[int, tuple[int, str]] = {}
+
+        for col_idx, (remaining, value) in spans.items():
+            row_map[col_idx] = value
+
+            if remaining > 1:
+                next_spans[col_idx] = (
+                    remaining - 1,
+                    value,
+                )
+
+        cells = _direct_row_cells(tr)
+        col_idx = 0
+
+        for cell in cells:
+            while col_idx in row_map:
+                col_idx += 1
+
+            value = clean_text(
+                " ".join(cell.stripped_strings)
+            )
+
+            try:
+                rowspan = max(
+                    int(cell.get("rowspan", 1)),
+                    1,
+                )
+            except Exception:
+                rowspan = 1
+
+            try:
+                colspan = max(
+                    int(cell.get("colspan", 1)),
+                    1,
+                )
+            except Exception:
+                colspan = 1
+
+            for offset in range(colspan):
+                target_col = col_idx + offset
+                row_map[target_col] = value
+
+                if rowspan > 1:
+                    next_spans[target_col] = (
+                        rowspan - 1,
+                        value,
+                    )
+
+            col_idx += colspan
+
+        spans = next_spans
+
+        if row_map:
+            max_col = max(row_map)
+            row_values = [
+                row_map.get(i, "")
+                for i in range(max_col + 1)
+            ]
+        else:
+            row_values = []
+
+        grid.append(row_values)
+
+    if not grid:
+        return []
+
+    width = max(len(row) for row in grid)
+
+    return [
+        row + [""] * (width - len(row))
+        for row in grid
+    ]
+
+
+def _is_plain_numeric_cell(value: Any) -> bool:
+    """
+    header를 구성할 때 실제 숫자 cell을 제외하기 위한 가벼운 판정.
+    날짜/기간 문구(예: 2023년 반기)는 header로 남긴다.
+    """
+    text = clean_text(value)
+
+    if not text:
+        return False
+
+    normalized = (
+        text.replace(",", "")
+        .replace("△", "-")
+        .replace("−", "-")
+        .strip()
+    )
+
+    if (
+        normalized.startswith("(")
+        and normalized.endswith(")")
+    ):
+        normalized = "-" + normalized[1:-1]
+
+    return bool(
+        re.fullmatch(
+            r"[-+]?\d+(?:\.\d+)?",
+            normalized,
+        )
+    )
+
+
+def _build_lightweight_column_labels(
+    grid: list[list[str]],
+    first_target_row: int,
+) -> list[str]:
+    """
+    target 계정이 처음 등장하기 전 row를 header 후보로 보고
+    각 column별 semantic label을 만든다.
+
+    예:
+      당반기 / 누적 -> "당반기 | 누적"
+      2018년 반기말 / 제185기 반기 -> 그대로 결합
+    """
+    if not grid:
+        return []
+
+    width = len(grid[0])
+    labels: list[str] = []
+
+    header_rows = grid[:first_target_row]
+
+    for col_idx in range(width):
+        parts: list[str] = []
+
+        for row in header_rows:
+            if col_idx >= len(row):
+                continue
+
+            value = clean_text(row[col_idx])
+
+            if not value:
+                continue
+
+            if _is_plain_numeric_cell(value):
+                continue
+
+            # 지나치게 긴 설명문은 column header로 부적절
+            if len(value) > 120:
+                continue
+
+            if not parts or parts[-1] != value:
+                parts.append(value)
+
+        # 가장 가까운 header 정보 위주로 유지
+        parts = parts[-4:]
+
+        labels.append(
+            " | ".join(parts)
+            if parts
+            else f"col_{col_idx}"
+        )
+
+    return labels
+
+
 def extract_document_candidates(path: Path) -> list[dict[str, Any]]:
     metadata = extract_metadata_from_path(path)
 
@@ -654,6 +858,9 @@ def extract_document_candidates(path: Path) -> list[dict[str, Any]]:
 
     text = decode_bytes(raw)
 
+    # DART document.xml은 XML container이지만 내부 table markup은
+    # HTML-like structure가 많다. 기존 audit과 동일한 lxml HTML parser를
+    # 사용하되 pd.read_html은 사용하지 않는다.
     soup = BeautifulSoup(
         text,
         "lxml",
@@ -661,22 +868,32 @@ def extract_document_candidates(path: Path) -> list[dict[str, Any]]:
 
     tables = soup.find_all("table")
 
-    rows = []
+    rows: list[dict[str, Any]] = []
+
+    target_names = [
+        name
+        for names in DOCUMENT_ACCOUNT_PATTERNS.values()
+        for name in names
+    ]
 
     for table_index, table in enumerate(tables):
         table_text = clean_text(
-            " ".join(table.stripped_strings)
+            table.get_text(
+                " ",
+                strip=True,
+            )
         )
 
-        # target account 이름이 하나도 없으면 skip
+        # 매우 싼 pre-filter.
+        # 핵심 계정명이 전혀 없으면 grid 자체를 만들지 않는다.
         if not any(
             name in table_text
-            for names in DOCUMENT_ACCOUNT_PATTERNS.values()
-            for name in names
+            for name in target_names
         ):
             continue
 
         heading = surrounding_heading(table)
+
         unit_hint = find_unit_hint(
             f"{heading} {table_text[:1000]}"
         )
@@ -686,27 +903,45 @@ def extract_document_candidates(path: Path) -> list[dict[str, Any]]:
             table_text,
         )
 
+        # pandas.read_html 대신 직접 lightweight grid 구성
         try:
-            parsed_list = pd.read_html(
-                io.StringIO(str(table))
-            )
+            grid = _expand_table_grid(table)
         except Exception:
             continue
 
-        if not parsed_list:
+        if not grid:
             continue
 
-        frame = parsed_list[0].copy()
+        # 첫 target 계정 row를 찾아 그 이전 row를 header 후보로 사용
+        first_target_row = len(grid)
 
-        flat_cols = flatten_columns(
-            frame.columns
+        for idx, grid_row in enumerate(grid):
+            joined = " | ".join(
+                clean_text(value)
+                for value in grid_row
+            )
+
+            family, _ = identify_account_family(joined)
+
+            if family is not None:
+                first_target_row = idx
+                break
+
+        flat_cols = _build_lightweight_column_labels(
+            grid,
+            first_target_row,
         )
-        frame.columns = flat_cols
 
-        for row_index, row in frame.iterrows():
+        if not flat_cols:
+            flat_cols = [
+                f"col_{i}"
+                for i in range(len(grid[0]))
+            ]
+
+        for row_index, grid_row in enumerate(grid):
             cell_texts = [
-                clean_text(v)
-                for v in row.tolist()
+                clean_text(value)
+                for value in grid_row
             ]
 
             joined = " | ".join(cell_texts)
@@ -720,20 +955,25 @@ def extract_document_candidates(path: Path) -> list[dict[str, Any]]:
 
             numeric_candidates = []
 
-            for col_name, cell in zip(
-                flat_cols,
-                row.tolist(),
-            ):
+            for col_idx, cell in enumerate(cell_texts):
                 num = parse_korean_number(cell)
 
-                if num is not None:
-                    numeric_candidates.append(
-                        {
-                            "column": col_name,
-                            "raw": clean_text(cell),
-                            "numeric": num,
-                        }
-                    )
+                if num is None:
+                    continue
+
+                col_name = (
+                    flat_cols[col_idx]
+                    if col_idx < len(flat_cols)
+                    else f"col_{col_idx}"
+                )
+
+                numeric_candidates.append(
+                    {
+                        "column": col_name,
+                        "raw": cell,
+                        "numeric": num,
+                    }
+                )
 
             rows.append(
                 {
@@ -760,6 +1000,9 @@ def extract_document_candidates(path: Path) -> list[dict[str, Any]]:
                         ensure_ascii=False,
                     ),
                     "row_text": joined,
+                    "document_parse_engine": (
+                        "beautifulsoup_lightweight_grid_v2"
+                    ),
                 }
             )
 
